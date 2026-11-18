@@ -95,12 +95,13 @@
       "kind": "advertising",
       "url": "https://cc.oceanengine.com/",
       "allowedScope": "仅无需广告账户可查看的免费公开创意",
-      "integrationStatus": "partial",
-      "note": "已接入免费公开游戏行业案例目录；来源未标明游戏名，不冒认竞品归属。",
+      "integrationStatus": "archived",
+      "note": "用户于2026-11-18移除竞品广告模块；停止采集，既有资料保留归档。",
       "cost": "free_public_only",
       "accountRequired": false,
       "paidApiAllowed": false,
-      "registeredAt": "2026-11-18"
+      "registeredAt": "2026-11-18",
+      "collectionEnabled": false
     },
     {
       "id": "tencent-creative",
@@ -108,12 +109,13 @@
       "kind": "advertising",
       "url": "https://chuangyi.qq.com/",
       "allowedScope": "仅免费公开且无需广告账户的素材或公开案例链接",
-      "integrationStatus": "account_required",
-      "note": "2026-11-18浏览器核查：原入口跳转腾讯妙思，需登录与绑定投放账户；不注册账户。",
+      "integrationStatus": "archived",
+      "note": "用户于2026-11-18移除竞品广告模块；停止采集，既有资料保留归档。",
       "cost": "free_public_only",
       "accountRequired": false,
       "paidApiAllowed": false,
-      "registeredAt": "2026-11-18"
+      "registeredAt": "2026-11-18",
+      "collectionEnabled": false
     },
     {
       "id": "minigame-rank-daily",

@@ -1,0 +1,467 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-18T10:19:53.096Z",
+  "defaultMonth": "2026-11",
+  "monthlySourceStates": [
+    {
+      "platform": "douyin",
+      "status": "ok",
+      "lastAttemptAt": "2026-11-18T10:07:31.098Z",
+      "sourceMonth": "2026-10"
+    },
+    {
+      "platform": "wechat",
+      "status": "ok",
+      "lastAttemptAt": "2026-11-18T10:07:31.058Z",
+      "sourceMonth": "2026-10"
+    }
+  ],
+  "reports": [
+    {
+      "schemaVersion": 1,
+      "month": "2026-11",
+      "outlookWindow": {
+        "start": "2026-12",
+        "end": "2027-02"
+      },
+      "generatedAt": "2026-11-18T10:19:53.096Z",
+      "basis": "month_to_date_observations",
+      "isCurrentMonth": true,
+      "observedDays": 1,
+      "firstDate": "2026-11-18",
+      "lastDate": "2026-11-18",
+      "latestCapture": "2026-11-18T09:16:18.202Z",
+      "boardCount": 4,
+      "sourceCount": 2,
+      "rankingTitleCount": 60,
+      "sampleCount": 5,
+      "unclassifiedTitleCount": 55,
+      "excludedPromotional": 2,
+      "groups": [
+        {
+          "id": "light-oriental",
+          "name": "清爽轻国风",
+          "order": 1,
+          "color": "#A7C9AF",
+          "palette": [
+            "#B6C9AE",
+            "#6F9C88",
+            "#DBD7BE"
+          ],
+          "visual": "小体型角色、山水与传统建筑，浅色场景给角色和技能留出空间。",
+          "next": "保留文化符号，继续简化背景和主体之间的竞争。",
+          "previewStyle": "oriental",
+          "count": 2,
+          "share": 40,
+          "images": [
+            {
+              "id": "zaohua-xianfu-scene",
+              "url": "assets/games/zaohua-xianfu/display/zaohua-xianfu-scene-reading.jpg",
+              "title": "宗门场景与资源建筑实机画面",
+              "sourceUrl": "https://www.taptap.cn/app/874393",
+              "gameId": "zaohua-xianfu",
+              "gameName": "造化仙府"
+            },
+            {
+              "id": "linghuashi-scene",
+              "url": "assets/games/linghuashi/display/linghuashi-scene-reading.jpg",
+              "title": "实际修仙主场景与装备养成UI",
+              "sourceUrl": "https://www.taptap.cn/app/827480",
+              "gameId": "linghuashi",
+              "gameName": "灵画师"
+            }
+          ],
+          "sampleIds": [
+            "zaohua-xianfu",
+            "linghuashi"
+          ]
+        },
+        {
+          "id": "bright-cartoon",
+          "name": "明快卡通 · 强反馈",
+          "order": 2,
+          "color": "#79D9E5",
+          "palette": [
+            "#7FAAB1",
+            "#FAAA5A",
+            "#69D5EA"
+          ],
+          "visual": "角色与敌群轮廓直接，弹道和亮色技能承担战斗重心。",
+          "next": "让高强度反馈保持清楚边界，避免同时遮住角色与目标。",
+          "previewStyle": "cartoon",
+          "count": 1,
+          "share": 20,
+          "images": [
+            {
+              "id": "xiang-jiangshi-kaipao-scene",
+              "url": "assets/games/xiang-jiangshi-kaipao/display/xiang-jiangshi-kaipao-scene-reading.jpg",
+              "title": "向僵尸开炮：80关战斗场景，包含防线、敌群及机甲能量表现。",
+              "sourceUrl": "https://www.taptap.cn/app/583688",
+              "gameId": "xiang-jiangshi-kaipao",
+              "gameName": "向僵尸开炮"
+            }
+          ],
+          "sampleIds": [
+            "xiang-jiangshi-kaipao"
+          ]
+        },
+        {
+          "id": "dark-folk",
+          "name": "暗调民俗",
+          "order": 3,
+          "color": "#BC8DCE",
+          "palette": [
+            "#243A48",
+            "#6CB6B1",
+            "#DC9A62"
+          ],
+          "visual": "冷暗场景、局部灯火与民俗器物共同建立探索氛围。",
+          "next": "先保证路线和角色可读，再增加雾、符号与局部光影。",
+          "previewStyle": "folk",
+          "count": 1,
+          "share": 20,
+          "images": [
+            {
+              "id": "zhenxieren-scene",
+              "url": "assets/games/zhenxieren/display/zhenxieren-scene-reading.jpg",
+              "title": "地宫入口与灯笼环境的实际探索画面",
+              "sourceUrl": "https://www.taptap.cn/app/862472",
+              "gameId": "zhenxieren",
+              "gameName": "镇邪人"
+            }
+          ],
+          "sampleIds": [
+            "zhenxieren"
+          ]
+        },
+        {
+          "id": "color-wuxia",
+          "name": "彩色国风武侠",
+          "order": 4,
+          "color": "#D78893",
+          "palette": [
+            "#8D4D5E",
+            "#D8BE8D",
+            "#849B8A"
+          ],
+          "visual": "横向人物队列、传统服饰与彩色斩击，在建筑场景中组织战斗。",
+          "next": "用攻击方向和轮廓突出招式，保留队列和动作的阅读空间。",
+          "previewStyle": "oriental",
+          "count": 1,
+          "share": 20,
+          "images": [
+            {
+              "id": "wuxia-damingxing-scene",
+              "url": "assets/games/wuxia-damingxing/display/wuxia-damingxing-scene-reading.jpg",
+              "title": "武侠大明星：宫殿场景中的实战，双方角色、敌群、地面及战斗UI完整可见。",
+              "sourceUrl": "https://www.taptap.cn/app/544484",
+              "gameId": "wuxia-damingxing",
+              "gameName": "武侠大明星"
+            }
+          ],
+          "sampleIds": [
+            "wuxia-damingxing"
+          ]
+        }
+      ],
+      "features": {
+        "easternSymbols": 4,
+        "combatFeedback": 5,
+        "darkAtmosphere": 1
+      },
+      "summary": "已核验画面中，清爽轻国风占2/5；东方符号呈现多种表达路径。这反映本库样本结构，不代表全市场份额。",
+      "outlook": [
+        {
+          "id": "light-oriental",
+          "previewStyle": "oriental",
+          "title": "轻国风继续细分",
+          "evidence": "5份实录样本中，4份带有东方题材符号；其中2份采用轻量卡通表达。",
+          "logic": "同一题材已有不同场景和角色表达，差异化可以落在配色、留白和文化符号上。",
+          "prediction": "下一阶段优先观察：更清爽的国风场景、容易辨认的角色和局部高光技能。",
+          "risk": "样本选择偏向已有国风档案；尚不能证明全市场占比或增长。",
+          "confidence": "低",
+          "test": "用同一玩法比较不同背景明度与角色轮廓，检验小屏可读性。"
+        },
+        {
+          "id": "readable-feedback",
+          "previewStyle": "cartoon",
+          "title": "技能更醒目，画面更易读",
+          "evidence": "5份实录样本可见范围能量、斩击、弹道或光环；这说明反馈层次是共同的表现重点。",
+          "logic": "小屏幕需要同时交代攻击方向、作用范围和角色位置，亮暗分层比单纯增加粒子更容易读懂。",
+          "prediction": "下一阶段可关注：明确的技能轮廓、有限的强调色，以及更干净的主体周边。",
+          "risk": "画面观察不能证明这种处理会提高点击率或留存。",
+          "confidence": "低",
+          "test": "在相同角色和场景中对比三档特效密度，观察目标辨认是否更快。"
+        },
+        {
+          "id": "mood-identity",
+          "previewStyle": "folk",
+          "title": "用氛围建立风格辨识度",
+          "evidence": "当前有1份暗调民俗实录样本；它与明亮卡通样本形成清楚的视觉差异。",
+          "logic": "局部暖光、民俗器物与冷暗背景可形成稳定的情绪线索，方向值得小规模验证。",
+          "prediction": "下一阶段把民俗氛围作为细分探索，用局部亮区引导角色和可交互物。",
+          "risk": "单一样本不能证明赛道扩张；暗场景也可能降低手机端辨识度。",
+          "confidence": "低",
+          "test": "保持路线与人物明度，单独比较雾效、灯光及符号密度。"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "gravity",
+          "boardId": "douyin-bestselling",
+          "url": "https://rank.gravity-engine.com/douyin/day/",
+          "limit": 20,
+          "observedAt": "2026-11-18T09:15:05.766Z"
+        },
+        {
+          "sourceId": "gravity",
+          "boardId": "douyin-hot",
+          "url": "https://rank.gravity-engine.com/douyin/day/",
+          "limit": 20,
+          "observedAt": "2026-11-18T09:15:05.766Z"
+        },
+        {
+          "sourceId": "gravity",
+          "boardId": "wechat-bestselling",
+          "url": "https://rank.gravity-engine.com/wechat/day/",
+          "limit": 20,
+          "observedAt": "2026-11-18T09:15:06.167Z"
+        },
+        {
+          "sourceId": "gravity",
+          "boardId": "wechat-mostplayed",
+          "url": "https://rank.gravity-engine.com/wechat/day/",
+          "limit": 20,
+          "observedAt": "2026-11-18T09:15:06.167Z"
+        },
+        {
+          "sourceId": "momorank",
+          "boardId": "douyin-hot",
+          "url": "https://www.momorank.com/douyin/rankings/popular",
+          "limit": 10,
+          "observedAt": "2026-11-18T09:16:17.747Z"
+        },
+        {
+          "sourceId": "momorank",
+          "boardId": "douyin-bestselling",
+          "url": "https://www.momorank.com/douyin/rankings/bestseller",
+          "limit": 10,
+          "observedAt": "2026-11-18T09:16:18.202Z"
+        }
+      ],
+      "method": {
+        "unit": "每款已归档游戏只计1份样本，不按截图张数、重复上榜或来源数量加权。",
+        "scope": "同名视觉参考；商店版与小游戏版的画面一致性尚未确认。",
+        "bias": "现有档案是人工选取的视觉案例，并非随机或完整的市场抽样。",
+        "unclassified": "没有核验实录的榜单名称保持未分类；不按名称猜测美术风格，宣传海报不进入实录统计。",
+        "automation": "榜单与统计每日更新；视觉标签基于已核验画面人工标注，新游戏需补充画面后才能进入风格统计。"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "month": "2026-10",
+      "outlookWindow": {
+        "start": "2026-11",
+        "end": "2027-01"
+      },
+      "generatedAt": "2026-11-18T10:19:53.096Z",
+      "basis": "published_monthly_ranking",
+      "isCurrentMonth": false,
+      "observedDays": null,
+      "firstDate": null,
+      "lastDate": null,
+      "latestCapture": "2026-11-18T10:07:31.604Z",
+      "boardCount": 4,
+      "sourceCount": 1,
+      "rankingTitleCount": 62,
+      "sampleCount": 5,
+      "unclassifiedTitleCount": 57,
+      "excludedPromotional": 2,
+      "groups": [
+        {
+          "id": "light-oriental",
+          "name": "清爽轻国风",
+          "order": 1,
+          "color": "#A7C9AF",
+          "palette": [
+            "#B6C9AE",
+            "#6F9C88",
+            "#DBD7BE"
+          ],
+          "visual": "小体型角色、山水与传统建筑，浅色场景给角色和技能留出空间。",
+          "next": "保留文化符号，继续简化背景和主体之间的竞争。",
+          "previewStyle": "oriental",
+          "count": 2,
+          "share": 40,
+          "images": [
+            {
+              "id": "zaohua-xianfu-scene",
+              "url": "assets/games/zaohua-xianfu/display/zaohua-xianfu-scene-reading.jpg",
+              "title": "宗门场景与资源建筑实机画面",
+              "sourceUrl": "https://www.taptap.cn/app/874393",
+              "gameId": "zaohua-xianfu",
+              "gameName": "造化仙府"
+            },
+            {
+              "id": "linghuashi-scene",
+              "url": "assets/games/linghuashi/display/linghuashi-scene-reading.jpg",
+              "title": "实际修仙主场景与装备养成UI",
+              "sourceUrl": "https://www.taptap.cn/app/827480",
+              "gameId": "linghuashi",
+              "gameName": "灵画师"
+            }
+          ],
+          "sampleIds": [
+            "zaohua-xianfu",
+            "linghuashi"
+          ]
+        },
+        {
+          "id": "bright-cartoon",
+          "name": "明快卡通 · 强反馈",
+          "order": 2,
+          "color": "#79D9E5",
+          "palette": [
+            "#7FAAB1",
+            "#FAAA5A",
+            "#69D5EA"
+          ],
+          "visual": "角色与敌群轮廓直接，弹道和亮色技能承担战斗重心。",
+          "next": "让高强度反馈保持清楚边界，避免同时遮住角色与目标。",
+          "previewStyle": "cartoon",
+          "count": 2,
+          "share": 40,
+          "images": [
+            {
+              "id": "xiang-jiangshi-kaipao-scene",
+              "url": "assets/games/xiang-jiangshi-kaipao/display/xiang-jiangshi-kaipao-scene-reading.jpg",
+              "title": "向僵尸开炮：80关战斗场景，包含防线、敌群及机甲能量表现。",
+              "sourceUrl": "https://www.taptap.cn/app/583688",
+              "gameId": "xiang-jiangshi-kaipao",
+              "gameName": "向僵尸开炮"
+            },
+            {
+              "id": "yongyuan-weilan-xingqiu-scene",
+              "url": "assets/games/yongyuan-weilan-xingqiu/display/yongyuan-weilan-xingqiu-scene-reading.jpg",
+              "title": "战斗场景：塔位、敌群与BOSS同屏，可见完整战斗UI。",
+              "sourceUrl": "https://www.taptap.cn/app/713683",
+              "gameId": "yongyuan-weilan-xingqiu",
+              "gameName": "永远的蔚蓝星球"
+            }
+          ],
+          "sampleIds": [
+            "xiang-jiangshi-kaipao",
+            "yongyuan-weilan-xingqiu"
+          ]
+        },
+        {
+          "id": "dark-folk",
+          "name": "暗调民俗",
+          "order": 3,
+          "color": "#BC8DCE",
+          "palette": [
+            "#243A48",
+            "#6CB6B1",
+            "#DC9A62"
+          ],
+          "visual": "冷暗场景、局部灯火与民俗器物共同建立探索氛围。",
+          "next": "先保证路线和角色可读，再增加雾、符号与局部光影。",
+          "previewStyle": "folk",
+          "count": 1,
+          "share": 20,
+          "images": [
+            {
+              "id": "zhenxieren-scene",
+              "url": "assets/games/zhenxieren/display/zhenxieren-scene-reading.jpg",
+              "title": "地宫入口与灯笼环境的实际探索画面",
+              "sourceUrl": "https://www.taptap.cn/app/862472",
+              "gameId": "zhenxieren",
+              "gameName": "镇邪人"
+            }
+          ],
+          "sampleIds": [
+            "zhenxieren"
+          ]
+        }
+      ],
+      "features": {
+        "easternSymbols": 3,
+        "combatFeedback": 5,
+        "darkAtmosphere": 1
+      },
+      "summary": "已核验画面中，清爽轻国风占2/5；东方符号呈现多种表达路径。这反映本库样本结构，不代表全市场份额。",
+      "outlook": [
+        {
+          "id": "light-oriental",
+          "previewStyle": "oriental",
+          "title": "轻国风继续细分",
+          "evidence": "5份实录样本中，3份带有东方题材符号；其中2份采用轻量卡通表达。",
+          "logic": "同一题材已有不同场景和角色表达，差异化可以落在配色、留白和文化符号上。",
+          "prediction": "下一阶段优先观察：更清爽的国风场景、容易辨认的角色和局部高光技能。",
+          "risk": "样本选择偏向已有国风档案；尚不能证明全市场占比或增长。",
+          "confidence": "低",
+          "test": "用同一玩法比较不同背景明度与角色轮廓，检验小屏可读性。"
+        },
+        {
+          "id": "readable-feedback",
+          "previewStyle": "cartoon",
+          "title": "技能更醒目，画面更易读",
+          "evidence": "5份实录样本可见范围能量、斩击、弹道或光环；这说明反馈层次是共同的表现重点。",
+          "logic": "小屏幕需要同时交代攻击方向、作用范围和角色位置，亮暗分层比单纯增加粒子更容易读懂。",
+          "prediction": "下一阶段可关注：明确的技能轮廓、有限的强调色，以及更干净的主体周边。",
+          "risk": "画面观察不能证明这种处理会提高点击率或留存。",
+          "confidence": "低",
+          "test": "在相同角色和场景中对比三档特效密度，观察目标辨认是否更快。"
+        },
+        {
+          "id": "mood-identity",
+          "previewStyle": "folk",
+          "title": "用氛围建立风格辨识度",
+          "evidence": "当前有1份暗调民俗实录样本；它与明亮卡通样本形成清楚的视觉差异。",
+          "logic": "局部暖光、民俗器物与冷暗背景可形成稳定的情绪线索，方向值得小规模验证。",
+          "prediction": "下一阶段把民俗氛围作为细分探索，用局部亮区引导角色和可交互物。",
+          "risk": "单一样本不能证明赛道扩张；暗场景也可能降低手机端辨识度。",
+          "confidence": "低",
+          "test": "保持路线与人物明度，单独比较雾效、灯光及符号密度。"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "gravity",
+          "boardId": "douyin-bestselling",
+          "url": "https://rank.gravity-engine.com/douyin/month/",
+          "limit": 20,
+          "observedAt": "2026-11-18T10:07:31.413Z"
+        },
+        {
+          "sourceId": "gravity",
+          "boardId": "douyin-hot",
+          "url": "https://rank.gravity-engine.com/douyin/month/",
+          "limit": 20,
+          "observedAt": "2026-11-18T10:07:31.413Z"
+        },
+        {
+          "sourceId": "gravity",
+          "boardId": "wechat-bestselling",
+          "url": "https://rank.gravity-engine.com/wechat/month/",
+          "limit": 20,
+          "observedAt": "2026-11-18T10:07:31.604Z"
+        },
+        {
+          "sourceId": "gravity",
+          "boardId": "wechat-mostplayed",
+          "url": "https://rank.gravity-engine.com/wechat/month/",
+          "limit": 20,
+          "observedAt": "2026-11-18T10:07:31.604Z"
+        }
+      ],
+      "method": {
+        "unit": "每款已归档游戏只计1份样本，不按截图张数、重复上榜或来源数量加权。",
+        "scope": "同名视觉参考；商店版与小游戏版的画面一致性尚未确认。",
+        "bias": "现有档案是人工选取的视觉案例，并非随机或完整的市场抽样。",
+        "unclassified": "没有核验实录的榜单名称保持未分类；不按名称猜测美术风格，宣传海报不进入实录统计。",
+        "automation": "榜单与统计每日更新；视觉标签基于已核验画面人工标注，新游戏需补充画面后才能进入风格统计。"
+      }
+    }
+  ]
+}

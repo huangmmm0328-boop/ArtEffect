@@ -1,0 +1,5 @@
+import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';import {analyzeMonth,availableMonths} from '../intelligence/intelligence-ui/monthly-analysis.mjs';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../intelligence/data'),read=f=>JSON.parse(fs.readFileSync(path.join(root,f),'utf8'));
+const daily=read('history/index.json').snapshots.map(e=>read(e.path)),market=read('monthly-market.json'),catalog=read('visual-catalog.json'),games=read('games.json').games,now=new Date().toISOString();
+const reports=availableMonths(daily,market.snapshots,now).map(month=>analyzeMonth({month,daily,monthly:market.snapshots,catalog,games,now}));
+fs.writeFileSync(path.join(root,'style-reports.json'),JSON.stringify({schemaVersion:1,generatedAt:now,defaultMonth:reports[0].month,monthlySourceStates:market.states,reports},null,2)+'\n');console.log(JSON.stringify({styleReports:reports.map(r=>({month:r.month,basis:r.basis,titles:r.rankingTitleCount,visualSamples:r.sampleCount,groups:r.groups.map(g=>[g.id,g.count])}))}));

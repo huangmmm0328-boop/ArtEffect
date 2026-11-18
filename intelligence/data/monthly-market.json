@@ -1,0 +1,580 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-18T10:07:31.604Z",
+  "states": [
+    {
+      "platform": "douyin",
+      "status": "ok",
+      "lastAttemptAt": "2026-11-18T10:07:31.098Z",
+      "sourceMonth": "2026-10"
+    },
+    {
+      "platform": "wechat",
+      "status": "ok",
+      "lastAttemptAt": "2026-11-18T10:07:31.058Z",
+      "sourceMonth": "2026-10"
+    }
+  ],
+  "snapshots": [
+    {
+      "schemaVersion": 1,
+      "kind": "public_monthly_ranking",
+      "period": "month",
+      "status": "ok",
+      "sourceId": "gravity",
+      "boardId": "douyin-bestselling",
+      "platform": "douyin",
+      "sourceUrl": "https://rank.gravity-engine.com/douyin/month/",
+      "sourceMonth": "2026-10",
+      "sourceDate": "2026-10-01",
+      "observedAt": "2026-11-18T10:07:31.413Z",
+      "coverage": {
+        "limit": 20,
+        "complete": true,
+        "description": "来源公开月榜Top20；不代表完整市场"
+      },
+      "rows": [
+        {
+          "gameId": "gravity:34822487",
+          "name": "疯狂水世界",
+          "rank": 1,
+          "publisher": "益世界网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34812405",
+          "name": "灵画师",
+          "rank": 2,
+          "publisher": "广州光游网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34822808",
+          "name": "造化仙府",
+          "rank": 3,
+          "publisher": "上海沛炫网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34963117",
+          "name": "镇邪人",
+          "rank": 4,
+          "publisher": "安徽雷虎网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34812507",
+          "name": "向僵尸开炮",
+          "rank": 5,
+          "publisher": "海南盛昌网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34817758",
+          "name": "梦幻消除战",
+          "rank": 6,
+          "publisher": "广州喜势网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34812543",
+          "name": "三国：冰河时代",
+          "rank": 7,
+          "publisher": "欢游互动（北京）科技有限公司"
+        },
+        {
+          "gameId": "gravity:34912410",
+          "name": "时尚百货城",
+          "rank": 8,
+          "publisher": "深圳市爱的番茄科技有限公司"
+        },
+        {
+          "gameId": "gravity:34922325",
+          "name": "肥鹅美食街",
+          "rank": 9,
+          "publisher": "北京豪腾创想科技有限公司"
+        },
+        {
+          "gameId": "gravity:34819237",
+          "name": "向往的生活",
+          "rank": 10,
+          "publisher": "深圳市必凡娱乐科技有限公司"
+        },
+        {
+          "gameId": "gravity:34812506",
+          "name": "浪漫餐厅",
+          "rank": 11,
+          "publisher": "北京柠檬曲奇科技有限公司"
+        },
+        {
+          "gameId": "gravity:34818110",
+          "name": "狱国争霸",
+          "rank": 12,
+          "publisher": "北京智诚互娱科技有限公司"
+        },
+        {
+          "gameId": "gravity:34964248",
+          "name": "三界降妖录",
+          "rank": 13,
+          "publisher": "广州联动网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34819038",
+          "name": "我的花园世界",
+          "rank": 14,
+          "publisher": "海南途趣科技有限公司"
+        },
+        {
+          "gameId": "gravity:34812521",
+          "name": "跃动小子",
+          "rank": 15,
+          "publisher": "柏项网络科技（上海）有限公司"
+        },
+        {
+          "gameId": "gravity:34815494",
+          "name": "超能下蛋鸭",
+          "rank": 16,
+          "publisher": "世熠网络科技（上海）有限公司"
+        },
+        {
+          "gameId": "gravity:34812525",
+          "name": "次神光之觉醒",
+          "rank": 17,
+          "publisher": "北京雪境科技有限公司"
+        },
+        {
+          "gameId": "gravity:34964499",
+          "name": "梦回甄嬛传",
+          "rank": 18,
+          "publisher": "广州擎迅网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34902328",
+          "name": "空格之境",
+          "rank": 19,
+          "publisher": "江西启游互动科技有限公司"
+        },
+        {
+          "gameId": "gravity:34812508",
+          "name": "四季合合",
+          "rank": 20,
+          "publisher": "青岛蓝飞互娱科技股份有限公司"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "kind": "public_monthly_ranking",
+      "period": "month",
+      "status": "ok",
+      "sourceId": "gravity",
+      "boardId": "douyin-hot",
+      "platform": "douyin",
+      "sourceUrl": "https://rank.gravity-engine.com/douyin/month/",
+      "sourceMonth": "2026-10",
+      "sourceDate": "2026-10-01",
+      "observedAt": "2026-11-18T10:07:31.413Z",
+      "coverage": {
+        "limit": 20,
+        "complete": true,
+        "description": "来源公开月榜Top20；不代表完整市场"
+      },
+      "rows": [
+        {
+          "gameId": "gravity:34812511",
+          "name": "羊了个羊：星球",
+          "rank": 1,
+          "publisher": "北京简游科技有限公司天津分公司"
+        },
+        {
+          "gameId": "gravity:34812404",
+          "name": "抓大鹅",
+          "rank": 2,
+          "publisher": "青岛蓝飞互娱科技股份有限公司"
+        },
+        {
+          "gameId": "gravity:34822487",
+          "name": "疯狂水世界",
+          "rank": 3,
+          "publisher": "益世界网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34952894",
+          "name": "赵云与阿斗",
+          "rank": 4,
+          "publisher": "北京蜜獾兄弟科技有限公司"
+        },
+        {
+          "gameId": "gravity:34952576",
+          "name": "指尖玩家",
+          "rank": 5,
+          "publisher": "重庆虚屿科技有限公司"
+        },
+        {
+          "gameId": "gravity:34817758",
+          "name": "梦幻消除战",
+          "rank": 6,
+          "publisher": "广州喜势网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34812506",
+          "name": "浪漫餐厅",
+          "rank": 7,
+          "publisher": "北京柠檬曲奇科技有限公司"
+        },
+        {
+          "gameId": "gravity:34822805",
+          "name": "多乐升级",
+          "rank": 8,
+          "publisher": "北京蓝色创想网络科技有限责任公司"
+        },
+        {
+          "gameId": "gravity:34812517",
+          "name": "躺平发育",
+          "rank": 9,
+          "publisher": "北京蜜獾工坊科技有限公司"
+        },
+        {
+          "gameId": "gravity:34965970",
+          "name": "激战吧！海上霸主",
+          "rank": 10,
+          "publisher": "成都布尔凯索科技有限公司"
+        },
+        {
+          "gameId": "gravity:34965807",
+          "name": "天天有冒险",
+          "rank": 11,
+          "publisher": "厦门御钦网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34953178",
+          "name": "工位大作战",
+          "rank": 12,
+          "publisher": "武汉棱镜网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34922325",
+          "name": "肥鹅美食街",
+          "rank": 13,
+          "publisher": "北京豪腾创想科技有限公司"
+        },
+        {
+          "gameId": "gravity:34813133",
+          "name": "颜色大冲突",
+          "rank": 14,
+          "publisher": "成都狮子兔科技有限公司"
+        },
+        {
+          "gameId": "gravity:34965896",
+          "name": "佛系数独",
+          "rank": 15,
+          "publisher": "广州卿云网络有限公司"
+        },
+        {
+          "gameId": "gravity:34923088",
+          "name": "象棋达人",
+          "rank": 16,
+          "publisher": "深圳市一锋科技有限公司"
+        },
+        {
+          "gameId": "gravity:34912410",
+          "name": "时尚百货城",
+          "rank": 17,
+          "publisher": "深圳市爱的番茄科技有限公司"
+        },
+        {
+          "gameId": "gravity:34812551",
+          "name": "天天台球",
+          "rank": 18,
+          "publisher": "北京喜云网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34816102",
+          "name": "指尖快消",
+          "rank": 19,
+          "publisher": "厦门营火科技有限公司"
+        },
+        {
+          "gameId": "gravity:34965474",
+          "name": "升级武器吧",
+          "rank": 20,
+          "publisher": "深圳市时间坊贸易有限公司"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "kind": "public_monthly_ranking",
+      "period": "month",
+      "status": "ok",
+      "sourceId": "gravity",
+      "boardId": "wechat-bestselling",
+      "platform": "wechat",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/month/",
+      "sourceMonth": "2026-10",
+      "sourceDate": "2026-10-01",
+      "observedAt": "2026-11-18T10:07:31.604Z",
+      "coverage": {
+        "limit": 20,
+        "complete": true,
+        "description": "来源公开月榜Top20；不代表完整市场"
+      },
+      "rows": [
+        {
+          "gameId": "gravity:34592330",
+          "name": "向僵尸开炮",
+          "rank": 1,
+          "publisher": "海南盛昌网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34692328",
+          "name": "三国：冰河时代",
+          "rank": 2,
+          "publisher": "欢游互动（北京）科技有限公司"
+        },
+        {
+          "gameId": "gravity:34842350",
+          "name": "疯狂水世界",
+          "rank": 3,
+          "publisher": "益世界网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34632349",
+          "name": "无尽冬日",
+          "rank": 4,
+          "publisher": "点点互动（北京）科技有限公司"
+        },
+        {
+          "gameId": "gravity:34963367",
+          "name": "向末日开炮",
+          "rank": 5,
+          "publisher": "海南易多量科技有限公司"
+        },
+        {
+          "gameId": "gravity:34592329",
+          "name": "浪漫餐厅",
+          "rank": 6,
+          "publisher": "北京柠檬微趣科技股份有限公司"
+        },
+        {
+          "gameId": "gravity:34817273",
+          "name": "梦幻消除战",
+          "rank": 7,
+          "publisher": "广州喜势网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34820282",
+          "name": "向往的生活",
+          "rank": 8,
+          "publisher": "深圳市必凡娱乐科技有限公司"
+        },
+        {
+          "gameId": "gravity:34966101",
+          "name": "地宫大爆破",
+          "rank": 9,
+          "publisher": "广州任风劲网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34802431",
+          "name": "造化仙府",
+          "rank": 10,
+          "publisher": "上海沛炫网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34819273",
+          "name": "我的花园世界",
+          "rank": 11,
+          "publisher": "厦门麟贝互娱科技有限公司"
+        },
+        {
+          "gameId": "gravity:34742338",
+          "name": "灵画师",
+          "rank": 12,
+          "publisher": "广州光游网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34816565",
+          "name": "永远的蔚蓝星球",
+          "rank": 13,
+          "publisher": "广州颂悦信息技术有限公司"
+        },
+        {
+          "gameId": "gravity:34818118",
+          "name": "奔奔王国",
+          "rank": 14,
+          "publisher": "福州点点松云网络有限公司"
+        },
+        {
+          "gameId": "gravity:34965343",
+          "name": "精英军团",
+          "rank": 15,
+          "publisher": "杭州叙炽网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34963600",
+          "name": "大王请上阵",
+          "rank": 16,
+          "publisher": "深圳市悦莱顺网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34963811",
+          "name": "永夜起源",
+          "rank": 17,
+          "publisher": "广州招崭信息科技有限公司"
+        },
+        {
+          "gameId": "gravity:34592326",
+          "name": "腾讯欢乐斗地主",
+          "rank": 18,
+          "publisher": "深圳市腾讯计算机系统有限公司"
+        },
+        {
+          "gameId": "gravity:34592377",
+          "name": "青云诀之伏魔",
+          "rank": 19,
+          "publisher": "海南元游信息技术有限公司"
+        },
+        {
+          "gameId": "gravity:34963638",
+          "name": "天命行者",
+          "rank": 20,
+          "publisher": "广州大蓝网络科技有限公司"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "kind": "public_monthly_ranking",
+      "period": "month",
+      "status": "ok",
+      "sourceId": "gravity",
+      "boardId": "wechat-mostplayed",
+      "platform": "wechat",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/month/",
+      "sourceMonth": "2026-10",
+      "sourceDate": "2026-10-01",
+      "observedAt": "2026-11-18T10:07:31.604Z",
+      "coverage": {
+        "limit": 20,
+        "complete": true,
+        "description": "来源公开月榜Top20；不代表完整市场"
+      },
+      "rows": [
+        {
+          "gameId": "gravity:34592327",
+          "name": "羊了个羊：星球",
+          "rank": 1,
+          "publisher": "北京简游科技有限公司"
+        },
+        {
+          "gameId": "gravity:34953115",
+          "name": "赵云与阿斗",
+          "rank": 2,
+          "publisher": "北京蜜獾工坊科技有限公司"
+        },
+        {
+          "gameId": "gravity:34592325",
+          "name": "抓大鹅",
+          "rank": 3,
+          "publisher": "青岛蓝飞互娱科技股份有限公司"
+        },
+        {
+          "gameId": "gravity:34882438",
+          "name": "一箭又一箭",
+          "rank": 4,
+          "publisher": "海南掌趣网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34722331",
+          "name": "打个螺丝",
+          "rank": 5,
+          "publisher": "广州尊悦文化发展有限公司"
+        },
+        {
+          "gameId": "gravity:34963436",
+          "name": "解压闯一关",
+          "rank": 6,
+          "publisher": "广州探游网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34964764",
+          "name": "上个了车",
+          "rank": 7,
+          "publisher": "广州指望科技有限公司"
+        },
+        {
+          "gameId": "gravity:34963496",
+          "name": "解压打毛线",
+          "rank": 8,
+          "publisher": "广州池骋网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34964217",
+          "name": "开车我贼6",
+          "rank": 9,
+          "publisher": "陇川县章凤龙凤移动通讯店"
+        },
+        {
+          "gameId": "gravity:34965900",
+          "name": "不停找找找",
+          "rank": 10,
+          "publisher": "长沙指色网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34963755",
+          "name": "看谁先上车",
+          "rank": 11,
+          "publisher": "长沙四五互娱网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34592350",
+          "name": "砖了个砖",
+          "rank": 12,
+          "publisher": "北京简游科技有限公司"
+        },
+        {
+          "gameId": "gravity:34742328",
+          "name": "猪了个猪",
+          "rank": 13,
+          "publisher": "杭州同趣科技有限公司"
+        },
+        {
+          "gameId": "gravity:34952751",
+          "name": "开局带把枪",
+          "rank": 14,
+          "publisher": "邯郸小空科技有限公司"
+        },
+        {
+          "gameId": "gravity:34932345",
+          "name": "一找一个准",
+          "rank": 15,
+          "publisher": "长沙指米网络科技有限公司"
+        },
+        {
+          "gameId": "gravity:34964720",
+          "name": "切开一切3D",
+          "rank": 16,
+          "publisher": "个人开发者"
+        },
+        {
+          "gameId": "gravity:34592343",
+          "name": "躺平发育",
+          "rank": 17,
+          "publisher": "北京蜜獾工坊娱乐文化有限公司"
+        },
+        {
+          "gameId": "gravity:34592483",
+          "name": "掼蛋",
+          "rank": 18,
+          "publisher": "杭州边锋网络技术有限公司"
+        },
+        {
+          "gameId": "gravity:34952591",
+          "name": "挪了下车",
+          "rank": 19,
+          "publisher": "广州指望科技有限公司"
+        },
+        {
+          "gameId": "gravity:34592345",
+          "name": "天天象棋",
+          "rank": 20,
+          "publisher": "深圳市腾讯天游科技有限公司"
+        }
+      ]
+    }
+  ]
+}

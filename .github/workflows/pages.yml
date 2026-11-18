@@ -28,14 +28,16 @@ jobs:
         run: |
           python3 scripts/unpack-site.py
           node scripts/check-site.cjs
-      - name: Collect free public rankings and creative references
+      - name: Collect daily and monthly public rankings
         run: |
           node scripts/collect-intelligence.cjs
           node scripts/record-changes.mjs
+          node scripts/collect-monthly.cjs
+          node scripts/build-monthly-report.mjs
       - name: Validate data contracts and ranking calculations
         run: |
           node scripts/validate-intelligence.cjs
-          node --test tests/analytics.test.mjs tests/public-rankings.test.cjs
+          node --test tests/analytics.test.mjs tests/public-rankings.test.cjs tests/monthly-analysis.test.mjs
       - name: Preserve daily JSON observations and update states
         run: |
           git add intelligence/data

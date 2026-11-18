@@ -505,6 +505,68 @@
           }
         }
       }
+    },
+    "monthlyRanking": {
+      "type": "object",
+      "required": [
+        "kind",
+        "period",
+        "sourceMonth",
+        "observedAt",
+        "rows"
+      ],
+      "properties": {
+        "kind": {
+          "const": "public_monthly_ranking"
+        },
+        "period": {
+          "const": "month"
+        },
+        "sourceMonth": {
+          "type": "string",
+          "pattern": "^\\d{4}-(0[1-9]|1[0-2])$"
+        },
+        "observedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "rows": {
+          "type": "array",
+          "minItems": 20,
+          "maxItems": 20,
+          "items": {
+            "$ref": "#/$defs/rankRow"
+          }
+        }
+      }
+    },
+    "monthlyStyleReport": {
+      "type": "object",
+      "required": [
+        "month",
+        "basis",
+        "sampleCount",
+        "rankingTitleCount",
+        "groups",
+        "outlook",
+        "method"
+      ],
+      "properties": {
+        "basis": {
+          "enum": [
+            "published_monthly_ranking",
+            "month_to_date_observations"
+          ]
+        },
+        "sampleCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "rankingTitleCount": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
     }
   }
 }

@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-18T10:07:30.818Z",
+  "reviewMethod": "人工核对已归档官方实录；调色板为人工概括，不是算法提取的主色占比",
+  "families": [
+    {
+      "id": "light-oriental",
+      "name": "清爽轻国风",
+      "order": 1,
+      "color": "#A7C9AF",
+      "palette": [
+        "#B6C9AE",
+        "#6F9C88",
+        "#DBD7BE"
+      ],
+      "visual": "小体型角色、山水与传统建筑，浅色场景给角色和技能留出空间。",
+      "next": "保留文化符号，继续简化背景和主体之间的竞争。",
+      "previewStyle": "oriental"
+    },
+    {
+      "id": "bright-cartoon",
+      "name": "明快卡通 · 强反馈",
+      "order": 2,
+      "color": "#79D9E5",
+      "palette": [
+        "#7FAAB1",
+        "#FAAA5A",
+        "#69D5EA"
+      ],
+      "visual": "角色与敌群轮廓直接，弹道和亮色技能承担战斗重心。",
+      "next": "让高强度反馈保持清楚边界，避免同时遮住角色与目标。",
+      "previewStyle": "cartoon"
+    },
+    {
+      "id": "dark-folk",
+      "name": "暗调民俗",
+      "order": 3,
+      "color": "#BC8DCE",
+      "palette": [
+        "#243A48",
+        "#6CB6B1",
+        "#DC9A62"
+      ],
+      "visual": "冷暗场景、局部灯火与民俗器物共同建立探索氛围。",
+      "next": "先保证路线和角色可读，再增加雾、符号与局部光影。",
+      "previewStyle": "folk"
+    },
+    {
+      "id": "color-wuxia",
+      "name": "彩色国风武侠",
+      "order": 4,
+      "color": "#D78893",
+      "palette": [
+        "#8D4D5E",
+        "#D8BE8D",
+        "#849B8A"
+      ],
+      "visual": "横向人物队列、传统服饰与彩色斩击，在建筑场景中组织战斗。",
+      "next": "用攻击方向和轮廓突出招式，保留队列和动作的阅读空间。",
+      "previewStyle": "oriental"
+    }
+  ],
+  "annotations": [
+    {
+      "gameId": "xiang-jiangshi-kaipao",
+      "familyId": "bright-cartoon",
+      "features": [
+        "combat_feedback",
+        "readability_pressure"
+      ],
+      "assetIds": [
+        "xiang-jiangshi-kaipao-scene",
+        "xiang-jiangshi-kaipao-character",
+        "xiang-jiangshi-kaipao-skill"
+      ],
+      "reviewed": true,
+      "classificationBasis": "已归档实际画面中的角色、场景和反馈；不推断建模面数或制作成本"
+    },
+    {
+      "gameId": "yongyuan-weilan-xingqiu",
+      "familyId": "bright-cartoon",
+      "features": [
+        "combat_feedback"
+      ],
+      "assetIds": [
+        "yongyuan-weilan-xingqiu-scene",
+        "yongyuan-weilan-xingqiu-character",
+        "yongyuan-weilan-xingqiu-skill"
+      ],
+      "reviewed": true,
+      "classificationBasis": "已归档实际画面中的角色、场景和反馈；不推断建模面数或制作成本"
+    },
+    {
+      "gameId": "baowei-xiangrikui",
+      "familyId": "bright-cartoon",
+      "features": [
+        "combat_feedback"
+      ],
+      "assetIds": [
+        "baowei-xiangrikui-scene",
+        "baowei-xiangrikui-character",
+        "baowei-xiangrikui-skill"
+      ],
+      "reviewed": true,
+      "classificationBasis": "已归档实际画面中的角色、场景和反馈；不推断建模面数或制作成本"
+    },
+    {
+      "gameId": "zaohua-xianfu",
+      "familyId": "light-oriental",
+      "features": [
+        "eastern_symbols",
+        "combat_feedback"
+      ],
+      "assetIds": [
+        "zaohua-xianfu-scene",
+        "zaohua-xianfu-character",
+        "zaohua-xianfu-skill"
+      ],
+      "reviewed": true,
+      "classificationBasis": "已归档实际画面中的角色、场景和反馈；不推断建模面数或制作成本"
+    },
+    {
+      "gameId": "linghuashi",
+      "familyId": "light-oriental",
+      "features": [
+        "eastern_symbols",
+        "combat_feedback"
+      ],
+      "assetIds": [
+        "linghuashi-scene",
+        "linghuashi-character",
+        "linghuashi-equipment-comparison"
+      ],
+      "reviewed": true,
+      "classificationBasis": "已归档实际画面中的角色、场景和反馈；不推断建模面数或制作成本"
+    },
+    {
+      "gameId": "zhenxieren",
+      "familyId": "dark-folk",
+      "features": [
+        "eastern_symbols",
+        "dark_atmosphere",
+        "combat_feedback"
+      ],
+      "assetIds": [
+        "zhenxieren-scene",
+        "zhenxieren-character",
+        "zhenxieren-skill"
+      ],
+      "reviewed": true,
+      "classificationBasis": "已归档实际画面中的角色、场景和反馈；不推断建模面数或制作成本"
+    },
+    {
+      "gameId": "wuxia-damingxing",
+      "familyId": "color-wuxia",
+      "features": [
+        "eastern_symbols",
+        "combat_feedback"
+      ],
+      "assetIds": [
+        "wuxia-damingxing-scene",
+        "wuxia-damingxing-character",
+        "wuxia-damingxing-skill"
+      ],
+      "reviewed": true,
+      "classificationBasis": "已归档实际画面中的角色、场景和反馈；不推断建模面数或制作成本"
+    }
+  ]
+}

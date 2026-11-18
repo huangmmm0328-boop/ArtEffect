@@ -1,11 +1,19 @@
 # GAME ART INTELLIGENCE V2.0
 
-免费公开数据研究平台，GitHub Pages：https://huangmmm0328-boop.github.io/ArtEffect/
+免费小游戏市场与美术研究平台：https://huangmmm0328-boop.github.io/ArtEffect/
 
-已实际接入引力引擎4类Top20、MomoRank抖音2类Top10、有柴公开收录榜位。GitHub Actions每天北京时间10:30匿名获取当前榜位，保存JSON历史与变化，异常不覆盖历史。7/30/90天从真实观察逐日累计，不购买历史数据。
+## 当前页面
 
-已接入8条巨量创意历史游戏行业案例（游戏归属未披露，单列参考），以及3份免费行业研究报告。腾讯旧创意入口要求投放账户，明确显示限制，不注册账户。用户年龄、性别和竞品广告效果不编造。
+市场雷达、游戏资料库、用户画像、未来预测（月度美术观察）。竞品广告页面已移除，原入口跳转到月度报告；旧广告资料保留归档且停止采集。现有10款视觉案例、95条图片及11段真实GIF继续保留。
 
-保留原10款视觉案例、95条图片和11段真实GIF。旧版页面保留archive.html。
+## 月度美术观察
 
-详细口径见[数据架构](docs/DATA-ARCHITECTURE.md)。本地执行采集：node scripts/collect-intelligence.cjs；校验：node scripts/validate-intelligence.cjs；测试：node --test tests/analytics.test.mjs tests/public-rankings.test.cjs。测试数据不发布。
+引力引擎匿名公开月榜按来源月份保存，当前月尚无月榜时使用月内实际日榜观察，不把上月数据改标为当月。画面风格按已核验实录人工标注，再由每日流程自动统计与生成报告；无实录的游戏保持未分类，商店宣传海报不进入实录分布。样本比例不代表市场份额，同名资料不自动证明平台版本一致。
+
+未来方向按“样本事实—推导逻辑—下一阶段判断—限制与验证”组织，不再逐个列出热门游戏链接。页面内提供三种风格的构图生成器，可调整强调色与密度、换构图并下载1600×900 PNG；这是浏览器内生成的风格示意，不是实际游戏或完整原画，没有接入付费或AI生成API。
+
+## 自动更新
+
+GitHub Actions每日北京时间10:30采集日榜及月榜、保存JSON并重新生成月度报告。行业报告与原有素材保持来源信息。校验：node scripts/validate-intelligence.cjs；测试：node --test tests/analytics.test.mjs tests/public-rankings.test.cjs tests/monthly-analysis.test.mjs。
+
+详细口径见[数据架构](docs/DATA-ARCHITECTURE.md)。
