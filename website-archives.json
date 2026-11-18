@@ -1,0 +1,24 @@
+{
+  "archives": [
+    {
+      "name": "website-part-01.tar.gz",
+      "sha256": "c48b5e2d714ea6b79e5e40b1fda48924f9e8fdc300fc6d43b8534e7205767f26",
+      "bytes": 18695743
+    },
+    {
+      "name": "website-part-02.tar.gz",
+      "sha256": "0c9206aca0f83f707b8400f87b02b9b0e06554160e57086bbeeb00e58e2ec349",
+      "bytes": 17965360
+    },
+    {
+      "name": "website-part-03.tar.gz",
+      "sha256": "011f0ef92053dd2b71ad230e6074ba9d968bfd4a4225ea1aa46d9c8baf267de8",
+      "bytes": 17916541
+    },
+    {
+      "name": "website-part-04.tar.gz",
+      "sha256": "82687306aac25e817ba6d18ce05dedfe34f0c954e24d3eee87f691012d549410",
+      "bytes": 12776491
+    }
+  ]
+}
