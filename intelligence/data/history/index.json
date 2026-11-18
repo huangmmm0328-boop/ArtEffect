@@ -1,5 +1,48 @@
 {
   "schemaVersion": 1,
-  "updatedAt": null,
-  "snapshots": []
+  "updatedAt": "2026-11-18T09:20:42.169Z",
+  "snapshots": [
+    {
+      "path": "history/2026-11-18/gravity-douyin-bestselling-9c2e7a855e20.json",
+      "sourceId": "gravity",
+      "boardId": "douyin-bestselling",
+      "sourceDate": "2026-11-18",
+      "observedAt": "2026-11-18T09:15:05.766Z"
+    },
+    {
+      "path": "history/2026-11-18/gravity-douyin-hot-a7376bac4e1e.json",
+      "sourceId": "gravity",
+      "boardId": "douyin-hot",
+      "sourceDate": "2026-11-18",
+      "observedAt": "2026-11-18T09:15:05.766Z"
+    },
+    {
+      "path": "history/2026-11-18/gravity-wechat-bestselling-62fdb6d35662.json",
+      "sourceId": "gravity",
+      "boardId": "wechat-bestselling",
+      "sourceDate": "2026-11-18",
+      "observedAt": "2026-11-18T09:15:06.167Z"
+    },
+    {
+      "path": "history/2026-11-18/gravity-wechat-mostplayed-3d98bdab5aa3.json",
+      "sourceId": "gravity",
+      "boardId": "wechat-mostplayed",
+      "sourceDate": "2026-11-18",
+      "observedAt": "2026-11-18T09:15:06.167Z"
+    },
+    {
+      "path": "history/2026-11-18/momorank-douyin-hot-e11eecbe0a2e.json",
+      "sourceId": "momorank",
+      "boardId": "douyin-hot",
+      "sourceDate": "2026-11-18",
+      "observedAt": "2026-11-18T09:16:17.747Z"
+    },
+    {
+      "path": "history/2026-11-18/momorank-douyin-bestselling-8f25c3a9d8dc.json",
+      "sourceId": "momorank",
+      "boardId": "douyin-bestselling",
+      "sourceDate": "2026-11-18",
+      "observedAt": "2026-11-18T09:16:18.202Z"
+    }
+  ]
 }

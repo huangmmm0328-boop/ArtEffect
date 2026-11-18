@@ -62,11 +62,32 @@
           "type": "string"
         },
         "publisher": {
-          "type": "string"
+          "type": [
+            "string",
+            "null"
+          ]
         },
         "sourceUrl": {
           "type": "string",
           "format": "uri"
+        },
+        "category": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "platformAppId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "iconUrl": {
+          "type": [
+            "string",
+            "null"
+          ]
         }
       }
     },
@@ -455,6 +476,33 @@
         },
         "validation": {
           "type": "string"
+        }
+      }
+    },
+    "undatedPublicRanking": {
+      "type": "object",
+      "required": [
+        "kind",
+        "sourceDate",
+        "dateBasis",
+        "observedAt",
+        "rows"
+      ],
+      "properties": {
+        "kind": {
+          "const": "undated_public_ranking"
+        },
+        "sourceDate": {
+          "type": "null"
+        },
+        "dateBasis": {
+          "const": "observation_only"
+        },
+        "rows": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/rankRow"
+          }
         }
       }
     }

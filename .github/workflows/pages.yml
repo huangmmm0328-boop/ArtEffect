@@ -28,14 +28,14 @@ jobs:
         run: |
           python3 scripts/unpack-site.py
           node scripts/check-site.cjs
-      - name: Record source health without inventing observations
+      - name: Collect free public rankings and creative references
         run: |
           node scripts/collect-intelligence.cjs
           node scripts/record-changes.mjs
       - name: Validate data contracts and ranking calculations
         run: |
           node scripts/validate-intelligence.cjs
-          node --test tests/analytics.test.mjs
+          node --test tests/analytics.test.mjs tests/public-rankings.test.cjs
       - name: Preserve daily JSON observations and update states
         run: |
           git add intelligence/data

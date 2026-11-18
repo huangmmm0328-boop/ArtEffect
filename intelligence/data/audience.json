@@ -109,13 +109,58 @@
   ],
   "reports": [
     {
-      "id": "cnnic-public-2025-07",
-      "title": "CNNIC 2025年7月公开报告入口",
-      "sourceId": "cnnic",
-      "url": "https://www.cnnic.net/NMediaFile/2025/0730/MAIN1753846666507QEK67ZS9DH.pdf",
-      "kind": "reference_only",
-      "status": "not_extracted",
-      "scope": "互联网总体研究，不是单款小游戏画像。"
+      "id": "qm-2026-autumn",
+      "title": "2026全景生态流量秋季报告",
+      "publisher": "QuestMobile研究院",
+      "url": "https://www.questmobile.com.cn/research/report/2114988800581107713/",
+      "publishedAt": "2026-10-27",
+      "period": "2026年8月",
+      "kind": "industry_measurement",
+      "verificationStatus": "verified_public_report",
+      "scope": "微信与抖音小游戏行业；行业分析不是单游戏调查",
+      "sampleSize": null,
+      "methodNote": "第三方测量及分析；公开文章未披露本项样本量",
+      "observations": [
+        "报告指出微信与抖音小游戏依赖的流量生态不同。",
+        "抖音高增长小游戏以益智休闲较突出，报告将其与碎片化消费及短视频内容联系。"
+      ],
+      "limitations": "不提供任一案例游戏的年龄、性别、点击率或留存结论。"
+    },
+    {
+      "id": "qm-2026-half",
+      "title": "2026中国移动互联网半年报告 · 小游戏",
+      "publisher": "QuestMobile研究院",
+      "url": "https://www.questmobile.com.cn/research/report/2084487578531254273/",
+      "publishedAt": "2026-08-04",
+      "period": "2026年6月",
+      "kind": "industry_measurement",
+      "verificationStatus": "verified_public_report",
+      "scope": "微信小游戏行业月活跃用户测量；不是本站调查",
+      "sampleSize": null,
+      "methodNote": "第三方测量，公开摘要未披露本项样本量；月活是测量值，不是官方用户注册数",
+      "observations": [
+        "报告披露微信小游戏月活跃用户6.52亿，同比增长21.2%。",
+        "千万月活跃用户规模小游戏25款，较上年同期增加5款。"
+      ],
+      "limitations": "行业规模不能外推到每款游戏，不能用本报告证明2026年11月的榜单涨跌。"
+    },
+    {
+      "id": "qm-2025-game",
+      "title": "2025手机游戏行业发展分析报告",
+      "publisher": "QuestMobile研究院",
+      "url": "https://www.questmobile.com.cn/research/report/1980474117065904130/",
+      "publishedAt": "2025-10-21",
+      "period": "2025年8月",
+      "kind": "industry_measurement",
+      "verificationStatus": "verified_public_report",
+      "scope": "APP游戏、微信小游戏与抖音小游戏的行业比较",
+      "sampleSize": null,
+      "methodNote": "第三方行业分析；用户结构描述不等于某款游戏的人群比例",
+      "observations": [
+        "报告将微信小游戏与碎片化使用场景联系，并指出其覆盖更广年龄人群。",
+        "APP游戏与小游戏存在用户重合，不能将两端受众视作完全不同。"
+      ],
+      "limitations": "统计期较早，只作历史背景，不用于宣称当前单游戏用户属性。"
     }
   ],
   "playerFeedback": []
