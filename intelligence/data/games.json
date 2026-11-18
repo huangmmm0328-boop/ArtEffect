@@ -1,0 +1,1510 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-18",
+  "games": [
+    {
+      "id": "xiang-jiangshi-kaipao",
+      "name": "向僵尸开炮",
+      "aliases": [],
+      "platforms": [
+        "unverified"
+      ],
+      "platformNote": "来源为TapTap移动游戏官方入驻页；未证实与微信或抖音小游戏当前版本逐帧一致。",
+      "externalIds": {
+        "taptap": "583688"
+      },
+      "type": "射击 / Roguelike",
+      "style": "Q版现代卡通射击",
+      "publisher": "发行方待核实",
+      "sourceUrl": "https://www.taptap.cn/app/583688",
+      "summary": "现代防线 × 机甲火力：先读懂敌潮，再感受范围伤害。",
+      "observations": [
+        {
+          "title": "角色：枪械是题材锚点",
+          "text": "角色皮肤可以更换服装和装饰，但持枪姿态与武器轮廓仍将角色留在现代射击题材中。对比角色详情与实战缩小后的辨识度。"
+        },
+        {
+          "title": "战场：数值与敌潮占据屏幕",
+          "text": "当前演示里的伤害数字和大范围能量覆盖较密。判断效果时应同时看清楚“打到了谁”和“还剩多少敌人”，不能只比较特效大小。"
+        },
+        {
+          "title": "技能：亮色能量切开战场",
+          "text": "蓝白机甲能量与暖色场地形成对比，作用范围容易感知；多层飘字也可能遮挡角色和受击细节。"
+        }
+      ],
+      "decision": "适合用敌潮、武器和范围技能表达快速成长的项目。美术投入应优先保证核心武器、敌人轮廓和伤害边界的可读性。",
+      "risk": "不要把高密度特效直接等同于打击感；当前展示版本和皮肤不代表所有历史版本。",
+      "assets": [
+        {
+          "id": "xiang-jiangshi-kaipao-scene",
+          "category": "scene",
+          "title": "向僵尸开炮：80关战斗场景，包含防线、敌群及机甲能量表现。",
+          "url": "assets/games/xiang-jiangshi-kaipao/display/xiang-jiangshi-kaipao-scene-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/583688",
+          "sourceName": "向僵尸开炮 · TapTap官方入驻页实机试玩视频",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "xiang-jiangshi-kaipao-character",
+          "category": "character",
+          "title": "向僵尸开炮：角色界面中的持枪角色展示，保留游戏UI。",
+          "url": "assets/games/xiang-jiangshi-kaipao/display/xiang-jiangshi-kaipao-character-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/583688",
+          "sourceName": "向僵尸开炮 · TapTap官方入驻页实机试玩视频",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "xiang-jiangshi-kaipao-skill",
+          "category": "skill",
+          "title": "向僵尸开炮：机甲与大范围蓝色能量轨迹；特殊技能表现，未确认具体技能名称。",
+          "url": "assets/games/xiang-jiangshi-kaipao/display/xiang-jiangshi-kaipao-skill-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/583688",
+          "sourceName": "向僵尸开炮 · TapTap官方入驻页实机试玩视频",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "xiang-jiangshi-kaipao-mechanical-boss",
+          "category": "boss",
+          "title": "机械首领与防线对峙",
+          "url": "assets/games/xiang-jiangshi-kaipao/display/xiang-jiangshi-kaipao-mechanical-boss-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/583688",
+          "sourceName": "TapTap官方入驻游戏页绑定的实机试玩视频（app_trial）",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "xiang-jiangshi-kaipao-stage-rewards",
+          "category": "progression",
+          "title": "挑战成功与奖励结算",
+          "url": "assets/games/xiang-jiangshi-kaipao/display/xiang-jiangshi-kaipao-stage-rewards-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/583688",
+          "sourceName": "TapTap官方入驻游戏页绑定的实机试玩视频（app_trial）",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "xiang-jiangshi-kaipao-pet-roster",
+          "category": "roster",
+          "title": "百变宠物界面与宠物展示",
+          "url": "assets/games/xiang-jiangshi-kaipao/display/xiang-jiangshi-kaipao-pet-roster-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/583688",
+          "sourceName": "TapTap官方入驻游戏页绑定的实机试玩视频（app_trial）",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "xiang-jiangshi-kaipao-loot-chest",
+          "category": "progression",
+          "title": "宝箱开启与道具颜色层级",
+          "url": "assets/games/xiang-jiangshi-kaipao/display/xiang-jiangshi-kaipao-loot-chest-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/583688",
+          "sourceName": "TapTap官方入驻游戏页绑定的实机试玩视频（app_trial）",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "xiang-jiangshi-kaipao-exploration-map",
+          "category": "environment",
+          "title": "地心探索的分支地图",
+          "url": "assets/games/xiang-jiangshi-kaipao/display/xiang-jiangshi-kaipao-exploration-map-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/583688",
+          "sourceName": "TapTap官方入驻游戏页绑定的实机试玩视频（app_trial）",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "xiang-jiangshi-kaipao-weapon-upgrade",
+          "category": "progression",
+          "title": "威能闪电武器养成界面",
+          "url": "assets/games/xiang-jiangshi-kaipao/display/xiang-jiangshi-kaipao-weapon-upgrade-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/583688",
+          "sourceName": "TapTap官方入驻游戏页绑定的实机试玩视频（app_trial）",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "xiang-jiangshi-kaipao-fire-character-art",
+          "category": "character",
+          "title": "官方角色原画：火焰与重型枪械",
+          "url": "assets/games/xiang-jiangshi-kaipao/display/xiang-jiangshi-kaipao-fire-character-art-reading.jpg",
+          "sourceUrl": "https://xjskp.scgame.com.cn/",
+          "sourceName": "向僵尸开炮游戏官网 · 角色皮肤展示原始资源",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_official_art"
+        },
+        {
+          "id": "xiang-jiangshi-kaipao-ice-character-art",
+          "category": "character",
+          "title": "官方角色原画：冰晶与轻型枪械",
+          "url": "assets/games/xiang-jiangshi-kaipao/display/xiang-jiangshi-kaipao-ice-character-art-reading.jpg",
+          "sourceUrl": "https://xjskp.scgame.com.cn/",
+          "sourceName": "向僵尸开炮游戏官网 · 角色皮肤展示原始资源",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_official_art"
+        }
+      ],
+      "motion": [
+        {
+          "id": "xiang-jiangshi-kaipao-mecha-energy",
+          "title": "机甲能量与敌群受击",
+          "url": "assets/games/xiang-jiangshi-kaipao/motion/mecha-energy.gif",
+          "poster": "assets/games/xiang-jiangshi-kaipao/motion/mecha-energy-poster.jpg",
+          "seconds": 4,
+          "sourceUrl": "https://www.taptap.cn/app/583688",
+          "timeRange": "1–5秒",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        }
+      ],
+      "hero": "assets/games/xiang-jiangshi-kaipao/display/xiang-jiangshi-kaipao-scene-reading.jpg"
+    },
+    {
+      "id": "yongyuan-weilan-xingqiu",
+      "name": "永远的蔚蓝星球",
+      "aliases": [],
+      "platforms": [
+        "unverified"
+      ],
+      "platformNote": "来源为TapTap入驻游戏页；与微信/抖音小游戏当前版本的一致性待核实。",
+      "externalIds": {
+        "taptap": "713683"
+      },
+      "type": "塔防",
+      "style": "Q萌卡通塔防",
+      "publisher": "发行方待核实",
+      "sourceUrl": "https://www.taptap.cn/app/713683",
+      "summary": "塔位、圆润英雄与大体积技能，共同构成一眼可懂的卡通战场。",
+      "observations": [
+        {
+          "title": "角色：造型承担阵容识别",
+          "text": "英雄集中在战场下方，体型、颜色和武器的区别需要在很小的显示尺寸下依然成立。角色页与战斗图应一起比较。"
+        },
+        {
+          "title": "布局：敌人与己方分区明确",
+          "text": "纵向战场将上方敌群与下方塔位分开，阵容管理和即时战斗在同屏呈现。场景本身不应抢过角色和弹道。"
+        },
+        {
+          "title": "技能：大轮廓带来强度变化",
+          "text": "冰蓝鸟形效果与紫色范围区域，让高强度技能有不同于基础弹道的外形。对比低密度攻击与后续范围效果更有意义。"
+        }
+      ],
+      "decision": "适合需要持续推出英雄、召唤或阵容组合的塔防项目。角色轮廓、职业颜色与技能形态应作为同一套规则维护。",
+      "risk": "角色与技能越多，越要限制同屏亮点和飘字；内容扩张会带来额外角色与特效维护成本。",
+      "assets": [
+        {
+          "id": "yongyuan-weilan-xingqiu-scene",
+          "category": "scene",
+          "title": "战斗场景：塔位、敌群与BOSS同屏，可见完整战斗UI。",
+          "url": "assets/games/yongyuan-weilan-xingqiu/display/yongyuan-weilan-xingqiu-scene-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/713683",
+          "sourceName": "TapTap 官方入驻游戏页嵌入试玩视频（app_trial）预览",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "yongyuan-weilan-xingqiu-character",
+          "category": "character",
+          "title": "战斗中的英雄与敌人展示：冰蓝飞鸟、巨型敌人及多排英雄塔位；非角色设定立绘。",
+          "url": "assets/games/yongyuan-weilan-xingqiu/display/yongyuan-weilan-xingqiu-character-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/713683",
+          "sourceName": "TapTap 官方入驻游戏页嵌入试玩视频（app_trial）预览",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "yongyuan-weilan-xingqiu-skill",
+          "category": "skill",
+          "title": "冰蓝飞鸟和紫色范围效果同屏的技能表现；仅确认可见特效，不命名为某个大招。",
+          "url": "assets/games/yongyuan-weilan-xingqiu/display/yongyuan-weilan-xingqiu-skill-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/713683",
+          "sourceName": "TapTap 官方入驻游戏页嵌入试玩视频（app_trial）预览",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "yongyuan-weilan-xingqiu-attack",
+          "category": "attack",
+          "title": "普通持续攻击观察：塔位向上重复发射细线、亮点和窄束弹道；选取冰鸟等大范围技能出现前的低密度开场战斗。",
+          "url": "assets/games/yongyuan-weilan-xingqiu/display/yongyuan-weilan-xingqiu-attack-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/713683",
+          "sourceName": "TapTap 官方入驻游戏页嵌入试玩视频（app_trial）",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "yongyuan-weilan-xingqiu-home-map",
+          "category": "home",
+          "title": "主界面：关卡地图与挑战入口",
+          "url": "assets/games/yongyuan-weilan-xingqiu/display/yongyuan-weilan-xingqiu-home-map-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/713683",
+          "sourceName": "TapTap · 游戏页绑定视频 / 角色展示帖",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "yongyuan-weilan-xingqiu-hero-roster",
+          "category": "roster",
+          "title": "英雄阵容与角色池",
+          "url": "assets/games/yongyuan-weilan-xingqiu/display/yongyuan-weilan-xingqiu-hero-roster-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/713683",
+          "sourceName": "TapTap · 游戏页绑定视频 / 角色展示帖",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "yongyuan-weilan-xingqiu-cooperative-pair",
+          "category": "roster",
+          "title": "合作对战：两名玩家与出战英雄",
+          "url": "assets/games/yongyuan-weilan-xingqiu/display/yongyuan-weilan-xingqiu-cooperative-pair-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/713683",
+          "sourceName": "TapTap · 游戏页绑定视频 / 角色展示帖",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "yongyuan-weilan-xingqiu-summoning-rewards",
+          "category": "progression",
+          "title": "召唤奖励与角色碎片",
+          "url": "assets/games/yongyuan-weilan-xingqiu/display/yongyuan-weilan-xingqiu-summoning-rewards-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/713683",
+          "sourceName": "TapTap · 游戏页绑定视频 / 角色展示帖",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "yongyuan-weilan-xingqiu-official-hero-1",
+          "category": "character",
+          "title": "洛姬 · 官网角色展示",
+          "url": "assets/games/yongyuan-weilan-xingqiu/display/yongyuan-weilan-xingqiu-official-hero-1-reading.jpg",
+          "sourceUrl": "https://m.chuangyuejoy.com/",
+          "sourceName": "游戏官方网站 · 独立角色图",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_official_art"
+        },
+        {
+          "id": "yongyuan-weilan-xingqiu-official-hero-2",
+          "category": "character",
+          "title": "雷神 · 官网角色展示",
+          "url": "assets/games/yongyuan-weilan-xingqiu/display/yongyuan-weilan-xingqiu-official-hero-2-reading.jpg",
+          "sourceUrl": "https://m.chuangyuejoy.com/",
+          "sourceName": "游戏官方网站 · 独立角色图",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_official_art"
+        },
+        {
+          "id": "yongyuan-weilan-xingqiu-official-hero-3",
+          "category": "character",
+          "title": "死亡骑士 · 官网角色展示",
+          "url": "assets/games/yongyuan-weilan-xingqiu/display/yongyuan-weilan-xingqiu-official-hero-3-reading.jpg",
+          "sourceUrl": "https://m.chuangyuejoy.com/",
+          "sourceName": "游戏官方网站 · 独立角色图",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_official_art"
+        },
+        {
+          "id": "yongyuan-weilan-xingqiu-official-hero-4",
+          "category": "character",
+          "title": "孙悟空 · 官网角色展示",
+          "url": "assets/games/yongyuan-weilan-xingqiu/display/yongyuan-weilan-xingqiu-official-hero-4-reading.jpg",
+          "sourceUrl": "https://m.chuangyuejoy.com/",
+          "sourceName": "游戏官方网站 · 独立角色图",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_official_art"
+        },
+        {
+          "id": "yongyuan-weilan-xingqiu-ice-keyframe-1",
+          "category": "skill",
+          "title": "冰蓝鸟形技能 · 鸟形能量开始进入战场",
+          "url": "assets/games/yongyuan-weilan-xingqiu/display/yongyuan-weilan-xingqiu-ice-keyframe-1-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/713683",
+          "sourceName": "TapTap · 游戏页绑定视频 / 角色展示帖",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "yongyuan-weilan-xingqiu-ice-keyframe-2",
+          "category": "skill",
+          "title": "冰蓝鸟形技能 · 能量覆盖中轴区域",
+          "url": "assets/games/yongyuan-weilan-xingqiu/display/yongyuan-weilan-xingqiu-ice-keyframe-2-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/713683",
+          "sourceName": "TapTap · 游戏页绑定视频 / 角色展示帖",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "yongyuan-weilan-xingqiu-ice-keyframe-3",
+          "category": "skill",
+          "title": "冰蓝鸟形技能 · 技能效果持续展开",
+          "url": "assets/games/yongyuan-weilan-xingqiu/display/yongyuan-weilan-xingqiu-ice-keyframe-3-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/713683",
+          "sourceName": "TapTap · 游戏页绑定视频 / 角色展示帖",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        }
+      ],
+      "motion": [
+        {
+          "id": "yongyuan-weilan-xingqiu-basic-projectiles",
+          "title": "基础弹道的持续发射",
+          "url": "assets/games/yongyuan-weilan-xingqiu/motion/basic-projectiles.gif",
+          "poster": "assets/games/yongyuan-weilan-xingqiu/motion/basic-projectiles-poster.jpg",
+          "seconds": 3,
+          "sourceUrl": "https://www.taptap.cn/app/713683",
+          "timeRange": "40–43秒",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "yongyuan-weilan-xingqiu-ice-bird",
+          "title": "范围技能展开与命中反馈",
+          "url": "assets/games/yongyuan-weilan-xingqiu/motion/ice-bird.gif",
+          "poster": "assets/games/yongyuan-weilan-xingqiu/motion/ice-bird-poster.jpg",
+          "seconds": 2.5,
+          "sourceUrl": "https://www.taptap.cn/app/713683",
+          "timeRange": "43.6–46.1秒",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "yongyuan-weilan-xingqiu-explosion-burst",
+          "title": "爆炸冲击：爆心闪光与火焰外扩",
+          "url": "assets/games/yongyuan-weilan-xingqiu/motion/explosion-burst.gif",
+          "poster": "assets/games/yongyuan-weilan-xingqiu/motion/explosion-burst-poster.jpg",
+          "seconds": 2,
+          "sourceUrl": "https://www.taptap.cn/app/713683",
+          "timeRange": "44–46秒",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        }
+      ],
+      "hero": "assets/games/yongyuan-weilan-xingqiu/display/yongyuan-weilan-xingqiu-scene-reading.jpg"
+    },
+    {
+      "id": "baowei-xiangrikui",
+      "name": "保卫向日葵",
+      "aliases": [],
+      "platforms": [
+        "unverified"
+      ],
+      "platformNote": "来源为TapTap入驻游戏页；与微信/抖音小游戏当前版本的一致性待核实。",
+      "externalIds": {
+        "taptap": "732885"
+      },
+      "type": "植物题材 / 塔防",
+      "style": "2D植物拟人卡通",
+      "publisher": "发行方待核实",
+      "sourceUrl": "https://www.taptap.cn/app/732885",
+      "summary": "植物符号、合成格位与联动角色，构成以2D卡通为主的阵容画面。",
+      "observations": [
+        {
+          "title": "角色：题材符号十分直接",
+          "text": "花朵、叶片和植物器官让一部分角色无需文字就能被识别；联动人物又增加了不同的轮廓和配色来源。"
+        },
+        {
+          "title": "界面：角色格位主导阅读",
+          "text": "当前画面中大面积格位、底部角色池和资源按钮共同组织操作。它更适合观察图标、角色缩略图和卡通UI的协调。"
+        },
+        {
+          "title": "版本：分类必须跟随画面证据",
+          "text": "本次官方演示为2D卡通联动画面；角色轮廓和题材符号可直接比较，模型面数及制作流程需要其他证据。"
+        }
+      ],
+      "decision": "可参考植物符号、角色合成和色彩分区如何降低理解成本。若项目要选Low Poly路线，还需另找能证明建模与渲染方式的样本。",
+      "risk": "联动和不同版本可能显著改变角色语言，单个版本不宜概括全部产品。",
+      "assets": [
+        {
+          "id": "baowei-xiangrikui-scene",
+          "category": "scene",
+          "title": "游戏实际战斗布阵场景：可见波次、资源、暂停及角色候选栏。",
+          "url": "assets/games/baowei-xiangrikui/display/baowei-xiangrikui-scene-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/732885",
+          "sourceName": "TapTap 官方入驻游戏页嵌入试玩视频（app_trial）预览",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "baowei-xiangrikui-character",
+          "category": "character",
+          "title": "战场中的植物拟人角色与候选角色展示；本版本呈现2D卡通画面，不支持Low Poly建模结论。",
+          "url": "assets/games/baowei-xiangrikui/display/baowei-xiangrikui-character-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/732885",
+          "sourceName": "TapTap 官方入驻游戏页嵌入试玩视频（app_trial）预览",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "baowei-xiangrikui-skill",
+          "category": "skill",
+          "title": "战斗中红橙色龙形能量效果；仅确认可见技能表现，不臆测技能名称或大招等级。",
+          "url": "assets/games/baowei-xiangrikui/display/baowei-xiangrikui-skill-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/732885",
+          "sourceName": "TapTap 官方入驻游戏页嵌入试玩视频（app_trial）预览",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "baowei-xiangrikui-challenge-preview",
+          "category": "home",
+          "title": "挑战准备与关卡规则",
+          "url": "assets/games/baowei-xiangrikui/display/baowei-xiangrikui-challenge-preview-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/732885",
+          "sourceName": "TapTap · 游戏页绑定视频 / 角色展示帖",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "baowei-xiangrikui-skill-selection",
+          "category": "progression",
+          "title": "技能选择：三张金色技能卡",
+          "url": "assets/games/baowei-xiangrikui/display/baowei-xiangrikui-skill-selection-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/732885",
+          "sourceName": "TapTap · 游戏页绑定视频 / 角色展示帖",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "baowei-xiangrikui-advanced-lineup",
+          "category": "roster",
+          "title": "战斗布阵与不同阶段角色",
+          "url": "assets/games/baowei-xiangrikui/display/baowei-xiangrikui-advanced-lineup-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/732885",
+          "sourceName": "TapTap · 游戏页绑定视频 / 角色展示帖",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "baowei-xiangrikui-victory-rewards",
+          "category": "progression",
+          "title": "胜利结算与奖励",
+          "url": "assets/games/baowei-xiangrikui/display/baowei-xiangrikui-victory-rewards-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/732885",
+          "sourceName": "TapTap · 游戏页绑定视频 / 角色展示帖",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "baowei-xiangrikui-winter-character",
+          "category": "character",
+          "title": "凛冬之主 · 角色展示视频帧",
+          "url": "assets/games/baowei-xiangrikui/display/baowei-xiangrikui-winter-character-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/moment/854011901972056262",
+          "sourceName": "TapTap · 游戏页绑定视频 / 角色展示帖",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_official_art"
+        },
+        {
+          "id": "baowei-xiangrikui-sea-character",
+          "category": "character",
+          "title": "碧海澜歌 · 联动角色展示视频帧",
+          "url": "assets/games/baowei-xiangrikui/display/baowei-xiangrikui-sea-character-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/moment/849390020933454559",
+          "sourceName": "TapTap · 游戏页绑定视频 / 角色展示帖",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_official_art"
+        }
+      ],
+      "motion": [
+        {
+          "id": "baowei-xiangrikui-dragon-burst",
+          "title": "红橙能量与格位战斗",
+          "url": "assets/games/baowei-xiangrikui/motion/dragon-burst.gif",
+          "poster": "assets/games/baowei-xiangrikui/motion/dragon-burst-poster.jpg",
+          "seconds": 4,
+          "sourceUrl": "https://www.taptap.cn/app/732885",
+          "timeRange": "44.5–48.5秒",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        }
+      ],
+      "hero": "assets/games/baowei-xiangrikui/display/baowei-xiangrikui-scene-reading.jpg"
+    },
+    {
+      "id": "zaohua-xianfu",
+      "name": "造化仙府",
+      "aliases": [],
+      "platforms": [
+        "unverified"
+      ],
+      "platformNote": "TapTap官方入驻页面实机演示；与微信/抖音版本可能存在差异",
+      "externalIds": {
+        "taptap": "874393"
+      },
+      "type": "东方仙侠",
+      "style": "Q萌东方仙侠",
+      "publisher": "发行方待核实",
+      "sourceUrl": "https://www.taptap.cn/app/874393",
+      "summary": "从宗门经营到战前编队：东方题材通过不同界面承载养成与战斗。",
+      "observations": [
+        {
+          "title": "场景：建筑让题材先被认出",
+          "text": "宗门建筑、山水和道路组织经营主场景，阅读重点是资源入口与可操作建筑，而不是战斗特效。"
+        },
+        {
+          "title": "角色：布阵界面呈现角色库",
+          "text": "战前编队展示角色站位、图标和敌我阵列，适合观察多个角色是否在同一屏中保有差异。不要把布阵画面标成单人获得页。"
+        },
+        {
+          "title": "战斗：召唤体积建立视觉重点",
+          "text": "实机剪辑中可见大体积火焰和召唤效果，与经营主场景的轻松节奏明显不同。两类画面需要分别评估。"
+        }
+      ],
+      "decision": "适合同时有经营、养成和编队战斗的项目参考。应分别预算主场景、角色展示与战斗表现，避免只选一张战斗图就决定整体风格。",
+      "risk": "官方剪辑切换较快，不能据此确认各画面的玩法连续性；具体版本仍待核实。",
+      "assets": [
+        {
+          "id": "zaohua-xianfu-scene",
+          "category": "scene",
+          "title": "宗门场景与资源建筑实机画面",
+          "url": "assets/games/zaohua-xianfu/display/zaohua-xianfu-scene-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/874393",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "zaohua-xianfu-character",
+          "category": "character",
+          "title": "战前布阵界面，展示喵皇子、孙悟空、三太子、哪吒等角色与敌方队列；不是角色获得界面。",
+          "url": "assets/games/zaohua-xianfu/display/zaohua-xianfu-character-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/874393",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "zaohua-xianfu-skill",
+          "category": "skill",
+          "title": "战斗中的大型火焰与召唤特效，具体技能名待核实",
+          "url": "assets/games/zaohua-xianfu/display/zaohua-xianfu-skill-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/874393",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "zaohua-xianfu-home-overview",
+          "category": "home",
+          "title": "宗门经营主界面",
+          "url": "assets/games/zaohua-xianfu/display/zaohua-xianfu-home-overview-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/874393",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "zaohua-xianfu-beast-area",
+          "category": "home",
+          "title": "建筑群与弟子活动区",
+          "url": "assets/games/zaohua-xianfu/display/zaohua-xianfu-beast-area-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/874393",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "zaohua-xianfu-recruit-building",
+          "category": "progression",
+          "title": "弟子招募建筑",
+          "url": "assets/games/zaohua-xianfu/display/zaohua-xianfu-recruit-building-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/874393",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "zaohua-xianfu-disciple-profile",
+          "category": "character",
+          "title": "弟子资料与招募面板",
+          "url": "assets/games/zaohua-xianfu/display/zaohua-xianfu-disciple-profile-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/874393",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "zaohua-xianfu-desert-map",
+          "category": "environment",
+          "title": "沙地历练场景",
+          "url": "assets/games/zaohua-xianfu/display/zaohua-xianfu-desert-map-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/874393",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "zaohua-xianfu-snow-map",
+          "category": "environment",
+          "title": "雪地历练场景",
+          "url": "assets/games/zaohua-xianfu/display/zaohua-xianfu-snow-map-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/874393",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "zaohua-xianfu-phoenix-character",
+          "category": "character",
+          "title": "凤凰形仙友展示",
+          "url": "assets/games/zaohua-xianfu/display/zaohua-xianfu-phoenix-character-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/874393",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "zaohua-xianfu-water-spirit",
+          "category": "skill",
+          "title": "青色巨型灵体特效",
+          "url": "assets/games/zaohua-xianfu/display/zaohua-xianfu-water-spirit-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/874393",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "zaohua-xianfu-fire-summon",
+          "category": "skill",
+          "title": "橙红火焰召唤表现",
+          "url": "assets/games/zaohua-xianfu/display/zaohua-xianfu-fire-summon-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/874393",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        }
+      ],
+      "motion": [
+        {
+          "id": "zaohua-xianfu-fire-summon",
+          "title": "大型召唤形态与火焰效果",
+          "url": "assets/games/zaohua-xianfu/motion/fire-summon.gif",
+          "poster": "assets/games/zaohua-xianfu/motion/fire-summon-poster.jpg",
+          "seconds": 2.5,
+          "sourceUrl": "https://www.taptap.cn/app/874393",
+          "timeRange": "28–30.5秒",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        }
+      ],
+      "hero": "assets/games/zaohua-xianfu/display/zaohua-xianfu-scene-reading.jpg"
+    },
+    {
+      "id": "linghuashi",
+      "name": "灵画师",
+      "aliases": [],
+      "platforms": [
+        "unverified"
+      ],
+      "platformNote": "TapTap官方入驻页面实机演示；与微信/抖音版本可能存在差异",
+      "externalIds": {
+        "taptap": "827480"
+      },
+      "type": "东方仙侠",
+      "style": "Q萌东方仙侠",
+      "publisher": "发行方待核实",
+      "sourceUrl": "https://www.taptap.cn/app/827480",
+      "summary": "浅色修仙场景与角色养成界面，比高密度技能更适合观察这款游戏的视觉基础。",
+      "observations": [
+        {
+          "title": "场景：轻底色让人物更突出",
+          "text": "浅绿灰场景与较小的角色形成清爽留白，氛围与密集塔防战场不同；底部装备和养成入口承担更多操作信息。"
+        },
+        {
+          "title": "角色：展示页补充战斗缩略图",
+          "text": "妖兽信息界面能看清敌人形体和题材特征，弥补主场景角色很小的问题。比较时应把原始比例的大图打开。"
+        },
+        {
+          "title": "证据：攻击与技能不硬分",
+          "text": "已采集到战斗斩击与命中画面，但不能单凭这些画面确认普攻或大招。档案将其作为战斗观察素材，分类不确定性明确保留。"
+        }
+      ],
+      "decision": "适合以养成和轻量修仙氛围为重点的项目比较。优先评估角色展示、装备界面和场景留白，不必沿用重战斗项目的特效密度。",
+      "risk": "不能从一次蓝色斩击推断完整技能体系或大招品质。",
+      "assets": [
+        {
+          "id": "linghuashi-scene",
+          "category": "scene",
+          "title": "实际修仙主场景与装备养成UI",
+          "url": "assets/games/linghuashi/display/linghuashi-scene-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/827480",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "linghuashi-character",
+          "category": "character",
+          "title": "主线关卡妖兽霸天的敌人信息界面",
+          "url": "assets/games/linghuashi/display/linghuashi-character-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/827480",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "linghuashi-equipment-comparison",
+          "category": "progression",
+          "title": "装备属性对比",
+          "url": "assets/games/linghuashi/display/linghuashi-equipment-comparison-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/827480",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "linghuashi-field-dark-slash",
+          "category": "scene",
+          "title": "主场景中的暗色弧形攻击",
+          "url": "assets/games/linghuashi/display/linghuashi-field-dark-slash-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/827480",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "linghuashi-battle-hit",
+          "category": "scene",
+          "title": "妖兽交锋与绿色命中闪光",
+          "url": "assets/games/linghuashi/display/linghuashi-battle-hit-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/827480",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "linghuashi-battle-slash",
+          "category": "scene",
+          "title": "回合交锋中的弧形轨迹",
+          "url": "assets/games/linghuashi/display/linghuashi-battle-slash-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/827480",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "linghuashi-victory-panel",
+          "category": "progression",
+          "title": "关卡结算与奖励",
+          "url": "assets/games/linghuashi/display/linghuashi-victory-panel-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/827480",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "linghuashi-official-img_before",
+          "category": "character",
+          "title": "官网Q版御剑人物组合",
+          "url": "assets/games/linghuashi/display/linghuashi-official-img_before-reading.jpg",
+          "sourceUrl": "https://lhsyx.guangzhougy.com/",
+          "sourceName": "灵画师官网 · 游戏介绍插画",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_official_art"
+        },
+        {
+          "id": "linghuashi-official-img_after",
+          "category": "character",
+          "title": "官网云中灵宠插画",
+          "url": "assets/games/linghuashi/display/linghuashi-official-img_after-reading.jpg",
+          "sourceUrl": "https://lhsyx.guangzhougy.com/",
+          "sourceName": "灵画师官网 · 游戏介绍插画",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_official_art"
+        }
+      ],
+      "motion": [
+        {
+          "id": "linghuashi-slash-hit",
+          "title": "回合斩击与命中反馈",
+          "url": "assets/games/linghuashi/motion/slash-hit.gif",
+          "poster": "assets/games/linghuashi/motion/slash-hit-poster.jpg",
+          "seconds": 3.5,
+          "sourceUrl": "https://www.taptap.cn/app/827480",
+          "timeRange": "34.5–38秒",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        }
+      ],
+      "hero": "assets/games/linghuashi/display/linghuashi-scene-reading.jpg"
+    },
+    {
+      "id": "zhenxieren",
+      "name": "镇邪人",
+      "aliases": [],
+      "platforms": [
+        "unverified"
+      ],
+      "platformNote": "TapTap官方入驻页面实机演示；与微信/抖音版本可能存在差异",
+      "externalIds": {
+        "taptap": "862472"
+      },
+      "type": "民俗探险",
+      "style": "中式微恐探险",
+      "publisher": "发行方待核实",
+      "sourceUrl": "https://www.taptap.cn/app/862472",
+      "summary": "地宫、灯火与小队角色先建立民俗氛围，再由局部法术照亮战斗。",
+      "observations": [
+        {
+          "title": "场景：光源决定看哪里",
+          "text": "地宫大面积保持暗色，灯笼、入口和角色周围的亮区引导视线。需要同时观察“气氛是否成立”和“路线是否看得清”。"
+        },
+        {
+          "title": "角色：队伍与单人图各有用途",
+          "text": "小队探索画面说明角色在场景中的比例，获得界面则让服饰和民俗元素更易辨认。两种素材不能互相替代。"
+        },
+        {
+          "title": "特效：局部亮色改变场景状态",
+          "text": "群体恢复的绿色光环与飘字在暗场景中非常醒目，既是战斗反馈，也会改变画面氛围。这里讨论可见形态，不臆测技能名。"
+        }
+      ],
+      "decision": "适合想通过环境和民俗符号建立特色的探险项目参考。有限资源可以优先投入关键场景、主角服饰与引导视线的灯光。",
+      "risk": "过暗会降低小屏可读性；浓雾或高亮法术可能盖住路线与敌人。",
+      "assets": [
+        {
+          "id": "zhenxieren-scene",
+          "category": "scene",
+          "title": "地宫入口与灯笼环境的实际探索画面",
+          "url": "assets/games/zhenxieren/display/zhenxieren-scene-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/862472",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "zhenxieren-character",
+          "category": "character",
+          "title": "镇邪队伍角色获得界面，保留属性UI",
+          "url": "assets/games/zhenxieren/display/zhenxieren-character-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/862472",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "zhenxieren-skill",
+          "category": "skill",
+          "title": "战斗中的绿色群体恢复光环与飘字，具体技能名称待核实",
+          "url": "assets/games/zhenxieren/display/zhenxieren-skill-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/862472",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "zhenxieren-mountain-transition",
+          "category": "environment",
+          "title": "山崖绳索过场",
+          "url": "assets/games/zhenxieren/display/zhenxieren-mountain-transition-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/862472",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "zhenxieren-coffin-exploration",
+          "category": "scene",
+          "title": "地宫棺椁交互",
+          "url": "assets/games/zhenxieren/display/zhenxieren-coffin-exploration-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/862472",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "zhenxieren-jiling-acquired",
+          "category": "character",
+          "title": "机灵哥角色获得界面",
+          "url": "assets/games/zhenxieren/display/zhenxieren-jiling-acquired-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/862472",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "zhenxieren-room-loot",
+          "category": "progression",
+          "title": "探索战利品弹层",
+          "url": "assets/games/zhenxieren/display/zhenxieren-room-loot-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/862472",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "zhenxieren-stone-pillar-room",
+          "category": "environment",
+          "title": "石柱地宫空间",
+          "url": "assets/games/zhenxieren/display/zhenxieren-stone-pillar-room-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/862472",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "zhenxieren-melee-feedback",
+          "category": "scene",
+          "title": "地宫交锋与受击反馈",
+          "url": "assets/games/zhenxieren/display/zhenxieren-melee-feedback-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/862472",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "zhenxieren-rank-progression",
+          "category": "progression",
+          "title": "升级突破结算",
+          "url": "assets/games/zhenxieren/display/zhenxieren-rank-progression-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/862472",
+          "sourceName": "TapTap · 官方入驻游戏页 · 实机演示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "zhenxieren-change-official-character",
+          "category": "character",
+          "title": "嫦娥官方角色插画",
+          "url": "assets/games/zhenxieren/display/zhenxieren-change-official-character-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/moment/844955072075927473",
+          "sourceName": "镇邪人官方账号 · 镇邪笔记角色攻略",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_official_art"
+        },
+        {
+          "id": "zhenxieren-guansheng-official-character",
+          "category": "character",
+          "title": "关圣帝君官方角色插画",
+          "url": "assets/games/zhenxieren/display/zhenxieren-guansheng-official-character-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/moment/843815210136373707",
+          "sourceName": "镇邪人官方账号 · 镇邪笔记角色攻略",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_official_art"
+        }
+      ],
+      "motion": [
+        {
+          "id": "zhenxieren-healing-aura",
+          "title": "地宫战斗与绿色恢复光环",
+          "url": "assets/games/zhenxieren/motion/healing-aura.gif",
+          "poster": "assets/games/zhenxieren/motion/healing-aura-poster.jpg",
+          "seconds": 4,
+          "sourceUrl": "https://www.taptap.cn/app/862472",
+          "timeRange": "70–74秒",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "zhenxieren-cliff-atmosphere",
+          "title": "氛围特效：山崖雾层与探索过场",
+          "url": "assets/games/zhenxieren/motion/cliff-atmosphere.gif",
+          "poster": "assets/games/zhenxieren/motion/cliff-atmosphere-poster.jpg",
+          "seconds": 4,
+          "sourceUrl": "https://www.taptap.cn/app/862472",
+          "timeRange": "8–12秒",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        }
+      ],
+      "hero": "assets/games/zhenxieren/display/zhenxieren-scene-reading.jpg"
+    },
+    {
+      "id": "wuxia-damingxing",
+      "name": "武侠大明星",
+      "aliases": [],
+      "platforms": [
+        "unverified"
+      ],
+      "platformNote": "来源为TapTap移动游戏官方入驻页；未证实与微信或抖音小游戏当前版本逐帧一致。",
+      "externalIds": {
+        "taptap": "544484"
+      },
+      "type": "武侠动作",
+      "style": "国风横屏武侠",
+      "publisher": "发行方待核实",
+      "sourceUrl": "https://www.taptap.cn/app/544484",
+      "summary": "横屏群体武侠战斗：观察角色队列、宫殿场景与技能轨迹如何分层。",
+      "observations": [
+        {
+          "title": "构图：横向空间容纳多角色",
+          "text": "己方与敌方沿横向展开，角色动作和队列位置比竖屏单点战斗更重要。BOSS体型变化直接改变战斗画面的视觉重心。"
+        },
+        {
+          "title": "场景：宫殿颜色参与战斗阅读",
+          "text": "红色地毯、建筑与角色配色共处一屏，战斗特效需要与背景区分。当前样本以彩色国风战场为主，需要同时比较背景、角色与招式的明度。"
+        },
+        {
+          "title": "技能：轨迹与飘字共同反馈",
+          "text": "绿色恢复数值和环形能量能在群体场面中表达反馈；斩击轨迹适合比较攻击方向，但仍需连续画面确认具体动作。"
+        }
+      ],
+      "decision": "适合多角色横屏武侠项目参考。先把敌我分区、角色尺寸与背景明度建立起来，再增加招式表现。",
+      "risk": "多角色与高亮技能同屏时，要检查敌我分区、BOSS位置与招式方向是否仍然清晰；不要由单一版本推断全部历史风格。",
+      "assets": [
+        {
+          "id": "wuxia-damingxing-scene",
+          "category": "scene",
+          "title": "武侠大明星：宫殿场景中的实战，双方角色、敌群、地面及战斗UI完整可见。",
+          "url": "assets/games/wuxia-damingxing/display/wuxia-damingxing-scene-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/544484",
+          "sourceName": "武侠大明星 · TapTap官方入驻页实机视频动态预览",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "wuxia-damingxing-character",
+          "category": "character",
+          "title": "武侠大明星：BOSS战中的敌方大型角色与己方队列，保留实机战斗界面。",
+          "url": "assets/games/wuxia-damingxing/display/wuxia-damingxing-character-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/544484",
+          "sourceName": "武侠大明星 · TapTap官方入驻页实机视频动态预览",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "wuxia-damingxing-skill",
+          "category": "skill",
+          "title": "武侠大明星：战斗中的绿色恢复数字与环形能量效果，技能名称待进一步核实。",
+          "url": "assets/games/wuxia-damingxing/display/wuxia-damingxing-skill-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/544484",
+          "sourceName": "武侠大明星 · TapTap官方入驻页实机视频动态预览",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "wuxia-damingxing-home-lineup",
+          "category": "home",
+          "title": "主界面：屋顶暮色中的侠客队列",
+          "url": "assets/games/wuxia-damingxing/display/wuxia-damingxing-home-lineup-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/544484",
+          "sourceName": "TapTap官方入驻游戏页绑定的实机试玩视频（app_trial）",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "wuxia-damingxing-scorpion-wave",
+          "category": "character",
+          "title": "紫蝎敌群与绿色范围痕迹",
+          "url": "assets/games/wuxia-damingxing/display/wuxia-damingxing-scorpion-wave-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/544484",
+          "sourceName": "TapTap官方入驻游戏页绑定的实机试玩视频（app_trial）",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "wuxia-damingxing-hero-selection",
+          "category": "roster",
+          "title": "侠客选择界面",
+          "url": "assets/games/wuxia-damingxing/display/wuxia-damingxing-hero-selection-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/544484",
+          "sourceName": "TapTap官方入驻游戏页绑定的实机试玩视频（app_trial）",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "wuxia-damingxing-martial-selection",
+          "category": "progression",
+          "title": "功法选择界面",
+          "url": "assets/games/wuxia-damingxing/display/wuxia-damingxing-martial-selection-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/544484",
+          "sourceName": "TapTap官方入驻游戏页绑定的实机试玩视频（app_trial）",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "wuxia-damingxing-sword-phase-1",
+          "category": "skill",
+          "title": "自动飞剑：出手与飞行",
+          "url": "assets/games/wuxia-damingxing/display/wuxia-damingxing-sword-phase-1-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/544484",
+          "sourceName": "TapTap官方入驻游戏页绑定的实机试玩视频（app_trial）",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "wuxia-damingxing-sword-phase-2",
+          "category": "skill",
+          "title": "自动飞剑：命中与伤害数字",
+          "url": "assets/games/wuxia-damingxing/display/wuxia-damingxing-sword-phase-2-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/544484",
+          "sourceName": "TapTap官方入驻游戏页绑定的实机试玩视频（app_trial）",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "wuxia-damingxing-sword-phase-3",
+          "category": "skill",
+          "title": "自动飞剑：连续弹道与受击",
+          "url": "assets/games/wuxia-damingxing/display/wuxia-damingxing-sword-phase-3-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/544484",
+          "sourceName": "TapTap官方入驻游戏页绑定的实机试玩视频（app_trial）",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "wuxia-damingxing-zhangming-profile",
+          "category": "character",
+          "title": "掌命皮肤：角色模型与属性面板",
+          "url": "assets/games/wuxia-damingxing/display/wuxia-damingxing-zhangming-profile-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/moment/620290511575451284",
+          "sourceName": "武侠大明星官方社区活动帖 · lulu · 掌命皮肤与技能展示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "wuxia-damingxing-zhangming-meadow",
+          "category": "skill",
+          "title": "掌命技能：草地场景中的蓝色弹道",
+          "url": "assets/games/wuxia-damingxing/display/wuxia-damingxing-zhangming-meadow-reading.jpg",
+          "sourceUrl": "https://www.taptap.cn/moment/620290511575451284",
+          "sourceName": "武侠大明星官方社区活动帖 · lulu · 掌命皮肤与技能展示",
+          "collectedAt": "2026-11-17",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        }
+      ],
+      "motion": [
+        {
+          "id": "wuxia-damingxing-sword-projectiles",
+          "title": "自动飞剑与连续受击",
+          "url": "assets/games/wuxia-damingxing/motion/sword-projectiles.gif",
+          "poster": "assets/games/wuxia-damingxing/motion/sword-projectiles-poster.jpg",
+          "seconds": 3,
+          "sourceUrl": "https://www.taptap.cn/app/544484",
+          "timeRange": "4.8–7.8秒",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        },
+        {
+          "id": "wuxia-damingxing-meadow-energy",
+          "title": "掌命技能：草地场景中的能量弹道",
+          "url": "assets/games/wuxia-damingxing/motion/meadow-energy.gif",
+          "poster": "assets/games/wuxia-damingxing/motion/meadow-energy-poster.jpg",
+          "seconds": 3,
+          "sourceUrl": "https://www.taptap.cn/moment/620290511575451284",
+          "timeRange": "0–3秒",
+          "rightsStatus": "pending",
+          "evidenceType": "verified_gameplay"
+        }
+      ],
+      "hero": "assets/games/wuxia-damingxing/display/wuxia-damingxing-scene-reading.jpg"
+    },
+    {
+      "id": "store-790816",
+      "name": "疯狂水世界",
+      "aliases": [],
+      "platforms": [
+        "unverified"
+      ],
+      "platformNote": "商店来源版本，不自动视为微信／抖音小游戏同一版本。",
+      "externalIds": {
+        "taptap": "790816"
+      },
+      "type": "模拟 / 生存",
+      "style": "漫画联动与生存题材",
+      "publisher": "广州益玩网络科技有限公司",
+      "sourceUrl": "https://www.taptap.cn/app/790816",
+      "summary": "商店宣传资料，原图及来源保留；未当作已核验广告投放素材。",
+      "observations": [],
+      "decision": "用于观察宣传包装与画面差异，不据此推断广告效果。",
+      "risk": "商店宣传截图不等同实机画面或广告投放证据。",
+      "assets": [
+        {
+          "id": "store-790816-0",
+          "category": "store_publicity",
+          "title": "商店宣传截图 1",
+          "url": "assets/market/790816/gallery-0.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/790816",
+          "sourceName": "TapTap 商店宣传资料",
+          "collectedAt": "2026-11-17T10:59:46.883Z",
+          "rightsStatus": "pending",
+          "evidenceType": "publisher_publicity"
+        },
+        {
+          "id": "store-790816-1",
+          "category": "store_publicity",
+          "title": "商店宣传截图 2",
+          "url": "assets/market/790816/gallery-1.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/790816",
+          "sourceName": "TapTap 商店宣传资料",
+          "collectedAt": "2026-11-17T10:59:46.883Z",
+          "rightsStatus": "pending",
+          "evidenceType": "publisher_publicity"
+        },
+        {
+          "id": "store-790816-2",
+          "category": "store_publicity",
+          "title": "商店宣传截图 3",
+          "url": "assets/market/790816/gallery-2.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/790816",
+          "sourceName": "TapTap 商店宣传资料",
+          "collectedAt": "2026-11-17T10:59:46.883Z",
+          "rightsStatus": "pending",
+          "evidenceType": "publisher_publicity"
+        },
+        {
+          "id": "store-790816-3",
+          "category": "store_publicity",
+          "title": "商店宣传截图 4",
+          "url": "assets/market/790816/gallery-3.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/790816",
+          "sourceName": "TapTap 商店宣传资料",
+          "collectedAt": "2026-11-17T10:59:46.883Z",
+          "rightsStatus": "pending",
+          "evidenceType": "publisher_publicity"
+        },
+        {
+          "id": "store-790816-4",
+          "category": "store_publicity",
+          "title": "商店宣传截图 5",
+          "url": "assets/market/790816/gallery-5.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/790816",
+          "sourceName": "TapTap 商店宣传资料",
+          "collectedAt": "2026-11-17T10:59:46.883Z",
+          "rightsStatus": "pending",
+          "evidenceType": "publisher_publicity"
+        }
+      ],
+      "motion": [],
+      "hero": "assets/market/790816/gallery-0.jpg"
+    },
+    {
+      "id": "store-748248",
+      "name": "三国：冰河时代",
+      "aliases": [],
+      "platforms": [
+        "unverified"
+      ],
+      "platformNote": "商店来源版本，不自动视为微信／抖音小游戏同一版本。",
+      "externalIds": {
+        "taptap": "748248"
+      },
+      "type": "策略 / 经营 / SLG",
+      "style": "冰雪三国策略",
+      "publisher": "冰河工作室",
+      "sourceUrl": "https://www.taptap.cn/app/748248",
+      "summary": "商店宣传资料，原图及来源保留；未当作已核验广告投放素材。",
+      "observations": [],
+      "decision": "用于观察宣传包装与画面差异，不据此推断广告效果。",
+      "risk": "商店宣传截图不等同实机画面或广告投放证据。",
+      "assets": [
+        {
+          "id": "store-748248-0",
+          "category": "store_publicity",
+          "title": "商店宣传截图 1",
+          "url": "assets/market/748248/gallery-0.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/748248",
+          "sourceName": "TapTap 商店宣传资料",
+          "collectedAt": "2026-11-17T11:02:51.584Z",
+          "rightsStatus": "pending",
+          "evidenceType": "publisher_publicity"
+        },
+        {
+          "id": "store-748248-1",
+          "category": "store_publicity",
+          "title": "商店宣传截图 2",
+          "url": "assets/market/748248/gallery-1.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/748248",
+          "sourceName": "TapTap 商店宣传资料",
+          "collectedAt": "2026-11-17T11:02:51.584Z",
+          "rightsStatus": "pending",
+          "evidenceType": "publisher_publicity"
+        },
+        {
+          "id": "store-748248-2",
+          "category": "store_publicity",
+          "title": "商店宣传截图 3",
+          "url": "assets/market/748248/gallery-2.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/748248",
+          "sourceName": "TapTap 商店宣传资料",
+          "collectedAt": "2026-11-17T11:02:51.584Z",
+          "rightsStatus": "pending",
+          "evidenceType": "publisher_publicity"
+        },
+        {
+          "id": "store-748248-3",
+          "category": "store_publicity",
+          "title": "商店宣传截图 4",
+          "url": "assets/market/748248/gallery-3.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/748248",
+          "sourceName": "TapTap 商店宣传资料",
+          "collectedAt": "2026-11-17T11:02:51.584Z",
+          "rightsStatus": "pending",
+          "evidenceType": "publisher_publicity"
+        },
+        {
+          "id": "store-748248-4",
+          "category": "store_publicity",
+          "title": "商店宣传截图 5",
+          "url": "assets/market/748248/gallery-5.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/748248",
+          "sourceName": "TapTap 商店宣传资料",
+          "collectedAt": "2026-11-17T11:02:51.584Z",
+          "rightsStatus": "pending",
+          "evidenceType": "publisher_publicity"
+        }
+      ],
+      "motion": [],
+      "hero": "assets/market/748248/gallery-0.jpg"
+    },
+    {
+      "id": "store-238441",
+      "name": "羊了个羊",
+      "aliases": [],
+      "platforms": [
+        "unverified"
+      ],
+      "platformNote": "商店来源版本，不自动视为微信／抖音小游戏同一版本。",
+      "externalIds": {
+        "taptap": "238441"
+      },
+      "type": "休闲 / 益智",
+      "style": "简约卡通益智",
+      "publisher": "简游娱乐",
+      "sourceUrl": "https://www.taptap.cn/app/238441",
+      "summary": "商店宣传资料，原图及来源保留；未当作已核验广告投放素材。",
+      "observations": [],
+      "decision": "用于观察宣传包装与画面差异，不据此推断广告效果。",
+      "risk": "商店宣传截图不等同实机画面或广告投放证据。",
+      "assets": [
+        {
+          "id": "store-238441-0",
+          "category": "store_publicity",
+          "title": "商店宣传截图 1",
+          "url": "assets/market/238441/gallery-0.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/238441",
+          "sourceName": "TapTap 商店宣传资料",
+          "collectedAt": "2026-11-17T10:56:49.851Z",
+          "rightsStatus": "pending",
+          "evidenceType": "publisher_publicity"
+        },
+        {
+          "id": "store-238441-1",
+          "category": "store_publicity",
+          "title": "商店宣传截图 2",
+          "url": "assets/market/238441/gallery-1.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/238441",
+          "sourceName": "TapTap 商店宣传资料",
+          "collectedAt": "2026-11-17T10:56:49.851Z",
+          "rightsStatus": "pending",
+          "evidenceType": "publisher_publicity"
+        },
+        {
+          "id": "store-238441-2",
+          "category": "store_publicity",
+          "title": "商店宣传截图 3",
+          "url": "assets/market/238441/gallery-2.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/238441",
+          "sourceName": "TapTap 商店宣传资料",
+          "collectedAt": "2026-11-17T10:56:49.851Z",
+          "rightsStatus": "pending",
+          "evidenceType": "publisher_publicity"
+        },
+        {
+          "id": "store-238441-3",
+          "category": "store_publicity",
+          "title": "商店宣传截图 4",
+          "url": "assets/market/238441/gallery-3.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/238441",
+          "sourceName": "TapTap 商店宣传资料",
+          "collectedAt": "2026-11-17T10:56:49.851Z",
+          "rightsStatus": "pending",
+          "evidenceType": "publisher_publicity"
+        },
+        {
+          "id": "store-238441-4",
+          "category": "store_publicity",
+          "title": "商店宣传截图 5",
+          "url": "assets/market/238441/gallery-4.jpg",
+          "sourceUrl": "https://www.taptap.cn/app/238441",
+          "sourceName": "TapTap 商店宣传资料",
+          "collectedAt": "2026-11-17T10:56:49.851Z",
+          "rightsStatus": "pending",
+          "evidenceType": "publisher_publicity"
+        }
+      ],
+      "motion": [],
+      "hero": "assets/market/238441/gallery-0.jpg"
+    }
+  ]
+}

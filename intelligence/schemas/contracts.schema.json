@@ -1,0 +1,462 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://huangmmm0328-boop.github.io/ArtEffect/schemas/contracts.schema.json",
+  "title": "GAME ART INTELLIGENCE public data contracts",
+  "$defs": {
+    "evidence": {
+      "type": "object",
+      "required": [
+        "kind",
+        "description"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "visual_observation",
+            "public_report",
+            "player_feedback",
+            "survey",
+            "ranking_snapshot"
+          ]
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "gameId": {
+          "type": "string"
+        },
+        "assetIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "rankRow": {
+      "type": "object",
+      "required": [
+        "gameId",
+        "name",
+        "rank"
+      ],
+      "properties": {
+        "gameId": {
+          "type": "string",
+          "pattern": "^[a-z0-9_.:-]+$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rank": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sourceGameId": {
+          "type": "string"
+        },
+        "publisher": {
+          "type": "string"
+        },
+        "sourceUrl": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "rankingSnapshot": {
+      "type": "object",
+      "required": [
+        "schemaVersion",
+        "kind",
+        "status",
+        "sourceId",
+        "boardId",
+        "platform",
+        "period",
+        "sourceDate",
+        "observedAt",
+        "sourceUrl",
+        "origin",
+        "verification",
+        "coverage",
+        "rows",
+        "definitionVersion"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "const": 1
+        },
+        "kind": {
+          "const": "ranking_snapshot"
+        },
+        "status": {
+          "const": "ok"
+        },
+        "sourceId": {
+          "enum": [
+            "youchai",
+            "gravity",
+            "momorank"
+          ]
+        },
+        "boardId": {
+          "enum": [
+            "wechat-bestselling",
+            "wechat-mostplayed",
+            "douyin-bestselling",
+            "douyin-hot"
+          ]
+        },
+        "platform": {
+          "enum": [
+            "wechat",
+            "douyin"
+          ]
+        },
+        "period": {
+          "const": "day"
+        },
+        "sourceDate": {
+          "type": "string",
+          "format": "date"
+        },
+        "observedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "sourceUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "origin": {
+          "enum": [
+            "direct_public_observation",
+            "reviewed_historical_import"
+          ]
+        },
+        "verification": {
+          "type": "object",
+          "required": [
+            "reviewed",
+            "evidenceUrl"
+          ],
+          "properties": {
+            "reviewed": {
+              "const": true
+            },
+            "evidenceUrl": {
+              "type": "string",
+              "format": "uri"
+            }
+          }
+        },
+        "coverage": {
+          "type": "object",
+          "required": [
+            "limit",
+            "complete",
+            "description"
+          ],
+          "properties": {
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 1000
+            },
+            "complete": {
+              "type": "boolean"
+            },
+            "description": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "rows": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/rankRow"
+          }
+        },
+        "definitionVersion": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "creative": {
+      "type": "object",
+      "required": [
+        "id",
+        "gameName",
+        "platform",
+        "sourceId",
+        "sourceUrl",
+        "format",
+        "openingHook",
+        "gameplay",
+        "artStyle",
+        "audienceJudgment",
+        "audienceJudgmentKind",
+        "observedDate",
+        "verificationStatus"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "gameId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "gameName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "platform": {
+          "enum": [
+            "wechat",
+            "douyin",
+            "unverified"
+          ]
+        },
+        "sourceId": {
+          "enum": [
+            "ocean-creative",
+            "tencent-creative"
+          ]
+        },
+        "sourceUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "screenshotUrl": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "format": {
+          "enum": [
+            "video",
+            "image",
+            "playable"
+          ]
+        },
+        "openingHook": {
+          "type": "string",
+          "minLength": 1
+        },
+        "gameplay": {
+          "type": "string"
+        },
+        "artStyle": {
+          "type": "string"
+        },
+        "audienceJudgment": {
+          "type": "string"
+        },
+        "audienceJudgmentKind": {
+          "const": "inference"
+        },
+        "observedDate": {
+          "type": "string",
+          "format": "date"
+        },
+        "verificationStatus": {
+          "const": "verified_public_ad"
+        }
+      },
+      "additionalProperties": false
+    },
+    "audienceFinding": {
+      "type": "object",
+      "required": [
+        "id",
+        "gameId",
+        "kind",
+        "age",
+        "gender",
+        "claims",
+        "evidence"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "gameId": {
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "survey",
+            "inference"
+          ]
+        },
+        "age": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "gender": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "claims": {
+          "type": "object"
+        },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/evidence"
+          }
+        },
+        "survey": {
+          "type": "object",
+          "required": [
+            "sampleSize",
+            "population",
+            "period",
+            "sourceUrl"
+          ],
+          "properties": {
+            "sampleSize": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "population": {
+              "type": "string"
+            },
+            "period": {
+              "type": "string"
+            },
+            "sourceUrl": {
+              "type": "string",
+              "format": "uri"
+            }
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "survey"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "survey"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "inference"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "age": {
+                "type": "null"
+              },
+              "gender": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "forecast": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "kind",
+        "marketSignal",
+        "horizons",
+        "caseIds",
+        "basis",
+        "risks",
+        "confidence",
+        "confidenceReason",
+        "validation"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "kind": {
+          "const": "hypothesis"
+        },
+        "marketSignal": {
+          "const": "unknown"
+        },
+        "horizons": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": [
+              3,
+              6,
+              12
+            ]
+          }
+        },
+        "caseIds": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "basis": {
+          "type": "string"
+        },
+        "risks": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "confidence": {
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        "confidenceReason": {
+          "type": "string"
+        },
+        "validation": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -1,12 +1,12 @@
-name: Publish GAME ART INSIGHT
+name: Publish GAME ART INTELLIGENCE V2
 on:
   push:
     branches: [main]
   workflow_dispatch:
   schedule:
-    - cron: '23 */6 * * *'
+    - cron: '30 2 * * *'
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 concurrency:
@@ -24,17 +24,35 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Unpack the reviewed website
+      - name: Unpack and validate preserved screenshots and GIFs
         run: |
           python3 scripts/unpack-site.py
-      - name: Collect the current source rankings
-        run: node scripts/refresh-rankings.cjs
-      - name: Validate all bundled references
-        run: node scripts/check-site.cjs
+          node scripts/check-site.cjs
+      - name: Record source health without inventing observations
+        run: |
+          node scripts/collect-intelligence.cjs
+          node scripts/record-changes.mjs
+      - name: Validate data contracts and ranking calculations
+        run: |
+          node scripts/validate-intelligence.cjs
+          node --test tests/analytics.test.mjs
+      - name: Preserve daily JSON observations and update states
+        run: |
+          git add intelligence/data
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Record daily public-data archive state [skip ci]'
+            git push origin HEAD:main
+          fi
+      - name: Build V2 and keep the previous review archive
+        run: |
+          node scripts/build-intelligence.cjs
+          node scripts/check-intelligence-build.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
-      - name: Deploy the public review
+      - name: Deploy the public intelligence platform
         id: deployment
         uses: actions/deploy-pages@v4

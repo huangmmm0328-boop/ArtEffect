@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "findings": [
+    {
+      "id": "audience-1",
+      "gameId": "xiang-jiangshi-kaipao",
+      "title": "密集敌潮中的成长与解压",
+      "kind": "inference",
+      "observedAt": "2026-11-18",
+      "age": null,
+      "gender": null,
+      "claims": {
+        "need": "快速看见战斗能力增长",
+        "emotion": "清场带来的释放感与掌控感",
+        "click": "大范围技能和敌潮可能吸引偏好直观战斗反馈的玩家",
+        "visual": "轮廓清楚的武器、敌我边界和明亮命中反馈",
+        "scene": "可能适合短时多次进入；截图无法证明实际游玩场景",
+        "retention": "角色或武器成长可能形成持续目标，需玩家访谈验证"
+      },
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "visual_observation",
+          "gameId": "xiang-jiangshi-kaipao",
+          "assetIds": [
+            "xiang-jiangshi-kaipao-scene",
+            "xiang-jiangshi-kaipao-character",
+            "xiang-jiangshi-kaipao-skill"
+          ],
+          "description": "敌群、武器与范围技能在现有战斗截图和实录中可见。"
+        }
+      ],
+      "limitations": [
+        "未采集该游戏年龄、性别或用户调查样本。",
+        "未把美术题材直接等同于真实用户属性。"
+      ],
+      "verification": "补充公开玩家反馈、来源可追溯的访谈与具有样本口径的调查。"
+    },
+    {
+      "id": "audience-2",
+      "gameId": "yongyuan-weilan-xingqiu",
+      "title": "英雄收集与阵容试错",
+      "kind": "inference",
+      "observedAt": "2026-11-18",
+      "age": null,
+      "gender": null,
+      "claims": {
+        "need": "用阵容组合解决关卡问题",
+        "emotion": "召唤期待与组合成功的成就感",
+        "click": "英雄外形差异和技能升级可能成为点击线索",
+        "visual": "鲜明角色配色、可读塔位与独立技能形态",
+        "scene": "可能适合分段尝试关卡；尚无行为统计",
+        "retention": "英雄解锁与阵容变化可能支持重复尝试，尚无留存调查"
+      },
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "visual_observation",
+          "gameId": "yongyuan-weilan-xingqiu",
+          "assetIds": [
+            "yongyuan-weilan-xingqiu-scene",
+            "yongyuan-weilan-xingqiu-character",
+            "yongyuan-weilan-xingqiu-skill"
+          ],
+          "description": "现有画面包含圆润英雄、塔位与不同形态技能。"
+        }
+      ],
+      "limitations": [
+        "未采集该游戏年龄、性别或用户调查样本。",
+        "未把美术题材直接等同于真实用户属性。"
+      ],
+      "verification": "补充公开玩家反馈、来源可追溯的访谈与具有样本口径的调查。"
+    },
+    {
+      "id": "audience-3",
+      "gameId": "zhenxieren",
+      "title": "民俗题材与探索好奇",
+      "kind": "inference",
+      "observedAt": "2026-11-18",
+      "age": null,
+      "gender": null,
+      "claims": {
+        "need": "在熟悉民俗符号中体验探索悬念",
+        "emotion": "紧张、好奇与逐步解谜的满足",
+        "click": "灯火与暗场景反差可能形成悬念入口",
+        "visual": "可读路线、局部光源与民俗服饰",
+        "scene": "氛围体验可能更依赖连续注意力，需访谈核实",
+        "retention": "剧情悬念与探索目标可能推动返回，尚无实际留存证据"
+      },
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "visual_observation",
+          "gameId": "zhenxieren",
+          "assetIds": [
+            "zhenxieren-scene",
+            "zhenxieren-character",
+            "zhenxieren-skill"
+          ],
+          "description": "已采集地宫、灯笼、队伍与局部法术的实际画面。"
+        }
+      ],
+      "limitations": [
+        "未采集该游戏年龄、性别或用户调查样本。",
+        "未把美术题材直接等同于真实用户属性。"
+      ],
+      "verification": "补充公开玩家反馈、来源可追溯的访谈与具有样本口径的调查。"
+    }
+  ],
+  "reports": [
+    {
+      "id": "cnnic-public-2025-07",
+      "title": "CNNIC 2025年7月公开报告入口",
+      "sourceId": "cnnic",
+      "url": "https://www.cnnic.net/NMediaFile/2025/0730/MAIN1753846666507QEK67ZS9DH.pdf",
+      "kind": "reference_only",
+      "status": "not_extracted",
+      "scope": "互联网总体研究，不是单款小游戏画像。"
+    }
+  ],
+  "playerFeedback": []
+}

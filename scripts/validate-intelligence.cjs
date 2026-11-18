@@ -1,0 +1,31 @@
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const validDate=s=>typeof s==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(s)&&new Date(s+'T00:00:00Z').toISOString().slice(0,10)===s;
+function publicUrl(s){assert(typeof s==='string'&&s.startsWith('https://'),'Expected HTTPS source URL');const u=new URL(s);assert(!u.username&&!u.password,'Credentials must not be published');for(const key of u.searchParams.keys())assert(!/^(token|access_token|api_key|cookie|authorization)$/i.test(key),'No credentials in source URLs');return u;}
+function validateSnapshot(s,registry){
+  assert.equal(s.schemaVersion,1);assert.equal(s.kind,'ranking_snapshot');assert.equal(s.status,'ok');assert.equal(s.period,'day');assert(typeof s.definitionVersion==='string'&&s.definitionVersion.length>0,'Ranking definition version required');
+  const source=registry.sources.find(x=>x.id===s.sourceId),board=registry.boards.find(x=>x.id===s.boardId);
+  assert(source&&source.kind==='ranking','Unknown ranking source');assert(board&&board.sourceIds.includes(s.sourceId),'Source does not serve this board');assert.equal(s.platform,board.platform);
+  assert(['direct_public_observation','reviewed_historical_import'].includes(s.origin),'Snapshot origin must be explicit');assert(s.verification?.reviewed===true,'Human source/date review required');
+  const sourceUrl=publicUrl(s.sourceUrl),registered=publicUrl(source.url);assert.equal(sourceUrl.hostname,registered.hostname,'Source host mismatch');publicUrl(s.verification.evidenceUrl);
+  assert(validDate(s.sourceDate),'Invalid source date');assert(Number.isFinite(Date.parse(s.observedAt)),'Invalid observation time');
+  const capturedDate=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(s.observedAt));assert(s.sourceDate<=capturedDate,'Future source date');
+  assert(Number.isInteger(s.coverage?.limit)&&s.coverage.limit>0&&s.coverage.limit<=1000);assert.equal(typeof s.coverage.complete,'boolean');assert(typeof s.coverage.description==='string'&&s.coverage.description.length>0);
+  assert(Array.isArray(s.rows)&&s.rows.length>0,'Failure/empty page is not a ranking snapshot');assert(s.rows.length<=s.coverage.limit);
+  const ids=new Set(),ranks=new Set();for(const row of s.rows){assert(typeof row.gameId==='string'&&/^[a-z0-9_.:-]+$/.test(row.gameId));assert(typeof row.name==='string'&&row.name.trim());assert(Number.isInteger(row.rank)&&row.rank>0&&row.rank<=s.coverage.limit);assert(!ids.has(row.gameId)&&!ranks.has(row.rank),'Duplicate game or rank');ids.add(row.gameId);ranks.add(row.rank);if(row.sourceUrl)publicUrl(row.sourceUrl);}
+  for(const field of ['revenue','income','spend','ctr','cpa','roi','simulated','synthetic'])assert(!(field in s),'Unsupported or synthetic production field');
+  return true;
+}
+function validateAll(root=path.resolve(__dirname,'..')){
+  const data=path.join(root,'intelligence/data'),read=f=>JSON.parse(fs.readFileSync(path.join(data,f),'utf8'));
+  const registry=read('sources.json');assert.deepEqual(registry.policy,{onlyFreePublic:true,paidApis:false,commercialSubscriptions:false,adAccountsRequired:false,syntheticProductionData:false});assert.equal(registry.boards.length,4);
+  const games=read('games.json').games,ids=new Set(games.map(g=>g.id));assert.equal(ids.size,games.length);assert.equal(games.length,10);
+  let images=0,gifs=0;for(const g of games){for(const a of g.assets){assert(a.id&&a.title&&a.url.startsWith('assets/'));publicUrl(a.sourceUrl);assert.equal(a.rightsStatus,'pending');images++;}for(const m of g.motion){assert(m.url.endsWith('.gif'));assert(m.poster.startsWith('assets/'));publicUrl(m.sourceUrl);gifs++;}}
+  assert.equal(images,95);assert.equal(gifs,11);
+  for(const r of read('creatives.json').records){assert.equal(r.verificationStatus,'verified_public_ad');assert(registry.sources.some(s=>s.id===r.sourceId&&s.kind==='advertising'));for(const field of ['gameName','platform','format','openingHook','gameplay','artStyle','audienceJudgment'])assert(typeof r[field]==='string'&&r[field].trim());assert(validDate(r.observedDate));publicUrl(r.sourceUrl);assert.equal(r.audienceJudgmentKind,'inference');for(const key of Object.keys(r))assert(!/^(adSpend|spend|ctr|cpa|roi|estimatedRevenue)$/i.test(key),'Do not invent ad performance');}
+  for(const f of read('audience.json').findings){assert(ids.has(f.gameId));assert(['inference','survey'].includes(f.kind));assert(f.evidence.length>0);for(const e of f.evidence){assert(e.description);if(e.kind==='visual_observation'){assert(ids.has(e.gameId));const g=games.find(g=>g.id===e.gameId);for(const id of e.assetIds||[])assert(g.assets.some(a=>a.id===id));}else publicUrl(e.sourceUrl);}if(f.kind==='inference'){assert.equal(f.age,null);assert.equal(f.gender,null);assert(['low','medium','high'].includes(f.confidence));}else{assert(f.survey?.sampleSize>0&&f.survey.population&&f.survey.period);publicUrl(f.survey.sourceUrl);}}
+  for(const f of read('forecasts.json').forecasts){assert.equal(f.kind,'hypothesis');assert.equal(f.marketSignal,'unknown');assert(f.caseIds.length&&f.caseIds.every(id=>ids.has(id)));assert(f.horizons.every(n=>[3,6,12].includes(n)));assert(f.basis&&f.risks.length&&f.validation&&f.confidenceReason);assert(['low','medium','high'].includes(f.confidence));}
+  const history=read('history/index.json');for(const entry of history.snapshots){assert(/^history\/[0-9-]+\/[a-z0-9.-]+\.json$/.test(entry.path));const snapshot=read(entry.path);validateSnapshot(snapshot,registry);assert.equal(entry.sourceId,snapshot.sourceId);assert.equal(entry.boardId,snapshot.boardId);assert.equal(entry.sourceDate,snapshot.sourceDate);assert.equal(entry.observedAt,snapshot.observedAt);}
+  const html=fs.readFileSync(path.join(root,'intelligence/index.html'),'utf8');assert(!html.includes('data-page="styles"'));assert(!html.includes('data-page="vfx"'));
+  console.log(JSON.stringify({validated:true,games:games.length,images,gifs,history:history.snapshots.length,verifiedAds:read('creatives.json').records.length}));
+}
+module.exports={validateSnapshot,validateAll};if(require.main===module)validateAll();

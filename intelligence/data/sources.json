@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "policy": {
+    "onlyFreePublic": true,
+    "paidApis": false,
+    "commercialSubscriptions": false,
+    "adAccountsRequired": false,
+    "syntheticProductionData": false
+  },
+  "boards": [
+    {
+      "id": "wechat-bestselling",
+      "name": "微信小游戏畅销榜",
+      "platform": "wechat",
+      "metric": "畅销榜位；不是收入金额",
+      "sourceIds": [
+        "gravity",
+        "youchai"
+      ]
+    },
+    {
+      "id": "wechat-mostplayed",
+      "name": "微信小游戏畅玩榜",
+      "platform": "wechat",
+      "metric": "畅玩榜位；不是活跃用户数",
+      "sourceIds": [
+        "gravity"
+      ]
+    },
+    {
+      "id": "douyin-bestselling",
+      "name": "抖音小游戏畅销榜",
+      "platform": "douyin",
+      "metric": "畅销榜位；不是收入金额",
+      "sourceIds": [
+        "gravity",
+        "momorank"
+      ]
+    },
+    {
+      "id": "douyin-hot",
+      "name": "抖音小游戏热门榜",
+      "platform": "douyin",
+      "metric": "热门榜位；不直接等于下载或收入",
+      "sourceIds": [
+        "gravity",
+        "momorank"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "youchai",
+      "name": "有柴小游戏",
+      "kind": "ranking",
+      "url": "https://www.quickminigame.com/rank/bestSelling",
+      "allowedScope": "免费公开榜单；榜位、口径及页面日期需逐项核验",
+      "integrationStatus": "not_connected",
+      "note": "已核查公开榜单入口，尚未验证采集器与来源日期。",
+      "cost": "free_public_only",
+      "accountRequired": false,
+      "paidApiAllowed": false,
+      "registeredAt": "2026-11-18"
+    },
+    {
+      "id": "gravity",
+      "name": "引力引擎公开榜单",
+      "kind": "ranking",
+      "url": "https://rank.gravity-engine.com/",
+      "allowedScope": "无需登录即可访问的公开微信与抖音榜单",
+      "integrationStatus": "not_connected",
+      "note": "仅登记公开入口；未调用需授权、付费或登录的接口。",
+      "cost": "free_public_only",
+      "accountRequired": false,
+      "paidApiAllowed": false,
+      "registeredAt": "2026-11-18"
+    },
+    {
+      "id": "momorank",
+      "name": "MomoRank",
+      "kind": "ranking",
+      "url": "https://www.momorank.com/douyin",
+      "allowedScope": "仅免费公开的最新榜单；不接入付费7/30/90日历史",
+      "integrationStatus": "not_connected",
+      "note": "历史趋势由本站每日快照累计，不购买会员。",
+      "accessReference": "https://www.momorank.com/pricing",
+      "cost": "free_public_only",
+      "accountRequired": false,
+      "paidApiAllowed": false,
+      "registeredAt": "2026-11-18"
+    },
+    {
+      "id": "ocean-creative",
+      "name": "巨量创意",
+      "kind": "advertising",
+      "url": "https://cc.oceanengine.com/",
+      "allowedScope": "仅无需广告账户可查看的免费公开创意",
+      "integrationStatus": "public_access_pending",
+      "note": "公开素材的访问范围与转载许可待核查；尚未采集广告。",
+      "cost": "free_public_only",
+      "accountRequired": false,
+      "paidApiAllowed": false,
+      "registeredAt": "2026-11-18"
+    },
+    {
+      "id": "tencent-creative",
+      "name": "腾讯广告创意中心",
+      "kind": "advertising",
+      "url": "https://ad.qq.com/",
+      "allowedScope": "仅免费公开且无需广告账户的素材或公开案例链接",
+      "integrationStatus": "public_access_pending",
+      "note": "官方入口已登记，创意中心可公开访问范围待核验。",
+      "cost": "free_public_only",
+      "accountRequired": false,
+      "paidApiAllowed": false,
+      "registeredAt": "2026-11-18"
+    },
+    {
+      "id": "minigame-rank-daily",
+      "name": "minigame-rank-daily",
+      "kind": "engineering_reference",
+      "url": "https://github.com/Miracle-Shen/minigame-rank-daily",
+      "allowedScope": "参考每日快照与差分归档设计，不把第三方历史当作本站采集",
+      "integrationStatus": "reference_only",
+      "note": "未复制仓库代码或历史数据；代码与数据许可需要分别检查。",
+      "cost": "free_public_only",
+      "accountRequired": false,
+      "paidApiAllowed": false,
+      "registeredAt": "2026-11-18"
+    },
+    {
+      "id": "cnnic",
+      "name": "CNNIC 免费公开报告",
+      "kind": "industry_report",
+      "url": "https://www.cnnic.net/NMediaFile/2025/0730/MAIN1753846666507QEK67ZS9DH.pdf",
+      "allowedScope": "公开报告原文链接；总体互联网样本不可替代单游戏调查",
+      "integrationStatus": "reference_only",
+      "note": "报告入口待逐页核验，未导入年龄或性别统计。",
+      "cost": "free_public_only",
+      "accountRequired": false,
+      "paidApiAllowed": false,
+      "registeredAt": "2026-11-18"
+    },
+    {
+      "id": "taptap-archive",
+      "name": "既有官方入驻页及游戏官网素材",
+      "kind": "visual_archive",
+      "url": "https://www.taptap.cn/",
+      "allowedScope": "保留现有截图、GIF和来源；不当作小游戏商业榜单",
+      "integrationStatus": "archived",
+      "note": "已保留10款案例；素材公开转载授权仍待确认。",
+      "cost": "free_public_only",
+      "accountRequired": false,
+      "paidApiAllowed": false,
+      "registeredAt": "2026-11-18"
+    }
+  ]
+}

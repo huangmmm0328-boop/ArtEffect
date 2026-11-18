@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-18",
+  "forecasts": [
+    {
+      "id": "feedback-readability",
+      "title": "用清晰反馈验证成熟战斗玩法的差异化",
+      "category": "mature_hypothesis",
+      "horizons": [
+        3
+      ],
+      "kind": "hypothesis",
+      "marketSignal": "unknown",
+      "opportunity": "先用小规模样片验证敌我边界、技能轮廓和命中反馈，是否让成熟战斗玩法更易理解。",
+      "caseIds": [
+        "xiang-jiangshi-kaipao",
+        "yongyuan-weilan-xingqiu"
+      ],
+      "basis": "既有实录能确认两款游戏以不同技能形态组织战斗；尚无历史榜单支持其市场正在上升。",
+      "risks": [
+        "同类竞争强度尚未量化。",
+        "更清晰的画面不必然带来更低获客成本。"
+      ],
+      "confidence": "low",
+      "confidenceReason": "目前主要是视觉样本，缺少榜单历史、广告变化与用户反馈。",
+      "validation": "收集至少7个有效榜单观察日、公开新增竞品和真实玩家理解反馈；若没有改善证据则放弃该判断。"
+    },
+    {
+      "id": "folk-exploration",
+      "title": "民俗探索可作为题材创新观察方向",
+      "category": "innovation_hypothesis",
+      "horizons": [
+        6
+      ],
+      "kind": "hypothesis",
+      "marketSignal": "unknown",
+      "opportunity": "测试局部光源、民俗符号与轻量探索的组合，观察是否形成区别于卡通战斗的产品感受。",
+      "caseIds": [
+        "zhenxieren",
+        "linghuashi"
+      ],
+      "basis": "既有样本呈现暗色地宫与浅色仙侠两种氛围；不能证明民俗赛道已经形成趋势。",
+      "risks": [
+        "氛围与小屏可读性存在取舍。",
+        "内容制作和审核要求可能增加成本。"
+      ],
+      "confidence": "low",
+      "confidenceReason": "缺少跨平台表现、连续新增竞品及用户需求变化证据。",
+      "validation": "积累30日以上同口径记录，补充公开玩家反馈与样片测试，再决定是否继续投入。"
+    },
+    {
+      "id": "longterm-content-rules",
+      "title": "持续内容扩张需要可复用的视觉规则",
+      "category": "production_hypothesis",
+      "horizons": [
+        12
+      ],
+      "kind": "hypothesis",
+      "marketSignal": "unknown",
+      "opportunity": "跟踪长线角色扩张、宣传更新与用户反馈；用实际样片工时评估复用规则的价值。",
+      "caseIds": [
+        "yongyuan-weilan-xingqiu",
+        "zaohua-xianfu"
+      ],
+      "basis": "当前案例可见角色格位、阵容与养成界面；无法据截图证明低成本或长期增长。",
+      "risks": [
+        "平台规则和玩家偏好可能改变。",
+        "视觉同质化可能削弱辨识度。"
+      ],
+      "confidence": "low",
+      "confidenceReason": "尚无90日历史、团队成本记录或长期留存证据。",
+      "validation": "至少完成90日来源记录和制作工时对照；不以模板化或低多边形标签替代成本证据。"
+    }
+  ]
+}
