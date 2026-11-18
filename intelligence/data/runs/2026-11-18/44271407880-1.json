@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-18T08:57:24.966Z",
+  "date": "2026-11-18",
+  "mode": "architecture_phase",
+  "runner": {
+    "kind": "github_actions",
+    "runId": "44271407880"
+  },
+  "snapshotCount": 0,
+  "sources": [
+    {
+      "sourceId": "youchai",
+      "status": "not_connected",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null,
+      "error": "第一阶段：已登记来源，尚未启用采集器；不生成空榜单。"
+    },
+    {
+      "sourceId": "gravity",
+      "status": "not_connected",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null,
+      "error": "第一阶段：已登记来源，尚未启用采集器；不生成空榜单。"
+    },
+    {
+      "sourceId": "momorank",
+      "status": "not_connected",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null,
+      "error": "第一阶段：已登记来源，尚未启用采集器；不生成空榜单。"
+    },
+    {
+      "sourceId": "ocean-creative",
+      "status": "public_access_pending",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null,
+      "error": "公开素材的访问范围与转载许可待核查；尚未采集广告。"
+    },
+    {
+      "sourceId": "tencent-creative",
+      "status": "public_access_pending",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null,
+      "error": "官方入口已登记，创意中心可公开访问范围待核验。"
+    },
+    {
+      "sourceId": "minigame-rank-daily",
+      "status": "reference_only",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null,
+      "error": "未复制仓库代码或历史数据；代码与数据许可需要分别检查。"
+    },
+    {
+      "sourceId": "cnnic",
+      "status": "reference_only",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null,
+      "error": "报告入口待逐页核验，未导入年龄或性别统计。"
+    },
+    {
+      "sourceId": "taptap-archive",
+      "status": "archived",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null,
+      "error": "已保留10款案例；素材公开转载授权仍待确认。"
+    }
+  ]
+}

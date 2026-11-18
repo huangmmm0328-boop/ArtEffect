@@ -1,8 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": null,
-  "date": null,
+  "generatedAt": "2026-11-18T08:57:24.966Z",
+  "date": "2026-11-18",
   "mode": "architecture_phase",
+  "runner": {
+    "kind": "github_actions",
+    "runId": "44271407880"
+  },
   "snapshotCount": 0,
   "sources": [
     {
@@ -61,9 +65,5 @@
       "lastSuccessAt": null,
       "error": "已保留10款案例；素材公开转载授权仍待确认。"
     }
-  ],
-  "runner": {
-    "kind": "not_run",
-    "runId": null
-  }
+  ]
 }
