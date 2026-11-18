@@ -1,7 +1,9 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const site=path.resolve(__dirname,'../site'),html=fs.readFileSync(path.join(site,'index.html'),'utf8');
 assert(html.includes('GAME ART INTELLIGENCE V2.0'));assert(fs.readFileSync(path.join(site,'archive.html'),'utf8').includes('旧版资料归档'));
-for(const m of html.matchAll(/(?:src|href)="([^"#]+\.(?:js|css))"/g))assert(fs.existsSync(path.join(site,m[1])),'Missing entry '+m[1]);
+for(const m of html.matchAll(/(?:src|href)="([^"#]+\.(?:js|css)(?:\?[^"#]*)?)"/g))assert(fs.existsSync(path.join(site,m[1].split('?')[0])),'Missing entry '+m[1]);
+assert(/intelligence-ui\/app\.js\?v=[a-f0-9]{12}/.test(html),'Entry cache version required');
+assert(/monthly-page\.mjs\?v=[a-f0-9]{12}/.test(fs.readFileSync(path.join(site,'intelligence-ui/app.js'),'utf8')),'Module cache version required');
 for(const name of ['sources','games','audience','health','radar','style-reports'])assert(fs.existsSync(path.join(site,'data',name+'.json')),'Missing dataset '+name);
 for(const name of ['monthly-page.mjs','monthly-analysis.mjs','style-preview.mjs','monthly.css'])assert(fs.existsSync(path.join(site,'intelligence-ui',name)),'Missing monthly module '+name);
 const games=JSON.parse(fs.readFileSync(path.join(site,'data/games.json'),'utf8')).games;let count=0;
