@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T10:19:53.096Z",
+  "generatedAt": "2026-11-18T10:25:16.735Z",
   "defaultMonth": "2026-11",
   "monthlySourceStates": [
     {
       "platform": "douyin",
       "status": "ok",
-      "lastAttemptAt": "2026-11-18T10:07:31.098Z",
+      "lastAttemptAt": "2026-11-18T10:25:15.323Z",
       "sourceMonth": "2026-10"
     },
     {
       "platform": "wechat",
       "status": "ok",
-      "lastAttemptAt": "2026-11-18T10:07:31.058Z",
+      "lastAttemptAt": "2026-11-18T10:25:15.300Z",
       "sourceMonth": "2026-10"
     }
   ],
@@ -24,7 +24,7 @@
         "start": "2026-12",
         "end": "2027-02"
       },
-      "generatedAt": "2026-11-18T10:19:53.096Z",
+      "generatedAt": "2026-11-18T10:25:16.735Z",
       "basis": "month_to_date_observations",
       "isCurrentMonth": true,
       "observedDays": 1,
@@ -264,13 +264,13 @@
         "start": "2026-11",
         "end": "2027-01"
       },
-      "generatedAt": "2026-11-18T10:19:53.096Z",
+      "generatedAt": "2026-11-18T10:25:16.735Z",
       "basis": "published_monthly_ranking",
       "isCurrentMonth": false,
       "observedDays": null,
       "firstDate": null,
       "lastDate": null,
-      "latestCapture": "2026-11-18T10:07:31.604Z",
+      "latestCapture": "2026-11-18T10:25:16.708Z",
       "boardCount": 4,
       "sourceCount": 1,
       "rankingTitleCount": 62,
@@ -431,28 +431,28 @@
           "boardId": "douyin-bestselling",
           "url": "https://rank.gravity-engine.com/douyin/month/",
           "limit": 20,
-          "observedAt": "2026-11-18T10:07:31.413Z"
+          "observedAt": "2026-11-18T10:25:16.559Z"
         },
         {
           "sourceId": "gravity",
           "boardId": "douyin-hot",
           "url": "https://rank.gravity-engine.com/douyin/month/",
           "limit": 20,
-          "observedAt": "2026-11-18T10:07:31.413Z"
+          "observedAt": "2026-11-18T10:25:16.559Z"
         },
         {
           "sourceId": "gravity",
           "boardId": "wechat-bestselling",
           "url": "https://rank.gravity-engine.com/wechat/month/",
           "limit": 20,
-          "observedAt": "2026-11-18T10:07:31.604Z"
+          "observedAt": "2026-11-18T10:25:16.708Z"
         },
         {
           "sourceId": "gravity",
           "boardId": "wechat-mostplayed",
           "url": "https://rank.gravity-engine.com/wechat/month/",
           "limit": 20,
-          "observedAt": "2026-11-18T10:07:31.604Z"
+          "observedAt": "2026-11-18T10:25:16.708Z"
         }
       ],
       "method": {
