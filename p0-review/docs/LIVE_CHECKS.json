@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "route": "/",
+      "status": 200
+    },
+    {
+      "route": "/?platform=wechat",
+      "status": 200
+    },
+    {
+      "route": "/?platform=douyin",
+      "status": 200
+    },
+    {
+      "route": "/sources",
+      "status": 200
+    },
+    {
+      "route": "/imports",
+      "status": 200
+    },
+    {
+      "route": "/audit",
+      "status": 200
+    },
+    {
+      "route": "/api/market",
+      "status": 200
+    },
+    {
+      "route": "/api/sources",
+      "status": 200
+    },
+    {
+      "route": "/health",
+      "status": 200
+    }
+  ],
+  "live_game_pages_checked": 20,
+  "live_raw_record_pages_checked": 20,
+  "repeat_actual_csv": {
+    "batch_id": "batch_20af35b1d4768f257a915168c04d",
+    "raw_document_id": "raw_561dc108ff5b7af7253be041",
+    "records_received": 10,
+    "records_saved": 0,
+    "result": "no_change"
+  },
+  "counts_after": {
+    "archived_assets": 117,
+    "games": 32,
+    "market_games": 22,
+    "ranking_snapshots": 30,
+    "snapshot_batches": 3,
+    "sync_logs": 4,
+    "visual_reference_games": 10
+  },
+  "sqlite_integrity": "ok",
+  "browser_upload_check": "Interrupted by browser session loss; not claimed passed. Real multipart CSV upload passed over localhost HTTP."
+}

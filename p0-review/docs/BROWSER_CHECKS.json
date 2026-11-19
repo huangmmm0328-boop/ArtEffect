@@ -1,0 +1,26 @@
+{
+  "stage": "P0",
+  "date": "2026-11-19",
+  "desktop": {
+    "market": "passed",
+    "wechat_filter": "passed",
+    "douyin_history_actual_dates_and_delta": "passed",
+    "original_record_source_date_capture_date_hash": "passed",
+    "sources_states_and_repeat_import_log": "passed",
+    "audit_backup_counts_and_report_links": "passed"
+  },
+  "responsive": {
+    "requested_width": 390,
+    "actual_inner_width": 390,
+    "body_scroll_width": 375,
+    "document_scroll_width": 375,
+    "market_grid_width": 337.7,
+    "mobile_media_query": true,
+    "page_horizontal_overflow": false,
+    "viewport_override_reset": true
+  },
+  "browser_file_chooser": "Interrupted by browser session loss; not claimed passed",
+  "actual_csv_multipart_http_upload": "passed; see LIVE_CHECKS.json",
+  "screenshot": "outputs/p0-market-preview.jpg (local internal review only)",
+  "production_published": false
+}

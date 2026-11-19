@@ -1,0 +1,201 @@
+{
+  "base_commit": "e166af6747c3ccc1f598d14ac7f60380582948ee",
+  "stage": "P0",
+  "files": [
+    {
+      "path": "p0-review/app/__init__.py",
+      "bytes": 7547,
+      "sha256": "b65497e291a2439ad891ce1eeb46007c17c5d097082e32e6216d8a79c873d92d"
+    },
+    {
+      "path": "p0-review/app/bootstrap.py",
+      "bytes": 4309,
+      "sha256": "0e1bf50cdea0c696ac5d1282356b9c687337c2b106267499ec331156c563546a"
+    },
+    {
+      "path": "p0-review/app/schema.sql",
+      "bytes": 4536,
+      "sha256": "c5b2cf5d5bb8944f3d6e1b6219c32d3e6231851d9c03277f5f28266ec248ef80"
+    },
+    {
+      "path": "p0-review/app/store.py",
+      "bytes": 16869,
+      "sha256": "a2a47c2560f8cf46846c35e74d5263c90c62d04cd34d83a8fe645447f15b891a"
+    },
+    {
+      "path": "p0-review/config/sources.json",
+      "bytes": 4666,
+      "sha256": "57a3ad9e9fd9166ca96b643ac5360eccaf4974479275108cbdb302247b69a85b"
+    },
+    {
+      "path": "p0-review/templates/audit.html",
+      "bytes": 2352,
+      "sha256": "5b127967c3655eb4570b27ed28103d95dfca05bcdcb93eecaef63f317b12d175"
+    },
+    {
+      "path": "p0-review/templates/base.html",
+      "bytes": 1380,
+      "sha256": "7f98e9b3dee484a8275cc9e17af99e7da0ce90c6d6c87814ed48107225c42679"
+    },
+    {
+      "path": "p0-review/templates/history.html",
+      "bytes": 3655,
+      "sha256": "b9d6079db1f2d08f921d2604a03b43e9658af90a740c5c6c0fae34c50856f5bb"
+    },
+    {
+      "path": "p0-review/templates/imports.html",
+      "bytes": 2060,
+      "sha256": "37ac7a608912eceb5baf280c387224dd84255cfbf8ec36181c9a0d185b63134e"
+    },
+    {
+      "path": "p0-review/templates/market.html",
+      "bytes": 3191,
+      "sha256": "1ae6d3fb31f60d7a5c41744db102022a84409deb9792eb0311eb3fb9ee88593c"
+    },
+    {
+      "path": "p0-review/templates/record.html",
+      "bytes": 1511,
+      "sha256": "6443f5e4fad87c97a951db77b2334617bc4534e4f69f809d255ab411cfdaa547"
+    },
+    {
+      "path": "p0-review/templates/sources.html",
+      "bytes": 2135,
+      "sha256": "b1c7831d85ec971f36cbd8e1a8e6803b9c089c6cf9031e1a1962bc40c6e1f829"
+    },
+    {
+      "path": "p0-review/static/app.css",
+      "bytes": 7384,
+      "sha256": "25378f88b5b726435dcca4cc4ebcf896270780344b793c0aa18c77556e4ff56b"
+    },
+    {
+      "path": "p0-review/docs/asset-inventory.json",
+      "bytes": 58445,
+      "sha256": "bc58bfeab91bdea6dec33770940dbb776d7fac9722cbd3d3567ca886ee5ffe91"
+    },
+    {
+      "path": "p0-review/docs/AUDIT.md",
+      "bytes": 3756,
+      "sha256": "cfe213e93f5b2ed04fcf5c4f1d6aed74bcc6843f18b737cdaa5e81f426de8199"
+    },
+    {
+      "path": "p0-review/docs/backup-summary.json",
+      "bytes": 585,
+      "sha256": "6863f6adb918927fb2a6b3f58ef058e85db1919bad61c23f1650e4930c121cc1"
+    },
+    {
+      "path": "p0-review/docs/BROWSER_CHECKS.json",
+      "bytes": 895,
+      "sha256": "afef7c61ce63ae8e6e87de1016b01651505e3f18f82d71b066c7a913d176e0f5"
+    },
+    {
+      "path": "p0-review/docs/DATABASE.md",
+      "bytes": 4684,
+      "sha256": "01dd5910a644694c2ecd55ae040fe60a24896c61b5de2c1c1b94a4376753c29b"
+    },
+    {
+      "path": "p0-review/docs/LIVE_CHECKS.json",
+      "bytes": 1296,
+      "sha256": "bafba9e739c0b4fc3be50b9638c68e5b7d0728d57284a335e182b299d6a8c9f3"
+    },
+    {
+      "path": "p0-review/docs/MIGRATION.md",
+      "bytes": 1622,
+      "sha256": "c4cff89fd3d059105198925db6eb2404d2b70017c024ba812aa613b28a9035ee"
+    },
+    {
+      "path": "p0-review/docs/P0_ACCEPTANCE.md",
+      "bytes": 4075,
+      "sha256": "2c37dc74c8b5516bc61fa07425f832e7f53001b1aca1aaecc043f205f743250e"
+    },
+    {
+      "path": "p0-review/docs/PRODUCTION_CHECK.json",
+      "bytes": 372,
+      "sha256": "d5d913d388f27d2accddadd90d12759e02a37a5c08161c410f6adeffa25a89fd"
+    },
+    {
+      "path": "p0-review/docs/source-catalog.json",
+      "bytes": 2278,
+      "sha256": "2df66485caf6f0881cdc50a7341a372d2d16eee6f8b8d2b0d55b649a8f3f836e"
+    },
+    {
+      "path": "p0-review/docs/SOURCE_VERIFICATION.md",
+      "bytes": 3497,
+      "sha256": "42a8f642afa51c14db600e2595a5d938f8ae41668567f98ac2321182b3e84b2f"
+    },
+    {
+      "path": "p0-review/docs/test-run.txt",
+      "bytes": 3081,
+      "sha256": "5e93ff39a0af6b6cb79bd3e0be12d68b618c6c7139ce7d1d7599c52f565f6e75"
+    },
+    {
+      "path": "p0-review/docs/TEST_RESULTS.json",
+      "bytes": 3567,
+      "sha256": "411054dbfa4abdfe1f19fcf1336a012304eac4f9eefec0e705bed4f957328223"
+    },
+    {
+      "path": "p0-review/requirements/GAME_ART_INTELLIGENCE_V2.0_开发总任务书.md",
+      "bytes": 36140,
+      "sha256": "910719afb5773ebc95800b815ad01e6479ac7710830683b25cd6c697a9983c1c"
+    },
+    {
+      "path": "p0-review/tests/live_check.py",
+      "bytes": 2481,
+      "sha256": "cb3cfe7b6c8ea3bd82025487b3d912e91afbc7512b9edc0fe8cc44a09e0b04d0"
+    },
+    {
+      "path": "p0-review/tests/run_checks.py",
+      "bytes": 1886,
+      "sha256": "f8d4eb5f4a0018ea5cf9c6e73350bf1e187d2eb1be5433dbe6d715bebba1ef69"
+    },
+    {
+      "path": "p0-review/tests/test_p0.py",
+      "bytes": 9624,
+      "sha256": "b9b94c7165f4cdadfc7eb7f2526672ad0de76221fc0b39193be8086c9f52ebaa"
+    },
+    {
+      "path": "p0-review/.gitignore",
+      "bytes": 135,
+      "sha256": "1959ceabaf33781f1979a3cbb50aa08a46c31383474bdc253bf27c082736e9cb"
+    },
+    {
+      "path": "p0-review/README.md",
+      "bytes": 2882,
+      "sha256": "a7fa04346dcc128229741960ad25a4fb35a53b4a3dac77c9ad09238619826f25"
+    },
+    {
+      "path": "p0-review/manage.py",
+      "bytes": 1982,
+      "sha256": "41b97fccd8c912c2706f424bd53eb0fa6947a25b89d68185186216e196727789"
+    },
+    {
+      "path": "p0-review/requirements.txt",
+      "bytes": 150,
+      "sha256": "54e34652f32b35e814c7ce9c38a09693646c1a0be09f832c448aa33430d663d8"
+    },
+    {
+      "path": "p0-review/启动P0预览.cmd",
+      "bytes": 325,
+      "sha256": "611d3fb428b0bd733104ad9a6a60ce665c64b9464a17cba1de31c2019e0df798"
+    },
+    {
+      "path": ".github/workflows/p0-tests.yml",
+      "bytes": 845,
+      "sha256": "4343a0db3de516ff07a0073720f0bed9da4590202f84d16c36579b5641e35bdd"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 2139,
+      "sha256": "633531628ff5b8cc2e9b50ef04cb0e68fd6f556a73c6d0946cde363de1d2d87c"
+    }
+  ],
+  "manifest_self": "p0-review/docs/CHANGE_MANIFEST.json",
+  "excluded_local_only": [
+    "data/**",
+    "backups/**",
+    "baseline/**",
+    ".venv/**",
+    "wheels/**",
+    "outputs/**",
+    "tests/.tmp/**"
+  ]
+}

@@ -1,0 +1,28 @@
+name: P0 SQLite acceptance checks (no deployment)
+on:
+  push:
+    branches: [codex/v2-p0-20261119]
+  pull_request:
+    paths: ['p0-review/**', '.github/workflows/p0-tests.yml']
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install free pinned runtime
+        run: python -m pip install -r p0-review/requirements.txt
+      - name: Verify real archived records and SQLite failure protection
+        run: python p0-review/tests/run_checks.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: p0-test-results
+          path: |
+            p0-review/docs/TEST_RESULTS.json
+            p0-review/docs/test-run.txt

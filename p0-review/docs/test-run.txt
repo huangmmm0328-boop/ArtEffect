@@ -1,0 +1,31 @@
+test_01_real_archive_import_and_integrity (test_p0.P0Tests.test_01_real_archive_import_and_integrity) ... ok
+test_02_repeated_json_does_not_duplicate_snapshot (test_p0.P0Tests.test_02_repeated_json_does_not_duplicate_snapshot) ... ok
+test_03_csv_json_same_facts_are_idempotent (test_p0.P0Tests.test_03_csv_json_same_facts_are_idempotent) ... ok
+test_04_csv_can_start_a_real_database (test_p0.P0Tests.test_04_csv_can_start_a_real_database) ... ok
+test_05_failed_file_keeps_previous_rows_and_success_time (test_p0.P0Tests.test_05_failed_file_keeps_previous_rows_and_success_time) ... ok
+test_06_real_rank_improvement_and_original_records (test_p0.P0Tests.test_06_real_rank_improvement_and_original_records) ... ok
+test_07_only_one_day_has_no_line_or_change (test_p0.P0Tests.test_07_only_one_day_has_no_line_or_change) ... ok
+test_08_top10_rejects_claimed_top200 (test_p0.P0Tests.test_08_top10_rejects_claimed_top200) ... ok
+test_09_zero_is_not_a_missing_rank (test_p0.P0Tests.test_09_zero_is_not_a_missing_rank) ... ok
+test_10_platform_identity_separation_uses_real_external_ids (test_p0.P0Tests.test_10_platform_identity_separation_uses_real_external_ids) ... ok
+test_11_wrong_platform_url_is_rejected (test_p0.P0Tests.test_11_wrong_platform_url_is_rejected) ... ok
+test_12_fetch_time_never_replaces_source_date (test_p0.P0Tests.test_12_fetch_time_never_replaces_source_date) ... ok
+test_13_revision_keeps_both_original_batches (test_p0.P0Tests.test_13_revision_keeps_both_original_batches) ... ok
+test_14_immutable_rows_cannot_be_overwritten (test_p0.P0Tests.test_14_immutable_rows_cannot_be_overwritten) ... ok
+test_15_coverage_change_stops_comparison (test_p0.P0Tests.test_15_coverage_change_stops_comparison) ... ok
+test_16_unknown_source_not_marked_connected (test_p0.P0Tests.test_16_unknown_source_not_marked_connected) ... ok
+test_17_no_speculative_game_without_id (test_p0.P0Tests.test_17_no_speculative_game_without_id) ... ok
+test_18_credential_urls_rejected (test_p0.P0Tests.test_18_credential_urls_rejected) ... ok
+test_19_duplicate_ranks_rollback_entire_batch (test_p0.P0Tests.test_19_duplicate_ranks_rollback_entire_batch) ... ok
+test_20_unobserved_game_is_null_not_zero (test_p0.P0Tests.test_20_unobserved_game_is_null_not_zero) ... ok
+test_21_api_import_requires_local_csrf_confirmation (test_p0.P0Tests.test_21_api_import_requires_local_csrf_confirmation) ... ok
+test_22_history_page_and_evidence_links (test_p0.P0Tests.test_22_history_page_and_evidence_links) ... ok
+test_23_no_p1_p2_p3_functions_in_p0_navigation (test_p0.P0Tests.test_23_no_p1_p2_p3_functions_in_p0_navigation) ... ok
+test_24_csv_mixed_dates_rejected (test_p0.P0Tests.test_24_csv_mixed_dates_rejected) ... ok
+test_25_missing_date_rejected_without_capture_date_fallback (test_p0.P0Tests.test_25_missing_date_rejected_without_capture_date_fallback) ... ok
+test_26_declared_simulation_is_never_saved (test_p0.P0Tests.test_26_declared_simulation_is_never_saved) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 88.155s
+
+OK
