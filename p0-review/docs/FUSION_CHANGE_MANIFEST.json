@@ -1,0 +1,152 @@
+{
+  "base_commit": "86236fef3f8530a57f70a398e692eec82097a588",
+  "scope": "User-authorized integration preview only",
+  "files": [
+    {
+      "path": "p0-review/app/__init__.py",
+      "length": 7387,
+      "sha256": "e91cbe7ab197482e795c642428f52b68e1e2f43bbcecdb1037187902e912989a",
+      "git_sha": "0d8ab659d53d7c5bdda7477ce2c95f7bfc9741fa"
+    },
+    {
+      "path": "p0-review/app/fusion.py",
+      "length": 13883,
+      "sha256": "c337af7d0c564c30a86aa04fe7661537f9502daac578ac383936e18d4ac5281b",
+      "git_sha": "e3439955c5593cbffed8a95c0fa66a0f0ca09436"
+    },
+    {
+      "path": "p0-review/manage.py",
+      "length": 2018,
+      "sha256": "24cdcb374d04dfc48c1319bc922d2b86355e566cf5c29b7a40e06ed532e7933e",
+      "git_sha": "027fe787f9df72dd7d8bb44411f064c0ce3fa3e2"
+    },
+    {
+      "path": "p0-review/templates/base.html",
+      "length": 1248,
+      "sha256": "c63f6cb1e7bc342e1b692cd8cf32502171997d29a53c80adf61ad4f8d9927372",
+      "git_sha": "32fde802cd8f2461be748c2b33ec583d5939f171"
+    },
+    {
+      "path": "p0-review/README.md",
+      "length": 1948,
+      "sha256": "b1afebc63da091500178a9b92844919246b4066c0120a76a9054809ae4b47d74",
+      "git_sha": "715f3de695463ee4630e23920d136ba8dbbda1df"
+    },
+    {
+      "path": "p0-review/启动合并预览.cmd",
+      "length": 212,
+      "sha256": "a98c55149287cc3538e2bbdeebdbecd1537441eed6ed8c44cf916965f46495b7",
+      "git_sha": "dd1a1837e58ea53a4a990cd6582c05a8863f1706"
+    },
+    {
+      "path": "p0-review/tests/test_fusion.py",
+      "length": 6984,
+      "sha256": "d418e3221acfb0811d7e3266f1b82660216b39ed3da44f656d8706f9c42f91f9",
+      "git_sha": "d583971ac51c39d7a180af894f8a1649ea634d6a"
+    },
+    {
+      "path": "p0-review/tests/run_fusion_checks.py",
+      "length": 1449,
+      "sha256": "f21aec677661989ec4bb971d5e4bada9778207afc20dd505f81e68c59ce590bd",
+      "git_sha": "f619d09bb2ee1d7205ea9f410ab3f0e244b365f9"
+    },
+    {
+      "path": "p0-review/tests/run_checks.py",
+      "length": 1887,
+      "sha256": "2ee667b3a8252214b01d7ff2b6a1ad692dedfaf655f71b76a3c70df4a4ef4aaf",
+      "git_sha": "75e55b836832961036937fa83e851d961ea8d900"
+    },
+    {
+      "path": "p0-review/docs/FUSION_REVIEW.md",
+      "length": 1722,
+      "sha256": "d802396fb278f914abf4700679812e5824f3931fd0fab527cc241b8921bfd228",
+      "git_sha": "41d224a9f8f8f418d9096b09517a8d2c842e0ee5"
+    },
+    {
+      "path": "p0-review/docs/FUSION_TEST_RESULTS.json",
+      "length": 2299,
+      "sha256": "e31f5ccbcb1302fb73c58a46298ed3a83980ad4e27b09438ac0e17b57815c2f0",
+      "git_sha": "a045237952be75199b31390dbc7f6414f012f0c8"
+    },
+    {
+      "path": "p0-review/docs/fusion-test-run.txt",
+      "length": 2112,
+      "sha256": "378e5f83c31a79a0c38288d3ed67efb883481c27cad4f35de62056b1d1262ac6",
+      "git_sha": "915b3f9382f22558689ff4c8089eb78d207e94af"
+    },
+    {
+      "path": "p0-review/web/index.html",
+      "length": 1612,
+      "sha256": "e5d8ce63505eabbe4f6095cf9fbbab27a4cabc8eda127b54d457e01e1713b27a",
+      "git_sha": "4f356ad6c14bec36e5430e2e6e7fcc98515f42d7"
+    },
+    {
+      "path": "p0-review/web/intelligence-ui/analytics.mjs",
+      "length": 2652,
+      "sha256": "fe0a7553afcddc4d1cbb261f5e467a9fb0324f9cd1ffedbd3e316e49310d2a0a",
+      "git_sha": "790faa0eb4636f72557f75f1192cb7510758b20a"
+    },
+    {
+      "path": "p0-review/web/intelligence-ui/app.css",
+      "length": 18819,
+      "sha256": "abef504d7413d7d2145170966682a60a0e3e3a2ced4f8fd343e3511e272dc496",
+      "git_sha": "2a06e0524ffd80e8cbecc1080dc695b687d75d3f"
+    },
+    {
+      "path": "p0-review/web/intelligence-ui/app.js",
+      "length": 25139,
+      "sha256": "c10f38f9ac646b5ad261ddbe7806db09ef6a61a525f13411578ed4f1de1162dc",
+      "git_sha": "20828b9db5a76459edfc23ba39ed180acadd026e"
+    },
+    {
+      "path": "p0-review/web/intelligence-ui/fusion-panel.mjs",
+      "length": 2450,
+      "sha256": "92964fb1e692a87f6fa0f1bf15fba188cbf85acdc7ac25a8ad10a9c9bf6a854a",
+      "git_sha": "f7dab74b20b62056f0c9f509824028d4af5edeee"
+    },
+    {
+      "path": "p0-review/web/intelligence-ui/fusion.css",
+      "length": 2185,
+      "sha256": "2ade6edc461cc3fd62c34d4dc7baaff1811515d542fd765a557670d033c3bfc8",
+      "git_sha": "45c88505e9736db40e136a3b9a78358907d874a7"
+    },
+    {
+      "path": "p0-review/web/intelligence-ui/monthly-analysis.mjs",
+      "length": 5051,
+      "sha256": "014497fdcd55c01b001214def5354edbe8e49b7261fae9d71ff12161c6243921",
+      "git_sha": "7837127f5947fbd6a359d97d66c40a5cb7c4192a"
+    },
+    {
+      "path": "p0-review/web/intelligence-ui/monthly-page.mjs",
+      "length": 9806,
+      "sha256": "1819b196dfdbe50923342036ed8962583307880ba8add097b84c6f8c4bb0626e",
+      "git_sha": "b5ffab3e31a7762cb470841f493cb27845698144"
+    },
+    {
+      "path": "p0-review/web/intelligence-ui/monthly.css",
+      "length": 7612,
+      "sha256": "efbb00bb45d1f02bddb5bb97f310908cdd47b0918a04add6ddb9260bf7e2edc7",
+      "git_sha": "6cd3f23abc74d7850603fbb0c038e48cd29f94b7"
+    },
+    {
+      "path": "p0-review/web/intelligence-ui/style-preview.mjs",
+      "length": 9133,
+      "sha256": "bee23ef3dc61abe47a9e65da5f21ca16abe1ac90310abe7b4a5798eb5adc685f",
+      "git_sha": "2d84ff73a1718b6764f4a5fc0825c6bbffba1f3c"
+    },
+    {
+      "path": ".github/workflows/p0-tests.yml",
+      "length": 1221,
+      "sha256": "777058724412befecd328109bd06615f05525965e7cdec60404f621794e2e88e",
+      "git_sha": "8f7932f068a6ebbc72803844e50bf06becd5913b"
+    },
+    {
+      "path": "p0-review/docs/FUSION_BROWSER_CHECKS.json",
+      "length": 790,
+      "sha256": "a75b19ffdbe7ad8d34a01c8653936218b9e2e1284d5c98663c9d6bff097a8e78",
+      "git_sha": "63062641d35091c80bddcd0f9fec3036d7041145"
+    }
+  ],
+  "self": "p0-review/docs/FUSION_CHANGE_MANIFEST.json",
+  "raw_data_and_sqlite": "local only, not uploaded"
+}

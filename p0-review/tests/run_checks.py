@@ -12,7 +12,7 @@ class Results(unittest.TextTestResult):
  def addError(self,test,err):super().addError(test,err);self.outcomes.append({'test':test.id(),'result':'error'})
 
 if __name__=='__main__':
- stream=io.StringIO();start=time.monotonic();suite=unittest.defaultTestLoader.discover(str(ROOT/'tests'),pattern='test_*.py')
+ stream=io.StringIO();start=time.monotonic();suite=unittest.defaultTestLoader.discover(str(ROOT/'tests'),pattern='test_p0.py')
  result=unittest.TextTestRunner(stream=stream,verbosity=2,resultclass=Results).run(suite)
  (ROOT/'docs/test-run.txt').write_text(stream.getvalue(),encoding='utf8')
  report={'stage':'P0','executed_at':datetime.now(timezone.utc).isoformat(),'duration_seconds':round(time.monotonic()-start,3),'tests_run':result.testsRun,'passed':len([r for r in result.outcomes if r['result']=='passed']),'failures':len(result.failures),'errors':len(result.errors),'successful':result.wasSuccessful(),'input':'Actual archived MomoRank Douyin 2026-11-18 and 2026-11-19 observations. Fault-injection copies are isolated test inputs, never delivery records.','outcomes':result.outcomes,'production_deployment':False,'scope':'P0 only; user acceptance pending'}

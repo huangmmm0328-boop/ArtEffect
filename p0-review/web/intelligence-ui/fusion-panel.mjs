@@ -1,0 +1,12 @@
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const platform=p=>p==='wechat'?'微信':'抖音';
+export function fusionPanel(report){
+ const x=report.integration;
+ if(!x)return report.legacyArchive?'<p class="notice">历史报告原样保留；未重新采集、未用本轮日榜替换来源月榜，也不视为今天的新结论。</p>':'';
+ const old=x.previousReport;
+ return `<section class="fusion-panel" aria-label="今日数据融合依据"><div class="panel-title"><div><span class="eyebrow">SQLITE / 最新核验事实</span><h2>用今天的证据，校正原有判断。</h2></div><button class="button" id="refresh-fused-report">刷新已导入数据</button></div>${x.lastImportFailed?'<p class="notice fusion-refresh-error">最近一次导入失败；下方沿用最后有效榜位，未把失败标成更新成功。</p>':''}<p>${x.platforms.map(p=>`${platform(p.platform)}${p.latestDate} · 免费Top${p.coverage} · ${p.days}个有效日`).join('；')}。仅刷新本地数据库。</p><div class="fusion-facts"><div><b>${x.rankingRows}</b><span>真实历史榜位</span></div><div><b>${x.snapshotCount}</b><span>独立快照批次</span></div><div><b>${report.sampleCount}</b><span>同名实录画面参考</span></div><div><b>${x.visualVersionConfirmed}</b><span>已确认小游戏画面版本</span></div></div><p class="tiny">${esc(x.scopeWarning)} 仅凭同名不能确认APP与小游戏画面一致；参考样本也不是全市场风格份额。</p>${old?`<details class="fusion-previous"><summary>上版总结与本轮校正</summary><p>上版归档：${esc(old.summary)}</p><p>上版${old.sampleCount}份画面参考，使用的来源及覆盖范围与本轮不同。新增榜位用于核对当前关注点，不直接比较两个样本比例。</p><p>本轮：${esc(report.summary)} 全部保持低置信度，不因多导入一份文件提高置信度。</p></details>`:''}<div class="actions"><a class="button small" href="/review">核对榜单与原始记录</a><a class="button small" href="/imports">导入下一份核验文件</a></div></section>`;
+}
+export function marketEvidence(o){
+ const e=o.marketEvidence;if(!e)return '';
+ return `<p class="fusion-revision">本轮校正：${esc(o.revisionNote)}</p><div class="fusion-signals"><span>改善 ${e.rising}</span><span>回落 ${e.falling}</span><span>未知 ${e.unknown}</span></div><p class="tiny">按平台档案记录榜位；画面样本独立去重。不是风格涨跌指数。</p><details class="fusion-evidence"><summary>核对本方向的${e.identities}条同名榜位证据</summary><div class="fusion-records">${e.rows.map(r=>`<div><b>${esc(r.name)} · ${platform(r.platform)}</b><span>${r.date} 第${r.rank}名 · ${r.delta===null?'暂无可比数据':r.delta>0?'改善'+r.delta+'位':r.delta<0?'回落'+(-r.delta)+'位':'持平'}</span><small>视觉关系：同名参考，小游戏版本待核对</small><a href="${esc(r.recordUrl)}">当前原始行</a>${r.previousRecordUrl?`<a href="${esc(r.previousRecordUrl)}">前一日原始行</a>`:''}<a href="${esc(r.historyUrl)}">历史与来源</a></div>`).join('')}</div></details><p class="tiny">置信度仍低：${esc(o.confidenceReason)}</p>`;
+}

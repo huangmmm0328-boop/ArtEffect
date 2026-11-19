@@ -1,0 +1,19 @@
+test_01_full_previous_site_and_p0_share_one_server (test_fusion.FusionTests.test_01_full_previous_site_and_p0_share_one_server) ... ok
+test_02_only_sqlite_verified_batches_enter_current_report (test_fusion.FusionTests.test_02_only_sqlite_verified_batches_enter_current_report) ... ok
+test_03_platform_name_matches_do_not_confirm_art_identity (test_fusion.FusionTests.test_03_platform_name_matches_do_not_confirm_art_identity) ... ok
+test_04_real_positive_rank_change_has_two_immutable_records (test_fusion.FusionTests.test_04_real_positive_rank_change_has_two_immutable_records) ... ok
+test_05_real_fall_restricts_old_folk_hypothesis (test_fusion.FusionTests.test_05_real_fall_restricts_old_folk_hypothesis) ... ok
+test_06_repeat_import_does_not_inflate_evidence_or_days (test_fusion.FusionTests.test_06_repeat_import_does_not_inflate_evidence_or_days) ... ok
+test_07_rejected_file_keeps_forecast_facts_and_shows_warning (test_fusion.FusionTests.test_07_rejected_file_keeps_forecast_facts_and_shows_warning) ... ok
+test_08_runtime_recomputes_after_next_real_file (test_fusion.FusionTests.test_08_runtime_recomputes_after_next_real_file) ... ok
+test_09_missing_and_unclassified_never_become_zero_rank (test_fusion.FusionTests.test_09_missing_and_unclassified_never_become_zero_rank) ... ok
+test_10_previous_month_stays_its_original_archive (test_fusion.FusionTests.test_10_previous_month_stays_its_original_archive) ... ok
+test_11_all_original_media_references_preserve_bytes (test_fusion.FusionTests.test_11_all_original_media_references_preserve_bytes) ... ok
+test_12_private_database_and_sources_are_not_static_files (test_fusion.FusionTests.test_12_private_database_and_sources_are_not_static_files) ... ok
+test_13_confidence_stays_low_and_same_title_samples_are_unique (test_fusion.FusionTests.test_13_confidence_stays_low_and_same_title_samples_are_unique) ... ok
+test_14_coverage_change_blocks_short_term_style_signal (test_fusion.FusionTests.test_14_coverage_change_blocks_short_term_style_signal) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 14.020s
+
+OK

@@ -8,7 +8,7 @@ from .store import Store,ImportRejected,ROOT,TZ
 PLATFORMS={'wechat':'微信小游戏','douyin':'抖音小游戏','app':'APP视觉参考'}
 STATUS={'manual_import_verified':'人工文件导入已验证','verified_visible_pending_import':'免费可见已验证，待导入','sync_failed':'最近导入失败，旧快照保留','permission_pending':'采集许可待确认','date_and_permission_pending':'日期与许可待确认','account_qualification_pending':'账号资格待确认','not_verified':'待核验','disabled_zero_budget':'零预算禁用'}
 
-def create_app(db_path=None,testing=False):
+def create_app(db_path=None,testing=False,integrated=False):
  app=Flask(__name__,template_folder=str(ROOT/'templates'),static_folder=str(ROOT/'static'))
  app.config.update(SECRET_KEY=secrets.token_hex(32),MAX_CONTENT_LENGTH=5*1024*1024,SESSION_COOKIE_HTTPONLY=True,SESSION_COOKIE_SAMESITE='Strict',TRUSTED_HOSTS=['127.0.0.1','localhost'],TESTING=testing)
  store=Store(db_path);store.initialize();app.extensions['p0_store']=store
@@ -21,7 +21,7 @@ def create_app(db_path=None,testing=False):
  @app.after_request
  def headers(response):
   response.headers['Cache-Control']='no-store';response.headers['X-Content-Type-Options']='nosniff';response.headers['X-Frame-Options']='DENY'
-  response.headers['Content-Security-Policy']="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
+  response.headers['Content-Security-Policy']="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
   return response
  @app.context_processor
  def context():return {'platform_names':PLATFORMS,'status_names':STATUS,'csrf_token':session.get('_csrf'),'production_url':'https://huangmmm0328-boop.github.io/ArtEffect/'}
@@ -35,7 +35,9 @@ def create_app(db_path=None,testing=False):
    return datetime.fromisoformat(value.replace('Z','+00:00')).astimezone(TZ).strftime('%Y-%m-%d %H:%M')
   except (ValueError,TypeError):return value
  @app.get('/')
+ @app.get('/review')
  def market():
+  if integrated and request.path=='/':return redirect('/site/')
   platform=request.args.get('platform')
   if platform not in (None,'wechat','douyin'):abort(400)
   return render_template('market.html',boards=store.market(platform),counts=store.counts(),platform=platform,sources=store.sources())
@@ -94,6 +96,8 @@ def create_app(db_path=None,testing=False):
   p=ROOT/'docs'/name
   if not p.is_file():abort(404)
   return send_file(p,mimetype='application/json' if name.endswith('.json') else 'text/plain; charset=utf-8')
+ from .fusion import register_fusion
+ register_fusion(app,store)
  return app
 
 def read_json(path,default):

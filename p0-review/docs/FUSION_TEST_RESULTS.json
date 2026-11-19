@@ -1,0 +1,70 @@
+{
+  "scope": "Authorized integration of existing site and SQLite-backed forecast evidence; no production deployment",
+  "executed_at": "2026-11-19T07:00:08.257759+00:00",
+  "duration_seconds": 14.015,
+  "tests_run": 14,
+  "passed": 14,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "outcomes": [
+    {
+      "test": "test_fusion.FusionTests.test_01_full_previous_site_and_p0_share_one_server",
+      "result": "passed"
+    },
+    {
+      "test": "test_fusion.FusionTests.test_02_only_sqlite_verified_batches_enter_current_report",
+      "result": "passed"
+    },
+    {
+      "test": "test_fusion.FusionTests.test_03_platform_name_matches_do_not_confirm_art_identity",
+      "result": "passed"
+    },
+    {
+      "test": "test_fusion.FusionTests.test_04_real_positive_rank_change_has_two_immutable_records",
+      "result": "passed"
+    },
+    {
+      "test": "test_fusion.FusionTests.test_05_real_fall_restricts_old_folk_hypothesis",
+      "result": "passed"
+    },
+    {
+      "test": "test_fusion.FusionTests.test_06_repeat_import_does_not_inflate_evidence_or_days",
+      "result": "passed"
+    },
+    {
+      "test": "test_fusion.FusionTests.test_07_rejected_file_keeps_forecast_facts_and_shows_warning",
+      "result": "passed"
+    },
+    {
+      "test": "test_fusion.FusionTests.test_08_runtime_recomputes_after_next_real_file",
+      "result": "passed"
+    },
+    {
+      "test": "test_fusion.FusionTests.test_09_missing_and_unclassified_never_become_zero_rank",
+      "result": "passed"
+    },
+    {
+      "test": "test_fusion.FusionTests.test_10_previous_month_stays_its_original_archive",
+      "result": "passed"
+    },
+    {
+      "test": "test_fusion.FusionTests.test_11_all_original_media_references_preserve_bytes",
+      "result": "passed"
+    },
+    {
+      "test": "test_fusion.FusionTests.test_12_private_database_and_sources_are_not_static_files",
+      "result": "passed"
+    },
+    {
+      "test": "test_fusion.FusionTests.test_13_confidence_stays_low_and_same_title_samples_are_unique",
+      "result": "passed"
+    },
+    {
+      "test": "test_fusion.FusionTests.test_14_coverage_change_blocks_short_term_style_signal",
+      "result": "passed"
+    }
+  ],
+  "data": "Actual archived observations; fault injection confined to temporary databases"
+}
