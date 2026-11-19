@@ -96,16 +96,22 @@ def style_reports(store):
  for old in archive['reports']:
   if old['month'] not in months:reports.append(old|{'legacyArchive':True})
  reports.sort(key=lambda r:r['month'],reverse=True)
- return {'schemaVersion':1,'generatedAt':now(),'defaultMonth':months[0] if months else archive['defaultMonth'],'monthlySourceStates':[],'reports':reports,'integrated':True,'usageScope':'local_internal_review_only'}
+ from .research import outlook
+ return {'schemaVersion':1,'generatedAt':now(),'defaultMonth':months[0] if months else archive['defaultMonth'],'monthlySourceStates':[],'reports':reports,'research':outlook(store,legacy_data('games.json')),'integrated':True,'usageScope':'local_internal_review_only'}
 
 def frontend_sources(store):
  original=legacy_data('sources.json');states=store.sources();sources=[]
  for s in states:
+  if s['source_name']!='momorank' and not s['last_successful_sync'] and s['status']!='sync_failed':continue
   sources.append({'id':s['source_name'],'name':s['display_name'],'url':s['official_url'],'kind':'ranking','integrationStatus':'manual_import' if s['last_successful_sync'] else 'public_access_pending','allowedScope':s['permission_note'],'note':s['cost_note']})
+ from .research import source_entries
+ sources+=source_entries(store)
  boards=[b|{'sourceIds':['momorank']} for b in original['boards'] if b['id'] in ['wechat-bestselling','douyin-bestselling']]
- return original|{'sources':sources,'boards':boards,'integration':True}
+ return original|{'sources':sources,'boards':boards,'integration':True,'candidateSources':[s for s in states if s['source_name']!='momorank' and not s['last_successful_sync'] and s['status']!='sync_failed']}
 
 def register_fusion(app,store):
+ from .research import initialize
+ initialize(store)
  bp=Blueprint('fusion',__name__)
  @bp.get('/site')
  def site_redirect():return redirect('/site/')
@@ -118,14 +124,36 @@ def register_fusion(app,store):
   if name=='sources.json':return jsonify(frontend_sources(store))
   if name=='observations.json':return jsonify({'schemaVersion':1,'records':[]})
   if name=='history/index.json':return jsonify({'schemaVersion':1,'snapshots':[{'path':'/api/market','sourceId':s['sourceId'],'boardId':s['boardId'],'sourceDate':s['sourceDate'],'observedAt':s['observedAt'],'batchId':s['batchId']} for s in sqlite_snapshots(store)]})
-  if name=='health.json':return jsonify({'generatedAt':now(),'mode':'local_reviewed_file_import','sources':[{'sourceId':s['source_name'],'status':'manual_import' if s['last_successful_sync'] and s['status']!='sync_failed' else 'failed' if s['status']=='sync_failed' else 'public_access_pending','lastSuccessAt':s['last_successful_sync'],'lastAttemptAt':s['last_attempt_at'],'error':s['permission_note']} for s in store.sources()]})
-  if name not in {'games.json','audience.json'}:abort(404)
+  if name=='health.json':
+   from .research import source_entries
+   states=[{'sourceId':s['source_name'],'status':'manual_import' if s['last_successful_sync'] and s['status']!='sync_failed' else 'failed' if s['status']=='sync_failed' else 'public_access_pending','lastSuccessAt':s['last_successful_sync'],'lastAttemptAt':s['last_attempt_at'],'error':s['permission_note']} for s in store.sources()]
+   states += [{'sourceId':s['id'],'status':'manual_import','lastSuccessAt':s['lastImportedAt'],'lastAttemptAt':s['lastImportedAt'],'error':s['note']} for s in source_entries(store)]
+   return jsonify({'generatedAt':now(),'mode':'local_reviewed_file_import','sources':states})
+  if name=='games.json':
+   from .research import merged_games
+   return jsonify(merged_games(store,legacy_data(name)))
+  if name=='audience.json':
+   from .research import documents
+   result=legacy_data(name);ids={p['id'] for p in result['reports']}
+   for p in documents(store,'report'):
+    if p['kind']=='audience_report' and p['id'] not in ids:result['reports'].append({'id':p['id'],'title':p['title'],'url':p['sourceUrl'],'scope':'特定兴趣分群研究，非单游戏实际玩家调查','publishedAt':p['publicationDate'],'period':p['period'],'observations':p['findings'],'methodNote':p['method'],'limitations':'不能推断某款游戏的年龄、性别或实际留存。'})
+   return jsonify(result)
+  if name not in {'audience.json'}:abort(404)
   return jsonify(legacy_data(name))
  @bp.get('/site/<path:name>')
  def files(name):
   if name.startswith('intelligence-ui/'):
    if Path(name).suffix not in {'.js','.mjs','.css'}:abort(404)
    return send_from_directory(ROOT/'web',name)
+  if name.startswith('assets/research/'):
+   from .research import assets
+   from flask import send_file
+   asset=next((a for a in assets(store) if name=='assets/research/'+a['id']+'.jpg'),None)
+   if not asset:abort(404)
+   file=(ROOT/asset['localPath']).resolve()
+   if not file.is_relative_to((ROOT/'data/research-expansion').resolve()) or not file.is_file():abort(404)
+   header=file.read_bytes()[:12];mime='image/png' if header.startswith(b'\x89PNG') else 'image/webp' if header[8:12]==b'WEBP' else 'image/jpeg'
+   return send_file(file,mimetype=mime)
   media_root=legacy_root()/'site'
   if name.startswith('assets/') and Path(name).suffix.lower() in {'.png','.jpg','.jpeg','.webp','.gif','.svg','.mp4'}:return send_from_directory(media_root,name)
   # The older V1 archive is a preserved reference, not a second live data service.

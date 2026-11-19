@@ -1,0 +1,73 @@
+{
+  "scope": "Public research expansion plus regression checks",
+  "executed_at": "2026-11-19T10:43:38.874590+00:00",
+  "tests_run": 15,
+  "passed": 15,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "seconds": 69.515,
+  "outcomes": [
+    {
+      "test": "test_research.PublicResearchTests.test_01_monthly_facts_do_not_fabricate_daily_history",
+      "result": "passed"
+    },
+    {
+      "test": "test_research.PublicResearchTests.test_02_repeat_is_idempotent",
+      "result": "passed"
+    },
+    {
+      "test": "test_research.PublicResearchTests.test_03_six_same_series_boards_cover_two_platforms_three_months",
+      "result": "passed"
+    },
+    {
+      "test": "test_research.PublicResearchTests.test_04_conflicting_reports_and_unlicensed_history_are_not_in_series",
+      "result": "passed"
+    },
+    {
+      "test": "test_research.PublicResearchTests.test_05_new_material_types_are_not_relabelled_gameplay",
+      "result": "passed"
+    },
+    {
+      "test": "test_research.PublicResearchTests.test_06_original_library_and_gifs_preserved",
+      "result": "passed"
+    },
+    {
+      "test": "test_research.PublicResearchTests.test_07_source_and_period_visible_in_every_research_report",
+      "result": "passed"
+    },
+    {
+      "test": "test_research.PublicResearchTests.test_08_monthly_import_rejects_partial_coverage_without_erasing",
+      "result": "passed"
+    },
+    {
+      "test": "test_research.PublicResearchTests.test_09_evidence_cannot_be_overwritten",
+      "result": "passed"
+    },
+    {
+      "test": "test_research.PublicResearchTests.test_10_actual_archived_images_match_sha_and_private_files_stay_private",
+      "result": "passed"
+    },
+    {
+      "test": "test_research.PublicResearchTests.test_11_research_scope_does_not_claim_complete_visual_coverage",
+      "result": "passed"
+    },
+    {
+      "test": "test_research.PublicResearchTests.test_12_early_platform_cases_are_not_current_bestsellers",
+      "result": "passed"
+    },
+    {
+      "test": "test_research.PublicResearchTests.test_13_audience_report_is_general_not_single_game_survey",
+      "result": "passed"
+    },
+    {
+      "test": "test_research.PublicResearchTests.test_14_same_local_bundle_updates_games_and_future",
+      "result": "passed"
+    },
+    {
+      "test": "test_research.PublicResearchTests.test_15_manual_public_sources_have_real_import_status_not_api_claims",
+      "result": "passed"
+    }
+  ]
+}

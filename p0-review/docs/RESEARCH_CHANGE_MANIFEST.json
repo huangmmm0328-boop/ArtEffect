@@ -1,0 +1,35 @@
+{
+  "base_commit": "ee649b6a187a455b270872ee7ad2a0632e893d48",
+  "branch": "codex/public-research-20261119",
+  "files": [
+    "p0-review/app/research.py",
+    "p0-review/app/fusion.py",
+    "p0-review/manage.py",
+    "p0-review/config/research-pack.json",
+    "p0-review/scripts/build-research-pack.py",
+    "p0-review/web/index.html",
+    "p0-review/web/intelligence-ui/research-page.mjs",
+    "p0-review/web/intelligence-ui/research.css",
+    "p0-review/web/intelligence-ui/app.js",
+    "p0-review/web/intelligence-ui/monthly-page.mjs",
+    "p0-review/tests/test_research.py",
+    "p0-review/tests/run_research_checks.py",
+    "p0-review/docs/PUBLIC_RESEARCH.md",
+    "p0-review/docs/RESEARCH_TEST_RESULTS.json",
+    "p0-review/docs/research-test-run.txt",
+    "p0-review/docs/RESEARCH_BROWSER_CHECKS.json",
+    "p0-review/README.md",
+    ".github/workflows/p0-tests.yml"
+  ],
+  "excluded_from_public_git": [
+    "research media binaries",
+    "ranking chart caches",
+    "raw agent downloads",
+    "SQLite database",
+    "backup archives",
+    "virtual environment",
+    "preview screenshots"
+  ],
+  "new_media_local_only": 27,
+  "production_ref_unchanged": "e166af6747c3ccc1f598d14ac7f60380582948ee"
+}

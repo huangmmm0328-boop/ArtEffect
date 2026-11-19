@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-11-19T10:44:05.945221+00:00",
+  "preview": "http://127.0.0.1:4191/site/#future",
+  "desktop": {
+    "viewport": "default",
+    "six_direction_cards": true,
+    "source_images_and_labels_visible": true,
+    "caption_overlap_corrected": true,
+    "refresh_preserves_180_rows_19_cases_27_new_images": true,
+    "source_page_six_monthly_three_daily_three_reports": true,
+    "image_popup_source_link_checked": "https://www.taptap.cn/app/472491/all-info",
+    "console_errors": [],
+    "console_warnings": []
+  },
+  "mobile": {
+    "viewport": [
+      390,
+      844
+    ],
+    "document_width": 375,
+    "horizontal_overflow": false,
+    "caption_overflow": false,
+    "override_reset": true
+  },
+  "production_changed": false,
+  "screenshot_local": "outputs/public-research-preview.jpg"
+}
