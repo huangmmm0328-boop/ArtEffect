@@ -1,0 +1,12 @@
+{
+  "createdAt": "2026-11-19T05:32:30.157Z",
+  "repository": "huangmmm0328-boop/ArtEffect",
+  "commit": "e166af6747c3ccc1f598d14ac7f60380582948ee",
+  "url": "https://codeload.github.com/huangmmm0328-boop/ArtEffect/zip/e166af6747c3ccc1f598d14ac7f60380582948ee",
+  "bytes": 67507819,
+  "sha256": "107bbb7709c2a6708cd72dedefff8ca776fd82973c9f99eede3ecd567e0495fa",
+  "requirementSha256": "910719afb5773ebc95800b815ad01e6479ac7710830683b25cd6c697a9983c1c",
+  "backupBranch": "codex/backup-production-20261119",
+  "developmentBranch": "codex/v2-p0-20261119",
+  "productionModified": false
+}

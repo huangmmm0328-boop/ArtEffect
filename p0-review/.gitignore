@@ -1,0 +1,14 @@
+/.venv/
+/.tmp/
+/wheels/
+/baseline/
+/backups/
+/data/
+/outputs/
+/publish/
+/publish-tree.json
+/tests/.tmp/
+__pycache__/
+.env
+.env.*
+*.pyc
