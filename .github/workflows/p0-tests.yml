@@ -1,7 +1,7 @@
 name: P0 SQLite acceptance checks (no deployment)
 on:
   push:
-    branches: [codex/v2-p0-20261119, codex/fusion-review-20261119]
+    branches: [codex/v2-p0-20261119, codex/fusion-review-20261119, codex/public-research-20261119]
   pull_request:
     paths: ['p0-review/**', '.github/workflows/p0-tests.yml']
 permissions:
@@ -23,6 +23,8 @@ jobs:
         run: python scripts/unpack-site.py
       - name: Verify integrated site and forecast evidence
         run: python p0-review/tests/run_fusion_checks.py --fusion-only
+      - name: Verify curated public research and source separation
+        run: python p0-review/tests/run_research_checks.py --research-only
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -32,3 +34,5 @@ jobs:
             p0-review/docs/test-run.txt
             p0-review/docs/FUSION_TEST_RESULTS.json
             p0-review/docs/fusion-test-run.txt
+            p0-review/docs/RESEARCH_TEST_RESULTS.json
+            p0-review/docs/research-test-run.txt
