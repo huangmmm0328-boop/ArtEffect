@@ -1,4 +1,11 @@
 {
   "schemaVersion": 1,
-  "records": []
+  "records": [
+    "changes/2026-11-19/gravity-douyin-bestselling.json",
+    "changes/2026-11-19/gravity-douyin-hot.json",
+    "changes/2026-11-19/gravity-wechat-bestselling.json",
+    "changes/2026-11-19/gravity-wechat-mostplayed.json",
+    "changes/2026-11-19/momorank-douyin-bestselling.json",
+    "changes/2026-11-19/momorank-douyin-hot.json"
+  ]
 }
