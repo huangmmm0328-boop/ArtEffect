@@ -2,4 +2,4 @@
 <header><a class="brand" href="{{ url_for('market') }}"><span class="brand-icon">◈</span><span>GAME ART <b>INTELLIGENCE</b><small>P0 · 独立验收预览</small></span></a><nav aria-label="P0导航"><a href="{{ url_for('market') }}">市场总览</a><a href="{{ url_for('sources') }}">数据与同步</a><a href="{{ url_for('imports') }}">文件导入</a><a href="{{ url_for('audit') }}">审计与备份</a></nav></header>
 <div class="review-banner"><span>仅本地预览，生产网站未修改</span><span>P0：真实数据、SQLite、历史与来源</span></div>
 <main>{% for category,message in get_flashed_messages(with_categories=true) %}<div class="notice {{ category }}" role="status">{{ message }}</div>{% endfor %}{% block content %}{% endblock %}</main>
-<footer><span>GAME ART INTELLIGENCE · P0</span><span>零采购 · 无付费API · 无模拟市场数据</span><a href="{{ production_url }}" target="_blank" rel="noopener noreferrer">查看原生产网站</a></footer></body></html>
+<footer><span>GAME ART INTELLIGENCE · 数据核验</span><a href="/site/#future">返回完整网站与融合预测</a><span>零采购 · 无付费API · 无模拟市场数据</span><a href="{{ production_url }}" target="_blank" rel="noopener noreferrer">查看原生产网站</a></footer></body></html>

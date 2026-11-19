@@ -1,0 +1,24 @@
+{
+  "preview": "http://127.0.0.1:4191/site/#future",
+  "checks": {
+    "market_reads_same_sqlite": true,
+    "search_visual_and_platform_profiles": true,
+    "visual_case_detail_and_two_platform_current_ranks": true,
+    "gif_play_button_changed_and_gif_loaded": true,
+    "gif_natural_width": 320,
+    "prediction_direction_changed_generated_canvas": true,
+    "refresh_and_return_to_radar": true,
+    "historical_october_archive_notice": true,
+    "november_restored_with_30_real_rows": true,
+    "browser_console_errors": []
+  },
+  "mobile": {
+    "viewport_width": 390,
+    "document_scroll_width": 375,
+    "body_scroll_width": 375,
+    "no_page_horizontal_overflow": true,
+    "viewport_reset": true
+  },
+  "screenshot": "outputs/fusion-preview.jpg",
+  "production_deployed": false
+}

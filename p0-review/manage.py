@@ -10,7 +10,7 @@ def main():
  p=commands.add_parser('init');p.add_argument('--seed',action='store_true')
  p=commands.add_parser('import');p.add_argument('file',type=Path)
  p=commands.add_parser('sync');p.add_argument('--inbox',type=Path,default=Path('data/inbox'))
- p=commands.add_parser('serve');p.add_argument('--port',type=int,default=4190)
+ p=commands.add_parser('serve');p.add_argument('--port',type=int,default=4190);p.add_argument('--merged',action='store_true')
  commands.add_parser('status');args=parser.parse_args();store=Store(args.database);store.initialize()
  if args.command=='init':
   if args.seed:print(json.dumps(seed_review(store),ensure_ascii=False))
@@ -28,7 +28,7 @@ def main():
   print(json.dumps(out,ensure_ascii=False))
  elif args.command=='serve':
   from app import create_app
-  create_app(store.path).run(host='127.0.0.1',port=args.port,debug=False,use_reloader=False)
+  create_app(store.path,integrated=args.merged).run(host='127.0.0.1',port=args.port,debug=False,use_reloader=False)
  else:print(json.dumps({'counts':store.counts(),'sources':store.sources()},ensure_ascii=False))
  return 0
 if __name__=='__main__':raise SystemExit(main())
