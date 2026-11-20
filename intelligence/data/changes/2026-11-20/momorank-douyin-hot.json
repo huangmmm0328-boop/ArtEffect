@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "kind": "rank_change_record",
+  "sourceId": "momorank",
+  "boardId": "douyin-hot",
+  "currentDate": "2026-11-20",
+  "previousDate": "2026-11-19",
+  "comparable": true,
+  "reason": null,
+  "currentObservation": "2026-11-20T03:18:15.960Z",
+  "previousObservation": "2026-11-19T03:25:57.668Z",
+  "rows": [
+    {
+      "gameId": "momorank:471",
+      "name": "羊了个羊：星球",
+      "rank": 1,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 3
+    },
+    {
+      "gameId": "momorank:472",
+      "name": "抓大鹅",
+      "rank": 2,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 3
+    },
+    {
+      "gameId": "momorank:479",
+      "name": "疯狂水世界",
+      "rank": 3,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 3
+    },
+    {
+      "gameId": "momorank:470",
+      "name": "赵云与阿斗",
+      "rank": 4,
+      "delta": 3,
+      "isNew": false,
+      "consecutiveObservedDays": 3
+    },
+    {
+      "gameId": "momorank:484",
+      "name": "肥鹅美食街",
+      "rank": 5,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 3
+    },
+    {
+      "gameId": "momorank:1886",
+      "name": "多乐升级",
+      "rank": 6,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 3
+    },
+    {
+      "gameId": "momorank:53199",
+      "name": "峰哥来解压",
+      "rank": 7,
+      "delta": null,
+      "isNew": true,
+      "consecutiveObservedDays": 1
+    },
+    {
+      "gameId": "momorank:2914",
+      "name": "指尖快消",
+      "rank": 8,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 3
+    },
+    {
+      "gameId": "momorank:474",
+      "name": "梦幻消除战",
+      "rank": 9,
+      "delta": 1,
+      "isNew": false,
+      "consecutiveObservedDays": 2
+    },
+    {
+      "gameId": "momorank:476",
+      "name": "浪漫餐厅",
+      "rank": 10,
+      "delta": -1,
+      "isNew": false,
+      "consecutiveObservedDays": 3
+    }
+  ]
+}
