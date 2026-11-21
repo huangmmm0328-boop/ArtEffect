@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "kind": "rank_change_record",
+  "sourceId": "momorank",
+  "boardId": "douyin-bestselling",
+  "currentDate": "2026-11-21",
+  "previousDate": "2026-11-20",
+  "comparable": true,
+  "reason": null,
+  "currentObservation": "2026-11-21T03:20:18.310Z",
+  "previousObservation": "2026-11-20T03:18:15.759Z",
+  "rows": [
+    {
+      "gameId": "momorank:479",
+      "name": "疯狂水世界",
+      "rank": 1,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 4
+    },
+    {
+      "gameId": "momorank:574",
+      "name": "次神光之觉醒",
+      "rank": 2,
+      "delta": null,
+      "isNew": true,
+      "consecutiveObservedDays": 1
+    },
+    {
+      "gameId": "momorank:577",
+      "name": "镇邪人",
+      "rank": 3,
+      "delta": -1,
+      "isNew": false,
+      "consecutiveObservedDays": 4
+    },
+    {
+      "gameId": "momorank:496",
+      "name": "灵画师",
+      "rank": 4,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 4
+    },
+    {
+      "gameId": "momorank:484",
+      "name": "肥鹅美食街",
+      "rank": 5,
+      "delta": 1,
+      "isNew": false,
+      "consecutiveObservedDays": 4
+    },
+    {
+      "gameId": "momorank:531",
+      "name": "超能下蛋鸭",
+      "rank": 6,
+      "delta": null,
+      "isNew": true,
+      "consecutiveObservedDays": 1
+    },
+    {
+      "gameId": "momorank:553",
+      "name": "造化仙府",
+      "rank": 7,
+      "delta": -2,
+      "isNew": false,
+      "consecutiveObservedDays": 2
+    },
+    {
+      "gameId": "momorank:491",
+      "name": "向僵尸开炮",
+      "rank": 8,
+      "delta": -5,
+      "isNew": false,
+      "consecutiveObservedDays": 4
+    },
+    {
+      "gameId": "momorank:570",
+      "name": "指尖幻影",
+      "rank": 9,
+      "delta": null,
+      "isNew": true,
+      "consecutiveObservedDays": 1
+    },
+    {
+      "gameId": "momorank:505",
+      "name": "向往的生活",
+      "rank": 10,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 4
+    }
+  ]
+}
