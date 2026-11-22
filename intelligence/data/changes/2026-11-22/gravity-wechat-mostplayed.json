@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "kind": "rank_change_record",
+  "sourceId": "gravity",
+  "boardId": "wechat-mostplayed",
+  "currentDate": "2026-11-22",
+  "previousDate": "2026-11-21",
+  "comparable": true,
+  "reason": null,
+  "currentObservation": "2026-11-22T03:21:34.716Z",
+  "previousObservation": "2026-11-21T03:20:17.455Z",
+  "rows": [
+    {
+      "gameId": "gravity:34592327",
+      "name": "羊了个羊：星球",
+      "rank": 1,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 5
+    },
+    {
+      "gameId": "gravity:34966159",
+      "name": "疯狂收杂物",
+      "rank": 2,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 5
+    },
+    {
+      "gameId": "gravity:34953115",
+      "name": "赵云与阿斗",
+      "rank": 3,
+      "delta": 1,
+      "isNew": false,
+      "consecutiveObservedDays": 5
+    },
+    {
+      "gameId": "gravity:34965900",
+      "name": "不停找找找",
+      "rank": 4,
+      "delta": -1,
+      "isNew": false,
+      "consecutiveObservedDays": 5
+    },
+    {
+      "gameId": "gravity:34882438",
+      "name": "一箭又一箭",
+      "rank": 5,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 5
+    },
+    {
+      "gameId": "gravity:34592325",
+      "name": "抓大鹅",
+      "rank": 6,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 5
+    },
+    {
+      "gameId": "gravity:34722331",
+      "name": "打个螺丝",
+      "rank": 7,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 5
+    },
+    {
+      "gameId": "gravity:34966372",
+      "name": "整理师竞争",
+      "rank": 8,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 5
+    },
+    {
+      "gameId": "gravity:34965364",
+      "name": "对子乐消消",
+      "rank": 9,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 5
+    },
+    {
+      "gameId": "gravity:34965272",
+      "name": "指尖快消",
+      "rank": 10,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 5
+    },
+    {
+      "gameId": "gravity:34963436",
+      "name": "解压闯一关",
+      "rank": 11,
+      "delta": 1,
+      "isNew": false,
+      "consecutiveObservedDays": 5
+    },
+    {
+      "gameId": "gravity:34964764",
+      "name": "上个了车",
+      "rank": 12,
+      "delta": -1,
+      "isNew": false,
+      "consecutiveObservedDays": 5
+    },
+    {
+      "gameId": "gravity:34965627",
+      "name": "益智闯一关",
+      "rank": 13,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 5
+    },
+    {
+      "gameId": "gravity:34742328",
+      "name": "猪了个猪",
+      "rank": 14,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 5
+    },
+    {
+      "gameId": "gravity:34592350",
+      "name": "砖了个砖",
+      "rank": 15,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 5
+    },
+    {
+      "gameId": "gravity:34963496",
+      "name": "解压打毛线",
+      "rank": 16,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 5
+    },
+    {
+      "gameId": "gravity:34932345",
+      "name": "一找一个准",
+      "rank": 17,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 5
+    },
+    {
+      "gameId": "gravity:34592483",
+      "name": "掼蛋",
+      "rank": 18,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 5
+    },
+    {
+      "gameId": "gravity:34963755",
+      "name": "看谁先上车",
+      "rank": 19,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 5
+    },
+    {
+      "gameId": "gravity:34964475",
+      "name": "这关可真行",
+      "rank": 20,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 2
+    }
+  ]
+}

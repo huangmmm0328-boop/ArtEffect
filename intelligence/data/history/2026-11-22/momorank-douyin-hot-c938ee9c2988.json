@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "kind": "ranking_snapshot",
+  "status": "ok",
+  "period": "day",
+  "definitionVersion": "momorank-public-popular-top10-v1",
+  "sourceId": "momorank",
+  "boardId": "douyin-hot",
+  "platform": "douyin",
+  "sourceUrl": "https://www.momorank.com/douyin/rankings/popular",
+  "sourceDate": "2026-11-22",
+  "observedAt": "2026-11-22T03:21:35.004Z",
+  "origin": "direct_public_observation",
+  "verification": {
+    "reviewed": true,
+    "method": "reviewed_public_page_parser",
+    "evidenceUrl": "https://www.momorank.com/douyin/rankings/popular",
+    "parserVersion": 1,
+    "scope": "仅匿名公开页面当前榜位；解析规则与公开页面人工核对，后续采集执行自动校验"
+  },
+  "coverage": {
+    "limit": 10,
+    "complete": true,
+    "description": "免费公开范围 Top 10；不代表完整市场榜单"
+  },
+  "rows": [
+    {
+      "gameId": "momorank:471",
+      "name": "羊了个羊：星球",
+      "rank": 1,
+      "publisher": "北京简游科技有限公司",
+      "category": "消除",
+      "platformAppId": "tta196d72b3ea8917302",
+      "sourceGameId": "471",
+      "sourceUrl": "https://www.momorank.com/douyin/games/471",
+      "iconUrl": "https://p3-mgsdk-sign.byteimg.com/tos-cn-i-ke512zj2cu/e6c2aee00b7a4438aceeef8a29d6f6d9~tplv-ke512zj2cu-144x144.jpeg?lk3s=79909cc4&x-expires=2737432993&x-signature=PmJvIiYYSVSVeCbo1pmU6f7B1s0%3D"
+    },
+    {
+      "gameId": "momorank:472",
+      "name": "抓大鹅",
+      "rank": 2,
+      "publisher": "青岛蓝飞互娱科技股份有限公司",
+      "category": "消除",
+      "platformAppId": "tta682d03f39b2471b07",
+      "sourceGameId": "472",
+      "sourceUrl": "https://www.momorank.com/douyin/games/472",
+      "iconUrl": "https://p6-mgsdk-sign.byteimg.com/tos-cn-i-ke512zj2cu/ae1b0819dfce40399bd8d636e9447fa6~tplv-ke512zj2cu-144x144.jpeg?lk3s=79909cc4&x-expires=2737432993&x-signature=gS9GqO90pl7TJj3uPgqtxzGeE28%3D"
+    },
+    {
+      "gameId": "momorank:479",
+      "name": "疯狂水世界",
+      "rank": 3,
+      "publisher": "广州益玩网络科技有限公司",
+      "category": "模拟经营",
+      "platformAppId": "tt76340089e939a1bf02",
+      "sourceGameId": "479",
+      "sourceUrl": "https://www.momorank.com/douyin/games/479",
+      "iconUrl": "https://p6-mgsdk-sign.byteimg.com/tos-cn-i-ke512zj2cu/fc4d223175c84dc9bfc214ef24644080~tplv-ke512zj2cu-144x144.jpeg?lk3s=79909cc4&x-expires=2737432993&x-signature=Bocwrcxzniu0jJKO5EDagB0KL3U%3D"
+    },
+    {
+      "gameId": "momorank:470",
+      "name": "赵云与阿斗",
+      "rank": 4,
+      "publisher": null,
+      "category": "塔防",
+      "platformAppId": "ttf3e1855c6ce3e43b02",
+      "sourceGameId": "470",
+      "sourceUrl": "https://www.momorank.com/douyin/games/470",
+      "iconUrl": "https://p6-mgsdk-sign.byteimg.com/tos-cn-i-ke512zj2cu/f4eb454c006c4f55b074efd1ab1fe011~tplv-ke512zj2cu-144x144.jpeg?lk3s=79909cc4&x-expires=2737432993&x-signature=V6cOe5Zdks0IDMX4jNj%2BMNLbKp0%3D"
+    },
+    {
+      "gameId": "momorank:484",
+      "name": "肥鹅美食街",
+      "rank": 5,
+      "publisher": "北京豪腾创想科技有限公司",
+      "category": "超休闲",
+      "platformAppId": "ttab7fddc2347af2a002",
+      "sourceGameId": "484",
+      "sourceUrl": "https://www.momorank.com/douyin/games/484",
+      "iconUrl": "https://p6-mgsdk-sign.byteimg.com/tos-cn-i-ke512zj2cu/a150d3f9d40b4cfba772ff5a601652de~tplv-ke512zj2cu-144x144.jpeg?lk3s=79909cc4&x-expires=2737432993&x-signature=0wjUdFj4SA8N8DZ0LSlTfa6%2Bj5k%3D"
+    },
+    {
+      "gameId": "momorank:55509",
+      "name": "轻点别眨眼",
+      "rank": 6,
+      "publisher": null,
+      "category": "超休闲",
+      "platformAppId": null,
+      "sourceGameId": "55509",
+      "sourceUrl": "https://www.momorank.com/douyin/games/55509",
+      "iconUrl": "https://p6-mgsdk-sign.byteimg.com/tos-cn-i-ke512zj2cu/b3c212e448804345870c224010df7599~tplv-ke512zj2cu-144x144.jpeg?lk3s=79909cc4&x-expires=2741396704&x-signature=6zDu9H0iPEmJXzR3FNEijz%2FxiOk%3D"
+    },
+    {
+      "gameId": "momorank:473",
+      "name": "躺平发育",
+      "rank": 7,
+      "publisher": "北京蜜獾工坊科技有限公司",
+      "category": "塔防",
+      "platformAppId": "tt3a9d4c20a5a4387002",
+      "sourceGameId": "473",
+      "sourceUrl": "https://www.momorank.com/douyin/games/473",
+      "iconUrl": "https://p3-mgsdk-sign.byteimg.com/tos-cn-i-ke512zj2cu/11bc48d02c794e74b8e22fc9cc0fe5c5~tplv-ke512zj2cu-144x144.jpeg?lk3s=79909cc4&x-expires=2737432993&x-signature=9CE5n%2BpltjuEwFEFheir%2BE3134o%3D"
+    },
+    {
+      "gameId": "momorank:476",
+      "name": "浪漫餐厅",
+      "rank": 8,
+      "publisher": "北京柠檬曲奇科技有限公司",
+      "category": "合成",
+      "platformAppId": "tt7eb3080ee181ebf007",
+      "sourceGameId": "476",
+      "sourceUrl": "https://www.momorank.com/douyin/games/476",
+      "iconUrl": "https://p6-mgsdk-sign.byteimg.com/tos-cn-i-ke512zj2cu/9d9d085055104b66a63b772917d21707~tplv-ke512zj2cu-144x144.jpeg?lk3s=79909cc4&x-expires=2737432993&x-signature=4sUiLfTNaNlE65RT%2B%2FAWgPEdgBM%3D"
+    },
+    {
+      "gameId": "momorank:1886",
+      "name": "多乐升级",
+      "rank": 9,
+      "publisher": null,
+      "category": "扑克牌",
+      "platformAppId": "tt4b0d3db0d43bd50002",
+      "sourceGameId": "1886",
+      "sourceUrl": "https://www.momorank.com/douyin/games/1886",
+      "iconUrl": "https://p9-mgsdk-sign.byteimg.com/tos-cn-i-ke512zj2cu/edbadda8ea2b4b8897183d4f7a7a9dee~tplv-ke512zj2cu-144x144.jpeg?lk3s=79909cc4&x-expires=2737432993&x-signature=AJB5NsgSYeaLxrKJCehhX28KtOc%3D"
+    },
+    {
+      "gameId": "momorank:2914",
+      "name": "指尖快消",
+      "rank": 10,
+      "publisher": null,
+      "category": "寻物",
+      "platformAppId": "ttd206a4bb4d0d870102",
+      "sourceGameId": "2914",
+      "sourceUrl": "https://www.momorank.com/douyin/games/2914",
+      "iconUrl": "https://p9-mgsdk-sign.byteimg.com/tos-cn-i-ke512zj2cu/9ff4e3d9db8040bc989f7318026390b5~tplv-ke512zj2cu-144x144.jpeg?lk3s=79909cc4&x-expires=2737432993&x-signature=XpU0BRhSNtXBtIAyM9zyDEFbn4c%3D"
+    }
+  ]
+}

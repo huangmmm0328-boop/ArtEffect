@@ -18,6 +18,12 @@
     "changes/2026-11-21/gravity-wechat-bestselling.json",
     "changes/2026-11-21/gravity-wechat-mostplayed.json",
     "changes/2026-11-21/momorank-douyin-bestselling.json",
-    "changes/2026-11-21/momorank-douyin-hot.json"
+    "changes/2026-11-21/momorank-douyin-hot.json",
+    "changes/2026-11-22/gravity-douyin-bestselling.json",
+    "changes/2026-11-22/gravity-douyin-hot.json",
+    "changes/2026-11-22/gravity-wechat-bestselling.json",
+    "changes/2026-11-22/gravity-wechat-mostplayed.json",
+    "changes/2026-11-22/momorank-douyin-bestselling.json",
+    "changes/2026-11-22/momorank-douyin-hot.json"
   ]
 }
