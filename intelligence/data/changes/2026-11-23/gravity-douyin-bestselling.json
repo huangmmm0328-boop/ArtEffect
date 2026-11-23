@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "kind": "rank_change_record",
+  "sourceId": "gravity",
+  "boardId": "douyin-bestselling",
+  "currentDate": "2026-11-23",
+  "previousDate": "2026-11-22",
+  "comparable": true,
+  "reason": null,
+  "currentObservation": "2026-11-23T03:31:13.425Z",
+  "previousObservation": "2026-11-22T03:21:35.034Z",
+  "rows": [
+    {
+      "gameId": "gravity:34822487",
+      "name": "疯狂水世界",
+      "rank": 1,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 6
+    },
+    {
+      "gameId": "gravity:34822808",
+      "name": "造化仙府",
+      "rank": 2,
+      "delta": 5,
+      "isNew": false,
+      "consecutiveObservedDays": 6
+    },
+    {
+      "gameId": "gravity:34819038",
+      "name": "我的花园世界",
+      "rank": 3,
+      "delta": null,
+      "isNew": true,
+      "consecutiveObservedDays": 1
+    },
+    {
+      "gameId": "gravity:34812507",
+      "name": "向僵尸开炮",
+      "rank": 4,
+      "delta": -1,
+      "isNew": false,
+      "consecutiveObservedDays": 6
+    },
+    {
+      "gameId": "gravity:34812405",
+      "name": "灵画师",
+      "rank": 5,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 6
+    },
+    {
+      "gameId": "gravity:34963117",
+      "name": "镇邪人",
+      "rank": 6,
+      "delta": -4,
+      "isNew": false,
+      "consecutiveObservedDays": 6
+    },
+    {
+      "gameId": "gravity:34817758",
+      "name": "梦幻消除战",
+      "rank": 7,
+      "delta": 2,
+      "isNew": false,
+      "consecutiveObservedDays": 6
+    },
+    {
+      "gameId": "gravity:34922325",
+      "name": "肥鹅美食街",
+      "rank": 8,
+      "delta": -4,
+      "isNew": false,
+      "consecutiveObservedDays": 6
+    },
+    {
+      "gameId": "gravity:34812506",
+      "name": "浪漫餐厅",
+      "rank": 9,
+      "delta": 1,
+      "isNew": false,
+      "consecutiveObservedDays": 6
+    },
+    {
+      "gameId": "gravity:34819237",
+      "name": "向往的生活",
+      "rank": 10,
+      "delta": -2,
+      "isNew": false,
+      "consecutiveObservedDays": 6
+    },
+    {
+      "gameId": "gravity:34912410",
+      "name": "时尚百货城",
+      "rank": 11,
+      "delta": -5,
+      "isNew": false,
+      "consecutiveObservedDays": 6
+    },
+    {
+      "gameId": "gravity:34818110",
+      "name": "狱国争霸",
+      "rank": 12,
+      "delta": -1,
+      "isNew": false,
+      "consecutiveObservedDays": 6
+    },
+    {
+      "gameId": "gravity:34965588",
+      "name": "甄嬛传：归来",
+      "rank": 13,
+      "delta": null,
+      "isNew": true,
+      "consecutiveObservedDays": 1
+    },
+    {
+      "gameId": "gravity:34815494",
+      "name": "超能下蛋鸭",
+      "rank": 14,
+      "delta": -2,
+      "isNew": false,
+      "consecutiveObservedDays": 3
+    },
+    {
+      "gameId": "gravity:34819837",
+      "name": "不服来通关",
+      "rank": 15,
+      "delta": null,
+      "isNew": true,
+      "consecutiveObservedDays": 1
+    },
+    {
+      "gameId": "gravity:34963479",
+      "name": "斗罗大陆：传承",
+      "rank": 16,
+      "delta": null,
+      "isNew": true,
+      "consecutiveObservedDays": 1
+    },
+    {
+      "gameId": "gravity:34964499",
+      "name": "梦回甄嬛传",
+      "rank": 17,
+      "delta": -2,
+      "isNew": false,
+      "consecutiveObservedDays": 6
+    },
+    {
+      "gameId": "gravity:34812543",
+      "name": "三国：冰河时代",
+      "rank": 18,
+      "delta": -4,
+      "isNew": false,
+      "consecutiveObservedDays": 6
+    },
+    {
+      "gameId": "gravity:34902328",
+      "name": "空格之境",
+      "rank": 19,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 2
+    },
+    {
+      "gameId": "gravity:34812532",
+      "name": "指尖幻影",
+      "rank": 20,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 3
+    }
+  ]
+}
