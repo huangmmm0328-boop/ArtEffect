@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "kind": "ranking_snapshot",
+  "status": "ok",
+  "period": "day",
+  "definitionVersion": "gravity-public-bestseller-top20-v1",
+  "sourceId": "gravity",
+  "boardId": "douyin-bestselling",
+  "platform": "douyin",
+  "sourceUrl": "https://rank.gravity-engine.com/douyin/day/",
+  "sourceDate": "2026-11-24",
+  "observedAt": "2026-11-24T03:28:04.219Z",
+  "origin": "direct_public_observation",
+  "verification": {
+    "reviewed": true,
+    "method": "reviewed_public_page_parser",
+    "evidenceUrl": "https://rank.gravity-engine.com/douyin/day/",
+    "parserVersion": 1,
+    "scope": "仅匿名公开页面当前榜位；解析规则与公开页面人工核对，后续采集执行自动校验"
+  },
+  "coverage": {
+    "limit": 20,
+    "complete": true,
+    "description": "免费公开范围 Top 20；不代表完整市场榜单"
+  },
+  "rows": [
+    {
+      "gameId": "gravity:34822487",
+      "name": "疯狂水世界",
+      "rank": 1,
+      "publisher": "益世界网络科技有限公司",
+      "category": "模拟经营",
+      "platformAppId": "tt76340089e939a1bf02",
+      "sourceGameId": "34822487",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/77de0b06cb4ad4e1b6d84607733ad6bb",
+      "sourceUrl": "https://rank.gravity-engine.com/douyin/day/"
+    },
+    {
+      "gameId": "gravity:34822808",
+      "name": "造化仙府",
+      "rank": 2,
+      "publisher": "上海沛炫网络科技有限公司",
+      "category": "模拟经营",
+      "platformAppId": "tt3a5d4ce0a5504afe02",
+      "sourceGameId": "34822808",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e4fb04bfa0def4cdf114b9e0be3780fa",
+      "sourceUrl": "https://rank.gravity-engine.com/douyin/day/"
+    },
+    {
+      "gameId": "gravity:34963117",
+      "name": "镇邪人",
+      "rank": 3,
+      "publisher": "安徽雷虎网络科技有限公司",
+      "category": "冒险",
+      "platformAppId": "tt076071dd9904ae7202",
+      "sourceGameId": "34963117",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e44a3855f6ebac20882acf6c2cbb4656",
+      "sourceUrl": "https://rank.gravity-engine.com/douyin/day/"
+    },
+    {
+      "gameId": "gravity:34812405",
+      "name": "灵画师",
+      "rank": 4,
+      "publisher": "广州光游网络科技有限公司",
+      "category": "修仙",
+      "platformAppId": "ttfcdb8a6663ec187f02",
+      "sourceGameId": "34812405",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/09dcdbad4d4ebe195a2c33ad64fd1ff2",
+      "sourceUrl": "https://rank.gravity-engine.com/douyin/day/"
+    },
+    {
+      "gameId": "gravity:34812543",
+      "name": "三国：冰河时代",
+      "rank": 5,
+      "publisher": "欢游互动（北京）科技有限公司",
+      "category": "模拟经营",
+      "platformAppId": "tt672d1190f818c4dd02",
+      "sourceGameId": "34812543",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/1ddad92f8f707d894c49cd6ebfa3b23e",
+      "sourceUrl": "https://rank.gravity-engine.com/douyin/day/"
+    },
+    {
+      "gameId": "gravity:34922325",
+      "name": "肥鹅美食街",
+      "rank": 6,
+      "publisher": "北京豪腾创想科技有限公司",
+      "category": "超休闲",
+      "platformAppId": "ttab7fddc2347af2a002",
+      "sourceGameId": "34922325",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/156e30bfc9c73035e67be87b0406b53f",
+      "sourceUrl": "https://rank.gravity-engine.com/douyin/day/"
+    },
+    {
+      "gameId": "gravity:34817758",
+      "name": "梦幻消除战",
+      "rank": 7,
+      "publisher": "广州喜势网络科技有限公司",
+      "category": "合成",
+      "platformAppId": "tt8e13f8ae111a218b07",
+      "sourceGameId": "34817758",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e13171b6c921981c6bea0361d515c0c7",
+      "sourceUrl": "https://rank.gravity-engine.com/douyin/day/"
+    },
+    {
+      "gameId": "gravity:34812507",
+      "name": "向僵尸开炮",
+      "rank": 8,
+      "publisher": "海南盛昌网络科技有限公司",
+      "category": "1",
+      "platformAppId": "tt704406f9ef7450b207",
+      "sourceGameId": "34812507",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/74e47487e35fdaffd9d545f246b2871a",
+      "sourceUrl": "https://rank.gravity-engine.com/douyin/day/"
+    },
+    {
+      "gameId": "gravity:34819237",
+      "name": "向往的生活",
+      "rank": 9,
+      "publisher": "深圳市必凡娱乐科技有限公司",
+      "category": "合成",
+      "platformAppId": "ttd54ea3f34a46f34a02",
+      "sourceGameId": "34819237",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/86afdd948b5cf347896a2c4c3ee91ddd",
+      "sourceUrl": "https://rank.gravity-engine.com/douyin/day/"
+    },
+    {
+      "gameId": "gravity:34912410",
+      "name": "时尚百货城",
+      "rank": 10,
+      "publisher": "深圳市爱的番茄科技有限公司",
+      "category": "模拟经营",
+      "platformAppId": "tt165560e88957e0f502",
+      "sourceGameId": "34912410",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/fa6b5fe1dc7c09b65bd062fe48999429",
+      "sourceUrl": "https://rank.gravity-engine.com/douyin/day/"
+    },
+    {
+      "gameId": "gravity:34819038",
+      "name": "我的花园世界",
+      "rank": 11,
+      "publisher": "海南途趣科技有限公司",
+      "category": "模拟经营",
+      "platformAppId": "ttcc26ba9b532f1e8202",
+      "sourceGameId": "34819038",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/0662b6723e64e66b267f6d3882d7395b",
+      "sourceUrl": "https://rank.gravity-engine.com/douyin/day/"
+    },
+    {
+      "gameId": "gravity:34812525",
+      "name": "次神光之觉醒",
+      "rank": 12,
+      "publisher": "北京雪境科技有限公司",
+      "category": "放置挂机",
+      "platformAppId": "ttf50b83b66a377fc402",
+      "sourceGameId": "34812525",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4397670150e5631a34e830c37679d06d",
+      "sourceUrl": "https://rank.gravity-engine.com/douyin/day/"
+    },
+    {
+      "gameId": "gravity:34812506",
+      "name": "浪漫餐厅",
+      "rank": 13,
+      "publisher": "北京柠檬曲奇科技有限公司",
+      "category": "合成",
+      "platformAppId": "tt7eb3080ee181ebf007",
+      "sourceGameId": "34812506",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/899151519a546b9ecce38cc5119e174a",
+      "sourceUrl": "https://rank.gravity-engine.com/douyin/day/"
+    },
+    {
+      "gameId": "gravity:34812532",
+      "name": "指尖幻影",
+      "rank": 14,
+      "publisher": "海南异界科技有限公司",
+      "category": "放置挂机",
+      "platformAppId": "tt50b1260ccf86275602",
+      "sourceGameId": "34812532",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/b7adbcddc57606076dcb1ad3d4ebeb06",
+      "sourceUrl": "https://rank.gravity-engine.com/douyin/day/"
+    },
+    {
+      "gameId": "gravity:34815494",
+      "name": "超能下蛋鸭",
+      "rank": 15,
+      "publisher": "世熠网络科技（上海）有限公司",
+      "category": "回合战斗",
+      "platformAppId": "tt96fde04009f58bfe07",
+      "sourceGameId": "34815494",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/bc2dd579233d232bb2881d0a65999060",
+      "sourceUrl": "https://rank.gravity-engine.com/douyin/day/"
+    },
+    {
+      "gameId": "gravity:34818110",
+      "name": "狱国争霸",
+      "rank": 16,
+      "publisher": "北京智诚互娱科技有限公司",
+      "category": "SLG",
+      "platformAppId": "tt67df1162f8d65ba402",
+      "sourceGameId": "34818110",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f1fb5302fda170b67a09034f58e0374e",
+      "sourceUrl": "https://rank.gravity-engine.com/douyin/day/"
+    },
+    {
+      "gameId": "gravity:34965588",
+      "name": "甄嬛传：归来",
+      "rank": 17,
+      "publisher": "深圳市拾光筑梦文化传媒有限公司",
+      "category": "1",
+      "platformAppId": "ttd2f0a44d4c8b63a102",
+      "sourceGameId": "34965588",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/44a396fee2fd008eb17b384284ebfdb3",
+      "sourceUrl": "https://rank.gravity-engine.com/douyin/day/"
+    },
+    {
+      "gameId": "gravity:34902328",
+      "name": "空格之境",
+      "rank": 18,
+      "publisher": "江西启游互动科技有限公司",
+      "category": "合成",
+      "platformAppId": "tt96a6e01b08c553f502",
+      "sourceGameId": "34902328",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/add8add93a718e98dcb9f01db3e90a72",
+      "sourceUrl": "https://rank.gravity-engine.com/douyin/day/"
+    },
+    {
+      "gameId": "gravity:34819837",
+      "name": "不服来通关",
+      "rank": 19,
+      "publisher": "长沙游品科技有限公司",
+      "category": "塔防",
+      "platformAppId": "ttcaa6bc1b55adba2c02",
+      "sourceGameId": "34819837",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8340c9e2d5391890352507a59e98e581",
+      "sourceUrl": "https://rank.gravity-engine.com/douyin/day/"
+    },
+    {
+      "gameId": "gravity:34964499",
+      "name": "梦回甄嬛传",
+      "rank": 20,
+      "publisher": "广州擎迅网络科技有限公司",
+      "category": "合成",
+      "platformAppId": "tt2f6959d4b113069b02",
+      "sourceGameId": "34964499",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e1e8a78c7123f2ddd1d46cdddc245bfe",
+      "sourceUrl": "https://rank.gravity-engine.com/douyin/day/"
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "kind": "ranking_snapshot",
+  "status": "ok",
+  "period": "day",
+  "definitionVersion": "gravity-public-most_played-top20-v1",
+  "sourceId": "gravity",
+  "boardId": "wechat-mostplayed",
+  "platform": "wechat",
+  "sourceUrl": "https://rank.gravity-engine.com/wechat/day/",
+  "sourceDate": "2026-11-24",
+  "observedAt": "2026-11-24T03:28:04.250Z",
+  "origin": "direct_public_observation",
+  "verification": {
+    "reviewed": true,
+    "method": "reviewed_public_page_parser",
+    "evidenceUrl": "https://rank.gravity-engine.com/wechat/day/",
+    "parserVersion": 1,
+    "scope": "仅匿名公开页面当前榜位；解析规则与公开页面人工核对，后续采集执行自动校验"
+  },
+  "coverage": {
+    "limit": 20,
+    "complete": true,
+    "description": "免费公开范围 Top 20；不代表完整市场榜单"
+  },
+  "rows": [
+    {
+      "gameId": "gravity:34592327",
+      "name": "羊了个羊：星球",
+      "rank": 1,
+      "publisher": "北京简游科技有限公司",
+      "category": "消除",
+      "platformAppId": "wx141bfb9b73c970a9",
+      "sourceGameId": "34592327",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/b36708406e382cbe105bdccf2fca1da0",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34966159",
+      "name": "疯狂收杂物",
+      "rank": 2,
+      "publisher": "广州尊悦文化发展有限公司",
+      "category": "益智",
+      "platformAppId": "wx1644b5d3f47969f0",
+      "sourceGameId": "34966159",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/a65524f1ea2cb91e4072a3d363f25402",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34592325",
+      "name": "抓大鹅",
+      "rank": 3,
+      "publisher": "青岛蓝飞互娱科技股份有限公司",
+      "category": "益智",
+      "platformAppId": "wxb98ac240fd74b0e3",
+      "sourceGameId": "34592325",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d85af53c8b419374c68c23931d867133",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34953115",
+      "name": "赵云与阿斗",
+      "rank": 4,
+      "publisher": "北京蜜獾工坊科技有限公司",
+      "category": "塔防",
+      "platformAppId": "wxbef54be7c625286e",
+      "sourceGameId": "34953115",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c6f1ac8898cfd2673180a9e2e4a3d826",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34882438",
+      "name": "一箭又一箭",
+      "rank": 5,
+      "publisher": "海南掌趣网络科技有限公司",
+      "category": "益智",
+      "platformAppId": "wx69949b45b793b612",
+      "sourceGameId": "34882438",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/2b80997e88fca1eed8b6a9147852d2e3",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34965900",
+      "name": "不停找找找",
+      "rank": 6,
+      "publisher": "长沙指色网络科技有限公司",
+      "category": "益智",
+      "platformAppId": "wxd1a3a871ddc9ebd2",
+      "sourceGameId": "34965900",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8addc03a4ede61ac3daeb7ecfbf6f401",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34722331",
+      "name": "打个螺丝",
+      "rank": 7,
+      "publisher": "广州尊悦文化发展有限公司",
+      "category": "益智",
+      "platformAppId": "wx2e170762929d239d",
+      "sourceGameId": "34722331",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/97ae2031d5d42970e0cf826293d0695c",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34966372",
+      "name": "整理师竞争",
+      "rank": 8,
+      "publisher": "武汉昀路安洋信息技术有限公司",
+      "category": "益智",
+      "platformAppId": "wxf286f92ac16ca6aa",
+      "sourceGameId": "34966372",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/096e2cd473bbf7365625c24361510912",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34965364",
+      "name": "对子乐消消",
+      "rank": 9,
+      "publisher": "厦门市宙火科技有限公司",
+      "category": "消除",
+      "platformAppId": "wx08ca4a979a9dba6c",
+      "sourceGameId": "34965364",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/36e66248557eb6309edc54daed4321db",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34592343",
+      "name": "躺平发育",
+      "rank": 10,
+      "publisher": "北京蜜獾工坊娱乐文化有限公司",
+      "category": "塔防",
+      "platformAppId": "wx8f54d0cf1faf013f",
+      "sourceGameId": "34592343",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/5fcd26c17fae8f98cc7324486dac864e",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34963436",
+      "name": "解压闯一关",
+      "rank": 11,
+      "publisher": "广州探游网络科技有限公司",
+      "category": "益智",
+      "platformAppId": "wxd168d04b737f0579",
+      "sourceGameId": "34963436",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4093c5813c37f9c427965bbdc2ba8557",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34965272",
+      "name": "指尖快消",
+      "rank": 12,
+      "publisher": "厦门营火科技有限公司",
+      "category": "消除",
+      "platformAppId": "wx461a77cb954413ea",
+      "sourceGameId": "34965272",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e7bcd97ef0f07e273ec377bde340abc6",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34742328",
+      "name": "猪了个猪",
+      "rank": 13,
+      "publisher": "杭州同趣科技有限公司",
+      "category": "益智",
+      "platformAppId": "wx2bd39bc6b432744f",
+      "sourceGameId": "34742328",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c38648dfe350b66e28185dc691134608",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34592350",
+      "name": "砖了个砖",
+      "rank": 14,
+      "publisher": "北京简游科技有限公司",
+      "category": "消除",
+      "platformAppId": "wx1650bdeedb17dfea",
+      "sourceGameId": "34592350",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c23699e145c0dc74d0a211136931b622",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34965627",
+      "name": "益智闯一关",
+      "rank": 15,
+      "publisher": "广州尊悦文化发展有限公司",
+      "category": "益智",
+      "platformAppId": "wx954f18dfba43ffed",
+      "sourceGameId": "34965627",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3000ef283ed7896e698396d13a197b57",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34964764",
+      "name": "上个了车",
+      "rank": 16,
+      "publisher": "广州指望科技有限公司",
+      "category": "益智",
+      "platformAppId": "wxe12810fe39ff34db",
+      "sourceGameId": "34964764",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d4cd5f522c9462f319cde715c7847163",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34592483",
+      "name": "掼蛋",
+      "rank": 17,
+      "publisher": "杭州边锋网络技术有限公司",
+      "category": "牌类",
+      "platformAppId": "wxb7d9498283885fb2",
+      "sourceGameId": "34592483",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/7a7b7f31466e9000a9459d579611ac5e",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34963496",
+      "name": "解压打毛线",
+      "rank": 18,
+      "publisher": "广州池骋网络科技有限公司",
+      "category": "益智",
+      "platformAppId": "wxcdc333d63f70cf06",
+      "sourceGameId": "34963496",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/108ecdb9b855db5ab69177b2be7253a2",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34932345",
+      "name": "一找一个准",
+      "rank": 19,
+      "publisher": "长沙指米网络科技有限公司",
+      "category": "益智",
+      "platformAppId": "wx3986ff94accd31a9",
+      "sourceGameId": "34932345",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d6642889c973c97ef1dabb9b7959f20a",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34963755",
+      "name": "看谁先上车",
+      "rank": 20,
+      "publisher": "长沙四五互娱网络科技有限公司",
+      "category": "益智",
+      "platformAppId": "wx641f825d5dce9ea9",
+      "sourceGameId": "34963755",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/887a15ac0f50bfa3831353fd8c29d543",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    }
+  ]
+}

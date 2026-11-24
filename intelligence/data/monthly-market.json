@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T03:31:19.236Z",
+  "updatedAt": "2026-11-24T03:28:13.874Z",
   "states": [
-    {
-      "platform": "wechat",
-      "status": "ok",
-      "lastAttemptAt": "2026-11-23T03:31:17.639Z",
-      "sourceMonth": "2026-10"
-    },
     {
       "platform": "douyin",
       "status": "ok",
-      "lastAttemptAt": "2026-11-23T03:31:17.671Z",
+      "lastAttemptAt": "2026-11-24T03:28:12.241Z",
+      "sourceMonth": "2026-10"
+    },
+    {
+      "platform": "wechat",
+      "status": "ok",
+      "lastAttemptAt": "2026-11-24T03:28:12.209Z",
       "sourceMonth": "2026-10"
     }
   ],
@@ -27,7 +27,7 @@
       "sourceUrl": "https://rank.gravity-engine.com/douyin/month/",
       "sourceMonth": "2026-10",
       "sourceDate": "2026-10-01",
-      "observedAt": "2026-11-23T03:31:19.235Z",
+      "observedAt": "2026-11-24T03:28:13.807Z",
       "coverage": {
         "limit": 20,
         "complete": true,
@@ -167,7 +167,7 @@
       "sourceUrl": "https://rank.gravity-engine.com/douyin/month/",
       "sourceMonth": "2026-10",
       "sourceDate": "2026-10-01",
-      "observedAt": "2026-11-23T03:31:19.235Z",
+      "observedAt": "2026-11-24T03:28:13.807Z",
       "coverage": {
         "limit": 20,
         "complete": true,
@@ -307,7 +307,7 @@
       "sourceUrl": "https://rank.gravity-engine.com/wechat/month/",
       "sourceMonth": "2026-10",
       "sourceDate": "2026-10-01",
-      "observedAt": "2026-11-23T03:31:18.997Z",
+      "observedAt": "2026-11-24T03:28:13.874Z",
       "coverage": {
         "limit": 20,
         "complete": true,
@@ -447,7 +447,7 @@
       "sourceUrl": "https://rank.gravity-engine.com/wechat/month/",
       "sourceMonth": "2026-10",
       "sourceDate": "2026-10-01",
-      "observedAt": "2026-11-23T03:31:18.997Z",
+      "observedAt": "2026-11-24T03:28:13.874Z",
       "coverage": {
         "limit": 20,
         "complete": true,
