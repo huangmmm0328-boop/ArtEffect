@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T03:28:12.109Z",
-  "date": "2026-11-24",
+  "generatedAt": "2026-11-25T03:34:15.990Z",
+  "date": "2026-11-25",
   "mode": "live_public_collection",
   "runner": {
     "kind": "github_actions",
-    "runId": "45319677906"
+    "runId": "45540837362"
   },
-  "snapshotCount": 42,
+  "snapshotCount": 48,
   "sources": [
     {
       "sourceId": "youchai",
       "status": "undated",
-      "lastAttemptAt": "2026-11-24T03:28:02.613Z",
-      "lastSuccessAt": "2026-11-24T03:28:04.505Z",
+      "lastAttemptAt": "2026-11-25T03:34:04.997Z",
+      "lastSuccessAt": "2026-11-25T03:34:07.120Z",
       "error": "已接入公开榜位；来源未披露统计日期，不纳入日趋势。",
       "boards": [
         {
           "boardId": "wechat-bestselling",
           "status": "ok",
           "sourceDate": null,
-          "rowCount": 31,
-          "observedAt": "2026-11-24T03:28:04.505Z",
+          "rowCount": 36,
+          "observedAt": "2026-11-25T03:34:07.120Z",
           "url": "https://quickminigame.com/rank/bestSelling"
         }
       ]
@@ -29,65 +29,65 @@
     {
       "sourceId": "gravity",
       "status": "ok",
-      "lastAttemptAt": "2026-11-24T03:28:02.609Z",
-      "lastSuccessAt": "2026-11-24T03:28:04.250Z",
+      "lastAttemptAt": "2026-11-25T03:34:04.993Z",
+      "lastSuccessAt": "2026-11-25T03:34:06.850Z",
       "error": "已接入 4 类当前公开榜单；历史由本站逐日累计。",
       "boards": [
         {
-          "boardId": "douyin-bestselling",
-          "status": "ok",
-          "sourceDate": "2026-11-24",
-          "rowCount": 20,
-          "observedAt": "2026-11-24T03:28:04.219Z",
-          "url": "https://rank.gravity-engine.com/douyin/day/"
-        },
-        {
-          "boardId": "douyin-hot",
-          "status": "ok",
-          "sourceDate": "2026-11-24",
-          "rowCount": 20,
-          "observedAt": "2026-11-24T03:28:04.219Z",
-          "url": "https://rank.gravity-engine.com/douyin/day/"
-        },
-        {
           "boardId": "wechat-bestselling",
           "status": "ok",
-          "sourceDate": "2026-11-24",
+          "sourceDate": "2026-11-25",
           "rowCount": 20,
-          "observedAt": "2026-11-24T03:28:04.250Z",
+          "observedAt": "2026-11-25T03:34:06.845Z",
           "url": "https://rank.gravity-engine.com/wechat/day/"
         },
         {
           "boardId": "wechat-mostplayed",
           "status": "ok",
-          "sourceDate": "2026-11-24",
+          "sourceDate": "2026-11-25",
           "rowCount": 20,
-          "observedAt": "2026-11-24T03:28:04.250Z",
+          "observedAt": "2026-11-25T03:34:06.845Z",
           "url": "https://rank.gravity-engine.com/wechat/day/"
+        },
+        {
+          "boardId": "douyin-bestselling",
+          "status": "ok",
+          "sourceDate": "2026-11-25",
+          "rowCount": 20,
+          "observedAt": "2026-11-25T03:34:06.850Z",
+          "url": "https://rank.gravity-engine.com/douyin/day/"
+        },
+        {
+          "boardId": "douyin-hot",
+          "status": "ok",
+          "sourceDate": "2026-11-25",
+          "rowCount": 20,
+          "observedAt": "2026-11-25T03:34:06.850Z",
+          "url": "https://rank.gravity-engine.com/douyin/day/"
         }
       ]
     },
     {
       "sourceId": "momorank",
       "status": "ok",
-      "lastAttemptAt": "2026-11-24T03:28:02.612Z",
-      "lastSuccessAt": "2026-11-24T03:28:04.936Z",
+      "lastAttemptAt": "2026-11-25T03:34:04.996Z",
+      "lastSuccessAt": "2026-11-25T03:34:07.069Z",
       "error": "已接入 2 类当前公开榜单；历史由本站逐日累计。",
       "boards": [
         {
           "boardId": "douyin-hot",
           "status": "ok",
-          "sourceDate": "2026-11-24",
+          "sourceDate": "2026-11-25",
           "rowCount": 10,
-          "observedAt": "2026-11-24T03:28:04.184Z",
+          "observedAt": "2026-11-25T03:34:06.516Z",
           "url": "https://www.momorank.com/douyin/rankings/popular"
         },
         {
           "boardId": "douyin-bestselling",
           "status": "ok",
-          "sourceDate": "2026-11-24",
+          "sourceDate": "2026-11-25",
           "rowCount": 10,
-          "observedAt": "2026-11-24T03:28:04.936Z",
+          "observedAt": "2026-11-25T03:34:07.069Z",
           "url": "https://www.momorank.com/douyin/rankings/bestseller"
         }
       ]
@@ -119,8 +119,8 @@
     {
       "sourceId": "questmobile",
       "status": "ok",
-      "lastAttemptAt": "2026-11-24T03:28:04.938Z",
-      "lastSuccessAt": "2026-11-24T03:28:12.108Z",
+      "lastAttemptAt": "2026-11-25T03:34:07.121Z",
+      "lastSuccessAt": "2026-11-25T03:34:15.989Z",
       "error": "免费行业报告已核验；统计范围与周期见用户研究页。",
       "boards": []
     }
