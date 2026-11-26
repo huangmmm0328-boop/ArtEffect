@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "kind": "rank_change_record",
+  "sourceId": "momorank",
+  "boardId": "douyin-bestselling",
+  "currentDate": "2026-11-26",
+  "previousDate": "2026-11-25",
+  "comparable": true,
+  "reason": null,
+  "currentObservation": "2026-11-26T03:32:47.479Z",
+  "previousObservation": "2026-11-25T03:34:07.069Z",
+  "rows": [
+    {
+      "gameId": "momorank:577",
+      "name": "镇邪人",
+      "rank": 1,
+      "delta": 1,
+      "isNew": false,
+      "consecutiveObservedDays": 9
+    },
+    {
+      "gameId": "momorank:479",
+      "name": "疯狂水世界",
+      "rank": 2,
+      "delta": -1,
+      "isNew": false,
+      "consecutiveObservedDays": 9
+    },
+    {
+      "gameId": "momorank:496",
+      "name": "灵画师",
+      "rank": 3,
+      "delta": 2,
+      "isNew": false,
+      "consecutiveObservedDays": 9
+    },
+    {
+      "gameId": "momorank:531",
+      "name": "超能下蛋鸭",
+      "rank": 4,
+      "delta": 4,
+      "isNew": false,
+      "consecutiveObservedDays": 2
+    },
+    {
+      "gameId": "momorank:553",
+      "name": "造化仙府",
+      "rank": 5,
+      "delta": -2,
+      "isNew": false,
+      "consecutiveObservedDays": 7
+    },
+    {
+      "gameId": "momorank:484",
+      "name": "肥鹅美食街",
+      "rank": 6,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 9
+    },
+    {
+      "gameId": "momorank:491",
+      "name": "向僵尸开炮",
+      "rank": 7,
+      "delta": -3,
+      "isNew": false,
+      "consecutiveObservedDays": 9
+    },
+    {
+      "gameId": "momorank:474",
+      "name": "梦幻消除战",
+      "rank": 8,
+      "delta": -1,
+      "isNew": false,
+      "consecutiveObservedDays": 5
+    },
+    {
+      "gameId": "momorank:578",
+      "name": "不服来通关",
+      "rank": 9,
+      "delta": null,
+      "isNew": true,
+      "consecutiveObservedDays": 1
+    },
+    {
+      "gameId": "momorank:476",
+      "name": "浪漫餐厅",
+      "rank": 10,
+      "delta": null,
+      "isNew": true,
+      "consecutiveObservedDays": 1
+    }
+  ]
+}

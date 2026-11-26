@@ -9,7 +9,7 @@
       "platform": "wechat",
       "sourceUrl": "https://quickminigame.com/rank/bestSelling",
       "sourceDate": null,
-      "observedAt": "2026-11-25T03:34:07.120Z",
+      "observedAt": "2026-11-26T03:32:47.475Z",
       "dateBasis": "observation_only",
       "coverage": {
         "limit": 100,
@@ -19,220 +19,214 @@
       "note": "来源未披露本页榜单统计日期；仅记录访问时间，不进入日趋势比较。",
       "rows": [
         {
-          "gameId": "youchai:2d108b5db3f6f639",
-          "name": "我的花园世界",
-          "rank": 3,
-          "sourceUrl": "https://quickminigame.com/game/%E6%88%91%E7%9A%84%E8%8A%B1%E5%9B%AD%E4%B8%96%E7%95%8C"
-        },
-        {
-          "gameId": "youchai:9f2d1eb8d1b7c099",
-          "name": "浪漫餐厅",
-          "rank": 7,
-          "sourceUrl": "https://quickminigame.com/game/%E6%B5%AA%E6%BC%AB%E9%A4%90%E5%8E%85"
-        },
-        {
-          "gameId": "youchai:88a175be5cbbce95",
-          "name": "保卫向日葵",
-          "rank": 8,
-          "sourceUrl": "https://quickminigame.com/game/%E4%BF%9D%E5%8D%AB%E5%90%91%E6%97%A5%E8%91%B5"
-        },
-        {
           "gameId": "youchai:b97eeff8c4beec70",
           "name": "梦幻消除战",
-          "rank": 9,
+          "rank": 5,
           "sourceUrl": "https://quickminigame.com/game/%E6%A2%A6%E5%B9%BB%E6%B6%88%E9%99%A4%E6%88%98"
         },
         {
           "gameId": "youchai:2c53efe860b98722",
           "name": "向往的生活",
-          "rank": 10,
+          "rank": 6,
           "sourceUrl": "https://quickminigame.com/game/%E5%90%91%E5%BE%80%E7%9A%84%E7%94%9F%E6%B4%BB"
+        },
+        {
+          "gameId": "youchai:9f2d1eb8d1b7c099",
+          "name": "浪漫餐厅",
+          "rank": 8,
+          "sourceUrl": "https://quickminigame.com/game/%E6%B5%AA%E6%BC%AB%E9%A4%90%E5%8E%85"
+        },
+        {
+          "gameId": "youchai:2d108b5db3f6f639",
+          "name": "我的花园世界",
+          "rank": 9,
+          "sourceUrl": "https://quickminigame.com/game/%E6%88%91%E7%9A%84%E8%8A%B1%E5%9B%AD%E4%B8%96%E7%95%8C"
+        },
+        {
+          "gameId": "youchai:88a175be5cbbce95",
+          "name": "保卫向日葵",
+          "rank": 10,
+          "sourceUrl": "https://quickminigame.com/game/%E4%BF%9D%E5%8D%AB%E5%90%91%E6%97%A5%E8%91%B5"
         },
         {
           "gameId": "youchai:419fdf7978b1300c",
           "name": "腾讯欢乐斗地主",
-          "rank": 17,
+          "rank": 16,
           "sourceUrl": "https://quickminigame.com/game/%E8%85%BE%E8%AE%AF%E6%AC%A2%E4%B9%90%E6%96%97%E5%9C%B0%E4%B8%BB"
         },
         {
           "gameId": "youchai:0ab497d2b1dc6f1f",
           "name": "青云诀之伏魔",
-          "rank": 20,
+          "rank": 17,
           "sourceUrl": "https://quickminigame.com/game/%E9%9D%92%E4%BA%91%E8%AF%80%E4%B9%8B%E4%BC%8F%E9%AD%94"
         },
         {
           "gameId": "youchai:5a6cff67e7cf7337",
           "name": "天命行者",
-          "rank": 26,
+          "rank": 25,
           "sourceUrl": "https://quickminigame.com/game/%E5%A4%A9%E5%91%BD%E8%A1%8C%E8%80%85"
         },
         {
           "gameId": "youchai:35913097da4e3f40",
           "name": "武侠大明星",
-          "rank": 33,
+          "rank": 29,
           "sourceUrl": "https://quickminigame.com/game/%E6%AD%A6%E4%BE%A0%E5%A4%A7%E6%98%8E%E6%98%9F"
-        },
-        {
-          "gameId": "youchai:7fb23554a9f59939",
-          "name": "海盗来了",
-          "rank": 39,
-          "sourceUrl": "https://quickminigame.com/game/%E6%B5%B7%E7%9B%97%E6%9D%A5%E4%BA%86"
-        },
-        {
-          "gameId": "youchai:74b598e0239c9503",
-          "name": "机智逃脱",
-          "rank": 44,
-          "sourceUrl": "https://quickminigame.com/game/%E6%9C%BA%E6%99%BA%E9%80%83%E8%84%B1"
         },
         {
           "gameId": "youchai:acdb4f43fbd58658",
           "name": "雀神广东麻将",
-          "rank": 45,
+          "rank": 42,
           "sourceUrl": "https://quickminigame.com/game/%E9%9B%80%E7%A5%9E%E5%B9%BF%E4%B8%9C%E9%BA%BB%E5%B0%86"
+        },
+        {
+          "gameId": "youchai:74b598e0239c9503",
+          "name": "机智逃脱",
+          "rank": 43,
+          "sourceUrl": "https://quickminigame.com/game/%E6%9C%BA%E6%99%BA%E9%80%83%E8%84%B1"
+        },
+        {
+          "gameId": "youchai:7fb23554a9f59939",
+          "name": "海盗来了",
+          "rank": 46,
+          "sourceUrl": "https://quickminigame.com/game/%E6%B5%B7%E7%9B%97%E6%9D%A5%E4%BA%86"
         },
         {
           "gameId": "youchai:360680c1948eb28b",
           "name": "时尚百货城",
-          "rank": 48,
+          "rank": 49,
           "sourceUrl": "https://quickminigame.com/game/%E6%97%B6%E5%B0%9A%E7%99%BE%E8%B4%A7%E5%9F%8E"
-        },
-        {
-          "gameId": "youchai:a31cf0a7b262f143",
-          "name": "英雄杀",
-          "rank": 51,
-          "sourceUrl": "https://quickminigame.com/game/%E8%8B%B1%E9%9B%84%E6%9D%80"
-        },
-        {
-          "gameId": "youchai:a1a32069a212a202",
-          "name": "勇者乱斗",
-          "rank": 53,
-          "sourceUrl": "https://quickminigame.com/game/%E5%8B%87%E8%80%85%E4%B9%B1%E6%96%97"
-        },
-        {
-          "gameId": "youchai:097a96829c1468f9",
-          "name": "不服来通关",
-          "rank": 55,
-          "sourceUrl": "https://quickminigame.com/game/%E4%B8%8D%E6%9C%8D%E6%9D%A5%E9%80%9A%E5%85%B3"
-        },
-        {
-          "gameId": "youchai:6f284bdc539eff3a",
-          "name": "斗破苍穹：斗帝之路",
-          "rank": 56,
-          "sourceUrl": "https://quickminigame.com/game/%E6%96%97%E7%A0%B4%E8%8B%8D%E7%A9%B9-%E6%96%97%E5%B8%9D%E4%B9%8B%E8%B7%AF"
-        },
-        {
-          "gameId": "youchai:fd3dacbe57c4dffa",
-          "name": "暴走植物园",
-          "rank": 57,
-          "sourceUrl": "https://quickminigame.com/game/%E6%9A%B4%E8%B5%B0%E6%A4%8D%E7%89%A9%E5%9B%AD"
-        },
-        {
-          "gameId": "youchai:af9c4eb78422fec5",
-          "name": "肥鹅健身房",
-          "rank": 60,
-          "sourceUrl": "https://quickminigame.com/game/%E8%82%A5%E9%B9%85%E5%81%A5%E8%BA%AB%E6%88%BF"
-        },
-        {
-          "gameId": "youchai:ed7fab9b910a2309",
-          "name": "无畏冒险",
-          "rank": 61,
-          "sourceUrl": "https://quickminigame.com/game/%E6%97%A0%E7%95%8F%E5%86%92%E9%99%A9"
-        },
-        {
-          "gameId": "youchai:fe7832ce633bce9f",
-          "name": "小兵有前途",
-          "rank": 62,
-          "sourceUrl": "https://quickminigame.com/game/%E5%B0%8F%E5%85%B5%E6%9C%89%E5%89%8D%E9%80%94"
-        },
-        {
-          "gameId": "youchai:1be6a0bc01acf92d",
-          "name": "小岛有晴天",
-          "rank": 65,
-          "sourceUrl": "https://quickminigame.com/game/%E5%B0%8F%E5%B2%9B%E6%9C%89%E6%99%B4%E5%A4%A9"
         },
         {
           "gameId": "youchai:630f0a2ee78976ef",
           "name": "改装大作战",
-          "rank": 68,
+          "rank": 55,
           "sourceUrl": "https://quickminigame.com/game/%E6%94%B9%E8%A3%85%E5%A4%A7%E4%BD%9C%E6%88%98"
         },
         {
-          "gameId": "youchai:61e8df49a9f24fec",
-          "name": "三国杀",
-          "rank": 73,
-          "sourceUrl": "https://quickminigame.com/game/%E4%B8%89%E5%9B%BD%E6%9D%80"
+          "gameId": "youchai:af9c4eb78422fec5",
+          "name": "肥鹅健身房",
+          "rank": 56,
+          "sourceUrl": "https://quickminigame.com/game/%E8%82%A5%E9%B9%85%E5%81%A5%E8%BA%AB%E6%88%BF"
         },
         {
-          "gameId": "youchai:2e776330496dfbd2",
-          "name": "最强斗王",
-          "rank": 74,
-          "sourceUrl": "https://quickminigame.com/game/%E6%9C%80%E5%BC%BA%E6%96%97%E7%8E%8B"
+          "gameId": "youchai:a31cf0a7b262f143",
+          "name": "英雄杀",
+          "rank": 58,
+          "sourceUrl": "https://quickminigame.com/game/%E8%8B%B1%E9%9B%84%E6%9D%80"
         },
         {
-          "gameId": "youchai:5d4aa636ab07a8f2",
-          "name": "手机反恐特别行动",
-          "rank": 76,
-          "sourceUrl": "https://quickminigame.com/game/%E6%89%8B%E6%9C%BA%E5%8F%8D%E6%81%90%E7%89%B9%E5%88%AB%E8%A1%8C%E5%8A%A8"
+          "gameId": "youchai:fe7832ce633bce9f",
+          "name": "小兵有前途",
+          "rank": 66,
+          "sourceUrl": "https://quickminigame.com/game/%E5%B0%8F%E5%85%B5%E6%9C%89%E5%89%8D%E9%80%94"
+        },
+        {
+          "gameId": "youchai:ed7fab9b910a2309",
+          "name": "无畏冒险",
+          "rank": 67,
+          "sourceUrl": "https://quickminigame.com/game/%E6%97%A0%E7%95%8F%E5%86%92%E9%99%A9"
+        },
+        {
+          "gameId": "youchai:6f284bdc539eff3a",
+          "name": "斗破苍穹：斗帝之路",
+          "rank": 68,
+          "sourceUrl": "https://quickminigame.com/game/%E6%96%97%E7%A0%B4%E8%8B%8D%E7%A9%B9-%E6%96%97%E5%B8%9D%E4%B9%8B%E8%B7%AF"
         },
         {
           "gameId": "youchai:6bfde2af1c499487",
           "name": "微乐四川麻将",
-          "rank": 80,
+          "rank": 69,
           "sourceUrl": "https://quickminigame.com/game/%E5%BE%AE%E4%B9%90%E5%9B%9B%E5%B7%9D%E9%BA%BB%E5%B0%86"
+        },
+        {
+          "gameId": "youchai:fd3dacbe57c4dffa",
+          "name": "暴走植物园",
+          "rank": 70,
+          "sourceUrl": "https://quickminigame.com/game/%E6%9A%B4%E8%B5%B0%E6%A4%8D%E7%89%A9%E5%9B%AD"
         },
         {
           "gameId": "youchai:6351b99d85fd4c29",
           "name": "掼蛋",
-          "rank": 83,
+          "rank": 74,
           "sourceUrl": "https://quickminigame.com/game/%E6%8E%BC%E8%9B%8B"
         },
         {
-          "gameId": "youchai:8dc4fe560ca87cfb",
-          "name": "勇者联盟",
-          "rank": 86,
-          "sourceUrl": "https://quickminigame.com/game/%E5%8B%87%E8%80%85%E8%81%94%E7%9B%9F"
+          "gameId": "youchai:5d4aa636ab07a8f2",
+          "name": "手机反恐特别行动",
+          "rank": 79,
+          "sourceUrl": "https://quickminigame.com/game/%E6%89%8B%E6%9C%BA%E5%8F%8D%E6%81%90%E7%89%B9%E5%88%AB%E8%A1%8C%E5%8A%A8"
         },
         {
-          "gameId": "youchai:f5f8fdd32c9c8265",
-          "name": "秘密花园HD",
-          "rank": 87,
-          "sourceUrl": "https://quickminigame.com/game/%E7%A7%98%E5%AF%86%E8%8A%B1%E5%9B%ADhd"
+          "gameId": "youchai:a1a32069a212a202",
+          "name": "勇者乱斗",
+          "rank": 81,
+          "sourceUrl": "https://quickminigame.com/game/%E5%8B%87%E8%80%85%E4%B9%B1%E6%96%97"
         },
         {
-          "gameId": "youchai:764d8a1e2b0f9c22",
-          "name": "王者之弈",
-          "rank": 88,
-          "sourceUrl": "https://quickminigame.com/game/%E7%8E%8B%E8%80%85%E4%B9%8B%E5%BC%88"
+          "gameId": "youchai:61e8df49a9f24fec",
+          "name": "三国杀",
+          "rank": 83,
+          "sourceUrl": "https://quickminigame.com/game/%E4%B8%89%E5%9B%BD%E6%9D%80"
         },
         {
           "gameId": "youchai:a244442863389e06",
           "name": "迷雾大陆",
-          "rank": 90,
+          "rank": 84,
           "sourceUrl": "https://quickminigame.com/game/%E8%BF%B7%E9%9B%BE%E5%A4%A7%E9%99%86"
         },
         {
-          "gameId": "youchai:f826b464f5ba90de",
-          "name": "指尖王国",
-          "rank": 91,
-          "sourceUrl": "https://quickminigame.com/game/%E6%8C%87%E5%B0%96%E7%8E%8B%E5%9B%BD"
+          "gameId": "youchai:2e776330496dfbd2",
+          "name": "最强斗王",
+          "rank": 85,
+          "sourceUrl": "https://quickminigame.com/game/%E6%9C%80%E5%BC%BA%E6%96%97%E7%8E%8B"
+        },
+        {
+          "gameId": "youchai:f5f8fdd32c9c8265",
+          "name": "秘密花园HD",
+          "rank": 86,
+          "sourceUrl": "https://quickminigame.com/game/%E7%A7%98%E5%AF%86%E8%8A%B1%E5%9B%ADhd"
         },
         {
           "gameId": "youchai:925a5496341911d9",
           "name": "财神十三张",
-          "rank": 94,
+          "rank": 88,
           "sourceUrl": "https://quickminigame.com/game/%E8%B4%A2%E7%A5%9E%E5%8D%81%E4%B8%89%E5%BC%A0"
         },
         {
-          "gameId": "youchai:8dad7c279fc04bcc",
-          "name": "喵骑战域",
-          "rank": 95,
-          "sourceUrl": "https://quickminigame.com/game/%E5%96%B5%E9%AA%91%E6%88%98%E5%9F%9F"
+          "gameId": "youchai:fdadf3b4a6511606",
+          "name": "微乐捉鸡麻将",
+          "rank": 89,
+          "sourceUrl": "https://quickminigame.com/game/%E5%BE%AE%E4%B9%90%E6%8D%89%E9%B8%A1%E9%BA%BB%E5%B0%86"
         },
         {
-          "gameId": "youchai:c2a22871bfa9805a",
-          "name": "塔防精灵",
-          "rank": 98,
-          "sourceUrl": "https://quickminigame.com/game/%E5%A1%94%E9%98%B2%E7%B2%BE%E7%81%B5"
+          "gameId": "youchai:df004a6f5b82f9fb",
+          "name": "彩色消除",
+          "rank": 91,
+          "sourceUrl": "https://quickminigame.com/game/%E5%BD%A9%E8%89%B2%E6%B6%88%E9%99%A4"
+        },
+        {
+          "gameId": "youchai:f826b464f5ba90de",
+          "name": "指尖王国",
+          "rank": 95,
+          "sourceUrl": "https://quickminigame.com/game/%E6%8C%87%E5%B0%96%E7%8E%8B%E5%9B%BD"
+        },
+        {
+          "gameId": "youchai:1be6a0bc01acf92d",
+          "name": "小岛有晴天",
+          "rank": 96,
+          "sourceUrl": "https://quickminigame.com/game/%E5%B0%8F%E5%B2%9B%E6%9C%89%E6%99%B4%E5%A4%A9"
+        },
+        {
+          "gameId": "youchai:8dc4fe560ca87cfb",
+          "name": "勇者联盟",
+          "rank": 99,
+          "sourceUrl": "https://quickminigame.com/game/%E5%8B%87%E8%80%85%E8%81%94%E7%9B%9F"
+        },
+        {
+          "gameId": "youchai:6c0559f29720c906",
+          "name": "多乐够级",
+          "rank": 100,
+          "sourceUrl": "https://quickminigame.com/game/%E5%A4%9A%E4%B9%90%E5%A4%9F%E7%BA%A7"
         }
       ]
     }
