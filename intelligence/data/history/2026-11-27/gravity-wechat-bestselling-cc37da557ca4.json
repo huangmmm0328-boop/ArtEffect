@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "kind": "ranking_snapshot",
+  "status": "ok",
+  "period": "day",
+  "definitionVersion": "gravity-public-bestseller-top20-v1",
+  "sourceId": "gravity",
+  "boardId": "wechat-bestselling",
+  "platform": "wechat",
+  "sourceUrl": "https://rank.gravity-engine.com/wechat/day/",
+  "sourceDate": "2026-11-27",
+  "observedAt": "2026-11-27T03:35:00.915Z",
+  "origin": "direct_public_observation",
+  "verification": {
+    "reviewed": true,
+    "method": "reviewed_public_page_parser",
+    "evidenceUrl": "https://rank.gravity-engine.com/wechat/day/",
+    "parserVersion": 1,
+    "scope": "仅匿名公开页面当前榜位；解析规则与公开页面人工核对，后续采集执行自动校验"
+  },
+  "coverage": {
+    "limit": 20,
+    "complete": true,
+    "description": "免费公开范围 Top 20；不代表完整市场榜单"
+  },
+  "rows": [
+    {
+      "gameId": "gravity:34592330",
+      "name": "向僵尸开炮",
+      "rank": 1,
+      "publisher": "海南盛昌网络科技有限公司",
+      "category": "益智",
+      "platformAppId": "wx31a9c726536cdacc",
+      "sourceGameId": "34592330",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/2ff6b3e53aa84522c310ef0ab9765ae4",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34692328",
+      "name": "三国：冰河时代",
+      "rank": 2,
+      "publisher": "欢游互动（北京）科技有限公司",
+      "category": "其他",
+      "platformAppId": "wx209b8a6bc1c08b85",
+      "sourceGameId": "34692328",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8266f46649fb00772ba1363069d1ab3e",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34632349",
+      "name": "无尽冬日",
+      "rank": 3,
+      "publisher": "点点互动（北京）科技有限公司",
+      "category": "对战",
+      "platformAppId": "wxada4175c8b2a9864",
+      "sourceGameId": "34632349",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/23581fa35013fd5ff1c3319332df3482",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34592329",
+      "name": "浪漫餐厅",
+      "rank": 4,
+      "publisher": "北京柠檬微趣科技股份有限公司",
+      "category": "益智",
+      "platformAppId": "wx087d98a0884bbe3b",
+      "sourceGameId": "34592329",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4e6117ad571bb3900200f3927f1b5592",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34963367",
+      "name": "向末日开炮",
+      "rank": 5,
+      "publisher": "海南易多量科技有限公司",
+      "category": "模拟经营",
+      "platformAppId": "wx6d939b5e0a7dd630",
+      "sourceGameId": "34963367",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/07f3346ce3cd03764e6cbbbf1a9d7b52",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34817273",
+      "name": "梦幻消除战",
+      "rank": 6,
+      "publisher": "广州喜势网络科技有限公司",
+      "category": "模拟经营",
+      "platformAppId": "wxc721a6dc3366ec1f",
+      "sourceGameId": "34817273",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/cccc2dbc474523aae89612ebe5866b24",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34966958",
+      "name": "我叫MT：崛起",
+      "rank": 7,
+      "publisher": null,
+      "category": "卡牌",
+      "platformAppId": "wx96d5cd65b58b13b2",
+      "sourceGameId": "34966958",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3f68a039ffc214c8058af09c9a750116",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34820282",
+      "name": "向往的生活",
+      "rank": 8,
+      "publisher": "深圳市必凡娱乐科技有限公司",
+      "category": "模拟经营",
+      "platformAppId": "wx961a01b2c8096028",
+      "sourceGameId": "34820282",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/6a81f2015080659e31f805f5b555ae2e",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34772445",
+      "name": "保卫向日葵",
+      "rank": 9,
+      "publisher": "深圳市一起梦游科技有限公司",
+      "category": "塔防",
+      "platformAppId": "wx4557e6fdca0cc576",
+      "sourceGameId": "34772445",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e8e386c44508c17c3b9f075ce2174496",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34818118",
+      "name": "奔奔王国",
+      "rank": 10,
+      "publisher": "福州点点松云网络有限公司",
+      "category": "对战",
+      "platformAppId": "wxd5a7455f2d66f698",
+      "sourceGameId": "34818118",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4fd1672124806da7d544d6190b07faa6",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34742338",
+      "name": "灵画师",
+      "rank": 11,
+      "publisher": "广州光游网络科技有限公司",
+      "category": "ARPG",
+      "platformAppId": "wxcbc1fc07fb13d667",
+      "sourceGameId": "34742338",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/af04c4d0bf59cf9d7b30a429fc053532",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34802431",
+      "name": "造化仙府",
+      "rank": 12,
+      "publisher": "上海沛炫网络科技有限公司",
+      "category": "模拟经营",
+      "platformAppId": "wxc5c6c4e6b4b0075f",
+      "sourceGameId": "34802431",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/0107234bc21f91b8d57cfb07f6489014",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34842350",
+      "name": "疯狂水世界",
+      "rank": 13,
+      "publisher": "益世界网络科技有限公司",
+      "category": "模拟经营",
+      "platformAppId": "wx2ea52a972ea18e5e",
+      "sourceGameId": "34842350",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f96d902ca11e623ed393c5dc6f92c410",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34592326",
+      "name": "腾讯欢乐斗地主",
+      "rank": 14,
+      "publisher": "深圳市腾讯计算机系统有限公司",
+      "category": "牌类",
+      "platformAppId": "wxd0e404d795ea6f80",
+      "sourceGameId": "34592326",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3346274bed9aabffae3b4fb958caa380",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34592377",
+      "name": "青云诀之伏魔",
+      "rank": 15,
+      "publisher": "海南元游信息技术有限公司",
+      "category": "MMO",
+      "platformAppId": "wxcdcbec6bf40d053a",
+      "sourceGameId": "34592377",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/ca986d9b655de9845ffe6bc210982c49",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34965446",
+      "name": "甄嬛传：归来",
+      "rank": 16,
+      "publisher": "深圳市拾光筑梦文化传媒有限公司",
+      "category": "益智",
+      "platformAppId": "wx643f638c904e3ab0",
+      "sourceGameId": "34965446",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f46ec606ee313d68c0c7d1b3a1b95697",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34922952",
+      "name": "空格之境",
+      "rank": 17,
+      "publisher": "江西启游互动科技有限公司",
+      "category": "模拟经营",
+      "platformAppId": "wx0e0531466ba56547",
+      "sourceGameId": "34922952",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4e855d7117ec9c560c1160fc0ea10085",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34819273",
+      "name": "我的花园世界",
+      "rank": 18,
+      "publisher": "厦门麟贝互娱科技有限公司",
+      "category": "模拟经营",
+      "platformAppId": "wx47e577dc5b3fde6f",
+      "sourceGameId": "34819273",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/56bdf38b0e0dc79934938bd4f73b9850",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34963907",
+      "name": "工匠小能手",
+      "rank": 19,
+      "publisher": "深圳市飞鸟与鱼科技开发有限公司",
+      "category": "益智",
+      "platformAppId": "wxefc691ce43c6df7b",
+      "sourceGameId": "34963907",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/fc59c61916efd8fd9e3a58612bcd7a0f",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    },
+    {
+      "gameId": "gravity:34592381",
+      "name": "跃动小子",
+      "rank": 20,
+      "publisher": "波克科技集团有限公司",
+      "category": "益智",
+      "platformAppId": "wx6cce8ac2ea74103e",
+      "sourceGameId": "34592381",
+      "iconUrl": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/9b55ac030b0c695137f8079c6524cae2",
+      "sourceUrl": "https://rank.gravity-engine.com/wechat/day/"
+    }
+  ]
+}

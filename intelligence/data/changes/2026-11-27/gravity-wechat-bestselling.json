@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "kind": "rank_change_record",
+  "sourceId": "gravity",
+  "boardId": "wechat-bestselling",
+  "currentDate": "2026-11-27",
+  "previousDate": "2026-11-26",
+  "comparable": true,
+  "reason": null,
+  "currentObservation": "2026-11-27T03:35:00.915Z",
+  "previousObservation": "2026-11-26T03:32:46.922Z",
+  "rows": [
+    {
+      "gameId": "gravity:34592330",
+      "name": "向僵尸开炮",
+      "rank": 1,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 10
+    },
+    {
+      "gameId": "gravity:34692328",
+      "name": "三国：冰河时代",
+      "rank": 2,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 10
+    },
+    {
+      "gameId": "gravity:34632349",
+      "name": "无尽冬日",
+      "rank": 3,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 10
+    },
+    {
+      "gameId": "gravity:34592329",
+      "name": "浪漫餐厅",
+      "rank": 4,
+      "delta": 4,
+      "isNew": false,
+      "consecutiveObservedDays": 10
+    },
+    {
+      "gameId": "gravity:34963367",
+      "name": "向末日开炮",
+      "rank": 5,
+      "delta": -1,
+      "isNew": false,
+      "consecutiveObservedDays": 10
+    },
+    {
+      "gameId": "gravity:34817273",
+      "name": "梦幻消除战",
+      "rank": 6,
+      "delta": -1,
+      "isNew": false,
+      "consecutiveObservedDays": 10
+    },
+    {
+      "gameId": "gravity:34966958",
+      "name": "我叫MT：崛起",
+      "rank": 7,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 2
+    },
+    {
+      "gameId": "gravity:34820282",
+      "name": "向往的生活",
+      "rank": 8,
+      "delta": -2,
+      "isNew": false,
+      "consecutiveObservedDays": 10
+    },
+    {
+      "gameId": "gravity:34772445",
+      "name": "保卫向日葵",
+      "rank": 9,
+      "delta": 1,
+      "isNew": false,
+      "consecutiveObservedDays": 4
+    },
+    {
+      "gameId": "gravity:34818118",
+      "name": "奔奔王国",
+      "rank": 10,
+      "delta": 2,
+      "isNew": false,
+      "consecutiveObservedDays": 10
+    },
+    {
+      "gameId": "gravity:34742338",
+      "name": "灵画师",
+      "rank": 11,
+      "delta": 3,
+      "isNew": false,
+      "consecutiveObservedDays": 10
+    },
+    {
+      "gameId": "gravity:34802431",
+      "name": "造化仙府",
+      "rank": 12,
+      "delta": -1,
+      "isNew": false,
+      "consecutiveObservedDays": 10
+    },
+    {
+      "gameId": "gravity:34842350",
+      "name": "疯狂水世界",
+      "rank": 13,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 10
+    },
+    {
+      "gameId": "gravity:34592326",
+      "name": "腾讯欢乐斗地主",
+      "rank": 14,
+      "delta": 2,
+      "isNew": false,
+      "consecutiveObservedDays": 10
+    },
+    {
+      "gameId": "gravity:34592377",
+      "name": "青云诀之伏魔",
+      "rank": 15,
+      "delta": 2,
+      "isNew": false,
+      "consecutiveObservedDays": 3
+    },
+    {
+      "gameId": "gravity:34965446",
+      "name": "甄嬛传：归来",
+      "rank": 16,
+      "delta": 2,
+      "isNew": false,
+      "consecutiveObservedDays": 4
+    },
+    {
+      "gameId": "gravity:34922952",
+      "name": "空格之境",
+      "rank": 17,
+      "delta": -2,
+      "isNew": false,
+      "consecutiveObservedDays": 5
+    },
+    {
+      "gameId": "gravity:34819273",
+      "name": "我的花园世界",
+      "rank": 18,
+      "delta": -9,
+      "isNew": false,
+      "consecutiveObservedDays": 7
+    },
+    {
+      "gameId": "gravity:34963907",
+      "name": "工匠小能手",
+      "rank": 19,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 4
+    },
+    {
+      "gameId": "gravity:34592381",
+      "name": "跃动小子",
+      "rank": 20,
+      "delta": 0,
+      "isNew": false,
+      "consecutiveObservedDays": 2
+    }
+  ]
+}
