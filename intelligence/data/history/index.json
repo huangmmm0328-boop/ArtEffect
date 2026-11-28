@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T03:35:10.190Z",
+  "updatedAt": "2026-11-28T03:27:38.160Z",
   "snapshots": [
     {
       "path": "history/2026-11-18/gravity-douyin-bestselling-9c2e7a855e20.json",
@@ -421,6 +421,34 @@
       "boardId": "douyin-hot",
       "sourceDate": "2026-11-27",
       "observedAt": "2026-11-27T03:35:01.765Z"
+    },
+    {
+      "path": "history/2026-11-28/gravity-douyin-bestselling-26df2b4774d0.json",
+      "sourceId": "gravity",
+      "boardId": "douyin-bestselling",
+      "sourceDate": "2026-11-28",
+      "observedAt": "2026-11-28T03:27:35.122Z"
+    },
+    {
+      "path": "history/2026-11-28/gravity-douyin-hot-04855579e280.json",
+      "sourceId": "gravity",
+      "boardId": "douyin-hot",
+      "sourceDate": "2026-11-28",
+      "observedAt": "2026-11-28T03:27:35.122Z"
+    },
+    {
+      "path": "history/2026-11-28/gravity-wechat-bestselling-3191e793df84.json",
+      "sourceId": "gravity",
+      "boardId": "wechat-bestselling",
+      "sourceDate": "2026-11-28",
+      "observedAt": "2026-11-28T03:27:35.245Z"
+    },
+    {
+      "path": "history/2026-11-28/gravity-wechat-mostplayed-89f7fa89002c.json",
+      "sourceId": "gravity",
+      "boardId": "wechat-mostplayed",
+      "sourceDate": "2026-11-28",
+      "observedAt": "2026-11-28T03:27:35.245Z"
     }
   ]
 }

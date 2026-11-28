@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T03:35:12.041Z",
+  "generatedAt": "2026-11-28T03:27:39.945Z",
   "defaultMonth": "2026-11",
   "monthlySourceStates": [
     {
-      "platform": "douyin",
+      "platform": "wechat",
       "status": "ok",
-      "lastAttemptAt": "2026-11-27T03:35:10.335Z",
+      "lastAttemptAt": "2026-11-28T03:27:38.246Z",
       "sourceMonth": "2026-10"
     },
     {
-      "platform": "wechat",
+      "platform": "douyin",
       "status": "ok",
-      "lastAttemptAt": "2026-11-27T03:35:10.301Z",
+      "lastAttemptAt": "2026-11-28T03:27:38.272Z",
       "sourceMonth": "2026-10"
     }
   ],
@@ -24,20 +24,59 @@
         "start": "2026-12",
         "end": "2027-02"
       },
-      "generatedAt": "2026-11-27T03:35:12.041Z",
+      "generatedAt": "2026-11-28T03:27:39.945Z",
       "basis": "month_to_date_observations",
       "isCurrentMonth": true,
-      "observedDays": 10,
+      "observedDays": 11,
       "firstDate": "2026-11-18",
-      "lastDate": "2026-11-27",
-      "latestCapture": "2026-11-27T03:35:01.765Z",
+      "lastDate": "2026-11-28",
+      "latestCapture": "2026-11-28T03:27:35.245Z",
       "boardCount": 4,
       "sourceCount": 2,
-      "rankingTitleCount": 115,
-      "sampleCount": 6,
-      "unclassifiedTitleCount": 109,
+      "rankingTitleCount": 122,
+      "sampleCount": 7,
+      "unclassifiedTitleCount": 115,
       "excludedPromotional": 2,
       "groups": [
+        {
+          "id": "bright-cartoon",
+          "name": "明快卡通 · 强反馈",
+          "order": 2,
+          "color": "#79D9E5",
+          "palette": [
+            "#7FAAB1",
+            "#FAAA5A",
+            "#69D5EA"
+          ],
+          "visual": "角色与敌群轮廓直接，弹道和亮色技能承担战斗重心。",
+          "next": "让高强度反馈保持清楚边界，避免同时遮住角色与目标。",
+          "previewStyle": "cartoon",
+          "count": 3,
+          "share": 43,
+          "images": [
+            {
+              "id": "xiang-jiangshi-kaipao-scene",
+              "url": "assets/games/xiang-jiangshi-kaipao/display/xiang-jiangshi-kaipao-scene-reading.jpg",
+              "title": "向僵尸开炮：80关战斗场景，包含防线、敌群及机甲能量表现。",
+              "sourceUrl": "https://www.taptap.cn/app/583688",
+              "gameId": "xiang-jiangshi-kaipao",
+              "gameName": "向僵尸开炮"
+            },
+            {
+              "id": "yongyuan-weilan-xingqiu-scene",
+              "url": "assets/games/yongyuan-weilan-xingqiu/display/yongyuan-weilan-xingqiu-scene-reading.jpg",
+              "title": "战斗场景：塔位、敌群与BOSS同屏，可见完整战斗UI。",
+              "sourceUrl": "https://www.taptap.cn/app/713683",
+              "gameId": "yongyuan-weilan-xingqiu",
+              "gameName": "永远的蔚蓝星球"
+            }
+          ],
+          "sampleIds": [
+            "xiang-jiangshi-kaipao",
+            "yongyuan-weilan-xingqiu",
+            "baowei-xiangrikui"
+          ]
+        },
         {
           "id": "light-oriental",
           "name": "清爽轻国风",
@@ -52,7 +91,7 @@
           "next": "保留文化符号，继续简化背景和主体之间的竞争。",
           "previewStyle": "oriental",
           "count": 2,
-          "share": 33,
+          "share": 29,
           "images": [
             {
               "id": "zaohua-xianfu-scene",
@@ -77,44 +116,6 @@
           ]
         },
         {
-          "id": "bright-cartoon",
-          "name": "明快卡通 · 强反馈",
-          "order": 2,
-          "color": "#79D9E5",
-          "palette": [
-            "#7FAAB1",
-            "#FAAA5A",
-            "#69D5EA"
-          ],
-          "visual": "角色与敌群轮廓直接，弹道和亮色技能承担战斗重心。",
-          "next": "让高强度反馈保持清楚边界，避免同时遮住角色与目标。",
-          "previewStyle": "cartoon",
-          "count": 2,
-          "share": 33,
-          "images": [
-            {
-              "id": "xiang-jiangshi-kaipao-scene",
-              "url": "assets/games/xiang-jiangshi-kaipao/display/xiang-jiangshi-kaipao-scene-reading.jpg",
-              "title": "向僵尸开炮：80关战斗场景，包含防线、敌群及机甲能量表现。",
-              "sourceUrl": "https://www.taptap.cn/app/583688",
-              "gameId": "xiang-jiangshi-kaipao",
-              "gameName": "向僵尸开炮"
-            },
-            {
-              "id": "baowei-xiangrikui-scene",
-              "url": "assets/games/baowei-xiangrikui/display/baowei-xiangrikui-scene-reading.jpg",
-              "title": "游戏实际战斗布阵场景：可见波次、资源、暂停及角色候选栏。",
-              "sourceUrl": "https://www.taptap.cn/app/732885",
-              "gameId": "baowei-xiangrikui",
-              "gameName": "保卫向日葵"
-            }
-          ],
-          "sampleIds": [
-            "xiang-jiangshi-kaipao",
-            "baowei-xiangrikui"
-          ]
-        },
-        {
           "id": "dark-folk",
           "name": "暗调民俗",
           "order": 3,
@@ -128,7 +129,7 @@
           "next": "先保证路线和角色可读，再增加雾、符号与局部光影。",
           "previewStyle": "folk",
           "count": 1,
-          "share": 17,
+          "share": 14,
           "images": [
             {
               "id": "zhenxieren-scene",
@@ -157,7 +158,7 @@
           "next": "用攻击方向和轮廓突出招式，保留队列和动作的阅读空间。",
           "previewStyle": "oriental",
           "count": 1,
-          "share": 17,
+          "share": 14,
           "images": [
             {
               "id": "wuxia-damingxing-scene",
@@ -175,16 +176,16 @@
       ],
       "features": {
         "easternSymbols": 4,
-        "combatFeedback": 6,
+        "combatFeedback": 7,
         "darkAtmosphere": 1
       },
-      "summary": "已核验画面中，清爽轻国风占2/6；东方符号呈现多种表达路径。这反映本库样本结构，不代表全市场份额。",
+      "summary": "已核验画面中，明快卡通 · 强反馈占3/7；东方符号呈现多种表达路径。这反映本库样本结构，不代表全市场份额。",
       "outlook": [
         {
           "id": "light-oriental",
           "previewStyle": "oriental",
           "title": "轻国风继续细分",
-          "evidence": "6份实录样本中，4份带有东方题材符号；其中2份采用轻量卡通表达。",
+          "evidence": "7份实录样本中，4份带有东方题材符号；其中2份采用轻量卡通表达。",
           "logic": "同一题材已有不同场景和角色表达，差异化可以落在配色、留白和文化符号上。",
           "prediction": "下一阶段优先观察：更清爽的国风场景、容易辨认的角色和局部高光技能。",
           "risk": "样本选择偏向已有国风档案；尚不能证明全市场占比或增长。",
@@ -195,7 +196,7 @@
           "id": "readable-feedback",
           "previewStyle": "cartoon",
           "title": "技能更醒目，画面更易读",
-          "evidence": "6份实录样本可见范围能量、斩击、弹道或光环；这说明反馈层次是共同的表现重点。",
+          "evidence": "7份实录样本可见范围能量、斩击、弹道或光环；这说明反馈层次是共同的表现重点。",
           "logic": "小屏幕需要同时交代攻击方向、作用范围和角色位置，亮暗分层比单纯增加粒子更容易读懂。",
           "prediction": "下一阶段可关注：明确的技能轮廓、有限的强调色，以及更干净的主体周边。",
           "risk": "画面观察不能证明这种处理会提高点击率或留存。",
@@ -220,28 +221,28 @@
           "boardId": "douyin-bestselling",
           "url": "https://rank.gravity-engine.com/douyin/day/",
           "limit": 20,
-          "observedAt": "2026-11-27T03:35:01.169Z"
+          "observedAt": "2026-11-28T03:27:35.122Z"
         },
         {
           "sourceId": "gravity",
           "boardId": "douyin-hot",
           "url": "https://rank.gravity-engine.com/douyin/day/",
           "limit": 20,
-          "observedAt": "2026-11-27T03:35:01.169Z"
+          "observedAt": "2026-11-28T03:27:35.122Z"
         },
         {
           "sourceId": "gravity",
           "boardId": "wechat-bestselling",
           "url": "https://rank.gravity-engine.com/wechat/day/",
           "limit": 20,
-          "observedAt": "2026-11-27T03:35:00.915Z"
+          "observedAt": "2026-11-28T03:27:35.245Z"
         },
         {
           "sourceId": "gravity",
           "boardId": "wechat-mostplayed",
           "url": "https://rank.gravity-engine.com/wechat/day/",
           "limit": 20,
-          "observedAt": "2026-11-27T03:35:00.915Z"
+          "observedAt": "2026-11-28T03:27:35.245Z"
         },
         {
           "sourceId": "momorank",
@@ -273,13 +274,13 @@
         "start": "2026-11",
         "end": "2027-01"
       },
-      "generatedAt": "2026-11-27T03:35:12.041Z",
+      "generatedAt": "2026-11-28T03:27:39.945Z",
       "basis": "published_monthly_ranking",
       "isCurrentMonth": false,
       "observedDays": null,
       "firstDate": null,
       "lastDate": null,
-      "latestCapture": "2026-11-27T03:35:12.000Z",
+      "latestCapture": "2026-11-28T03:27:39.909Z",
       "boardCount": 4,
       "sourceCount": 1,
       "rankingTitleCount": 62,
@@ -440,28 +441,28 @@
           "boardId": "douyin-bestselling",
           "url": "https://rank.gravity-engine.com/douyin/month/",
           "limit": 20,
-          "observedAt": "2026-11-27T03:35:11.939Z"
+          "observedAt": "2026-11-28T03:27:39.909Z"
         },
         {
           "sourceId": "gravity",
           "boardId": "douyin-hot",
           "url": "https://rank.gravity-engine.com/douyin/month/",
           "limit": 20,
-          "observedAt": "2026-11-27T03:35:11.939Z"
+          "observedAt": "2026-11-28T03:27:39.909Z"
         },
         {
           "sourceId": "gravity",
           "boardId": "wechat-bestselling",
           "url": "https://rank.gravity-engine.com/wechat/month/",
           "limit": 20,
-          "observedAt": "2026-11-27T03:35:12.000Z"
+          "observedAt": "2026-11-28T03:27:39.574Z"
         },
         {
           "sourceId": "gravity",
           "boardId": "wechat-mostplayed",
           "url": "https://rank.gravity-engine.com/wechat/month/",
           "limit": 20,
-          "observedAt": "2026-11-27T03:35:12.000Z"
+          "observedAt": "2026-11-28T03:27:39.574Z"
         }
       ],
       "method": {
